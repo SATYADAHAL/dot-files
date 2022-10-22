@@ -1,0 +1,32 @@
+alias ls="lsd"
+
+alias clr='printf "\e[2J\e[3J" && echo "\ec" && clear'
+alias  clea="celar"
+
+#File size sorted
+alias lt='du -sh * | sort -h'
+
+#dnf
+alias dnfu="sudo dnf update"
+alias dnfi="sudo dnf install"
+
+#touchegg
+alias restart_touchegg="sudo systemctl restart touchegg.service ;touchegg &>/dev/null & disown"
+
+#xclip
+alias xclip="xclip -selection clipboard"
+
+
+#get_ip
+alias getip="ip a | grep 'inet .*[^o]$' | cut --delimiter=' '  -f 6 | cut --delimiter='/' -f 1"
+
+#minimal-emacs 
+alias em="emacs  --no-init-file -nw"
+alias suem="sudo emacs --no-init-file -nw"
+
+
+#neofetch
+alias nfetch="clear && neofetch --backend kitty --source ~/.icons/fedora.png"
+
+#Generate clang config
+alias clang-config="clang-format -style=llvm -dump-config > .clang-format"
