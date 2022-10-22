@@ -1,0 +1,157 @@
+;; Object semanticdb-project-database-file-d9ae3c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-d9ae3c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-d9ae1c"
+      :major-mode c++-mode
+      :tags 
+        '( ("klocalizedstring.h" include (:system-flag t) nil [1 30])
+            ("UI_SHAPECORNERS_CONFIG_H" variable (:constant-flag t) nil [446 470])
+            ("QtCore/QVariant" include (:system-flag t) nil [472 498])
+            ("QtWidgets/QApplication" include (:system-flag t) nil [499 532])
+            ("QtWidgets/QCheckBox" include (:system-flag t) nil [533 563])
+            ("QtWidgets/QGridLayout" include (:system-flag t) nil [564 596])
+            ("QtWidgets/QLabel" include (:system-flag t) nil [597 624])
+            ("QtWidgets/QSlider" include (:system-flag t) nil [625 653])
+            ("QtWidgets/QSpacerItem" include (:system-flag t) nil [654 686])
+            ("QtWidgets/QVBoxLayout" include (:system-flag t) nil [687 719])
+            ("QtWidgets/QWidget" include (:system-flag t) nil [720 748])
+            ("kcolorbutton.h" include nil nil [749 774])
+            ("Ui_Form" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [812 819])
+                    ("gridLayout" variable
+                       (:pointer 1
+                        :type ("QGridLayout" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [824 848])
+                    ("verticalLayout" variable
+                       (:pointer 1
+                        :type ("QVBoxLayout" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [853 881])
+                    ("label" variable
+                       (:pointer 1
+                        :type ("QLabel" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [886 900])
+                    ("roundness" variable
+                       (:pointer 1
+                        :type ("QSlider" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [905 924])
+                    ("dsp" variable
+                       (:pointer 1
+                        :type ("QCheckBox" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [929 944])
+                    ("gridLayout_2" variable
+                       (:pointer 1
+                        :type ("QGridLayout" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [949 975])
+                    ("drawShadowEnabled" variable
+                       (:pointer 1
+                        :type ("QCheckBox" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [980 1009])
+                    ("shadowColor" variable
+                       (:pointer 1
+                        :type ("KColorButton" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1014 1040])
+                    ("drawOutlineEnabled" variable
+                       (:pointer 1
+                        :type ("QCheckBox" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1045 1075])
+                    ("outlineColor" variable
+                       (:pointer 1
+                        :type ("KColorButton" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1080 1107])
+                    ("verticalSpacer" variable
+                       (:pointer 1
+                        :type ("QSpacerItem" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1112 1140])
+                    ("setupUi" function
+                       (:arguments 
+                          ( ("Form" variable
+                               (:pointer 1
+                                :type ("QWidget" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1159 1173]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1146 3383])
+                    ("retranslateUi" function
+                       (:arguments 
+                          ( ("Form" variable
+                               (:pointer 1
+                                :type ("QWidget" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3419 3433]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [3400 3799]))                  
+                :type "class")
+                nil [796 3820])
+            ("Ui" type
+               (:members 
+                  ( ("Form" type
+                       (:superclasses 
+                          ( ("Ui_Form" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [3841 3871]))                  
+                :type "namespace")
+                nil [3822 3873]))          
+      :file "ui_shapecorners_config.h"
+      :pointmax 3942
+      :fsize 3941
+      :lastmodtime '(25303 27301 864224 165000)
+      :unmatched-syntax '((symbol 3891 . 3907) (symbol 776 . 794))
+      :lexical-table 
+        '(("UI_SHAPECORNERS_CONFIG_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-d9ae5c"
+      :major-mode c++-mode
+      :tags 
+        '( ("kwineffects_interface.h" include nil nil [388 422])
+            ("OrgKdeKwinEffectsInterface" function
+               (:constructor-flag t
+                :parent "OrgKdeKwinEffectsInterface"
+                :arguments 
+                  ( ("service" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [551 574])
+                    ("path" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [575 595])
+                    ("connection" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QDBusConnection" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [596 630])
+                    ("parent" variable
+                       (:pointer 1
+                        :type ("QObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [631 647]))                  
+                :type ("OrgKdeKwinEffectsInterface" type (:type "class") nil nil))
+                nil [496 738])
+            ("OrgKdeKwinEffectsInterface" function
+               (:destructor-flag t
+                :parent "OrgKdeKwinEffectsInterface"
+                :type "void")
+                nil [740 801])
+            ("kwineffects_interface.moc" include nil nil [804 840]))          
+      :file "kwineffects_interface.cpp"
+      :pointmax 841
+      :fsize 840
+      :lastmodtime '(25303 27301 907224 394000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-da7b9c"
+      :file "kwineffects_interface.h"
+      :fsize 4179
+      :lastmodtime '(25303 27301 907224 394000))
+    (semanticdb-table "semanticdb-table-da7bbc"
+      :file "kwineffects_interface.moc"
+      :fsize 9208
+      :lastmodtime '(25303 27302 194225 925000)))
+  :file "!home!spd!Programming!KDE-Rounded-Corners!qt5build!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

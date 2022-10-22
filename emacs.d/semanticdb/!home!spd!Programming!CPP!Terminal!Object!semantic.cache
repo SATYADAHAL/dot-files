@@ -1,0 +1,166 @@
+;; Object semanticdb-project-database-file-f0abe4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-f0abe4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-f0ab84"
+      :major-mode c++-mode
+      :tags 
+        '( ("box.h" include nil nil [1 17])
+            ("iostream" include (:system-flag t) nil [18 37])
+            ("Box" function
+               (:constructor-flag t
+                :parent "Box"
+                :arguments 
+                  ( ("pos_" variable (:type ("Position" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [48 62])
+                    ("dim_" variable (:type ("Dimension" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [62 77]))                  
+                :type ("Box" type (:type "class") nil nil))
+                nil [39 168])
+            ("draw" function
+               (:parent "Box"
+                :arguments 
+                  ( ("val" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [184 201]))                  
+                :type "void")
+                nil [169 289])
+            ("box_drawing_charactrs_" variable
+               (:default-value "{
+  \"\\u250c\",
+  \"\\u2500\",
+  \"\\u2510\",
+  \"\\u2502\",
+  \"\\u2502\",
+  \"\\u2514\",
+  \"\\u2500\",
+  \"\\u2518\"
+}"
+                :type ("box_drawing_charactrs" type (:type "class") nil nil))
+                nil [290 434]))          
+      :file "box.cpp"
+      :pointmax 434
+      :fsize 433
+      :lastmodtime '(25346 26901 699402 609000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-f0aba4"
+      :major-mode c++-mode
+      :tags 
+        '( ("box.h" include nil nil [1 17])
+            ("iostream" include (:system-flag t) nil [18 37])
+            ("print" function
+               (:arguments 
+                  ( ("len" variable (:type "int") (reparse-symbol arg-sub-list) [49 57])
+                    ("char_" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [57 76]))                  
+                :type "void")
+                nil [38 175])
+            ("main" function (:type "int") nil [176 336]))          
+      :file "main.cpp"
+      :pointmax 337
+      :fsize 470
+      :lastmodtime '(25347 28899 752028 840000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-f0abc4"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOX_H" variable (:constant-flag t) nil [23 28])
+            ("Position" type
+               (:members 
+                  ( ("x" variable (:type "int") (reparse-symbol classsubparts) [49 55])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [58 64]))                  
+                :type "struct")
+                nil [30 67])
+            ("Dimension" type
+               (:members 
+                  ( ("len_col" variable (:type "int") (reparse-symbol classsubparts) [88 100])
+                    ("bre_row" variable (:type "int") (reparse-symbol classsubparts) [103 115]))                  
+                :type "struct")
+                nil [68 118])
+            ("box_drawing_charactrs" type
+               (:members 
+                  ( ("top_left" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [151 172])
+                    ("top" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [175 191])
+                    ("top_right" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [194 216])
+                    ("right" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [219 237])
+                    ("left" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [240 257])
+                    ("bottom_left" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [260 284])
+                    ("bottom" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [287 306])
+                    ("bottom_right" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [309 334]))                  
+                :type "struct")
+                nil [119 337])
+            ("Box" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [353 360])
+                    ("x" variable (:type "int") (reparse-symbol classsubparts) [365 377])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [365 377])
+                    ("l" variable (:type "int") (reparse-symbol classsubparts) [365 377])
+                    ("b" variable (:type "int") (reparse-symbol classsubparts) [365 377])
+                    ("Box" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type ("Position" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [384 393])
+                            ("" variable (:type ("Dimension" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [393 403]))                          
+                        :type ("Box" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [380 404])
+                    ("draw" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [417 429]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [407 430]))                  
+                :type "class")
+                nil [340 433]))          
+      :file "box.h"
+      :pointmax 442
+      :fsize 441
+      :lastmodtime '(25346 26879 597854 815000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOX_H")
+          )
+))
+  :file "!home!spd!Programming!CPP!Terminal!Object!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

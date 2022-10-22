@@ -1,0 +1,563 @@
+;; Object semanticdb-project-database-file-113afd0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-113afd0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-11233a2"
+      :major-mode c++-mode
+      :tags 
+        '( ("box.h" include nil nil [1 17])
+            ("box_print.h" include nil nil [18 40])
+            ("controls.h" include nil nil [41 62])
+            ("cursor_controls.h" include nil nil [63 91])
+            ("terminal.h" include nil nil [92 113])
+            ("chrono" include (:system-flag t) nil [114 131])
+            ("iostream" include (:system-flag t) nil [132 151])
+            ("string" include (:system-flag t) nil [152 169])
+            ("time.h" include (:system-flag t) nil [170 187])
+            ("unistd.h" include (:system-flag t) nil [188 207])
+            ("index_of_string" variable (:type "int") nil [230 253])
+            ("height" variable
+               (:default-value "tty_height()"
+                :type "int")
+                nil [254 280])
+            ("width" variable
+               (:default-value "tty_width()"
+                :type "int")
+                nil [281 305])
+            ("main" function (:type "int") nil [308 459]))          
+      :file "main.cpp"
+      :pointmax 460
+      :fsize 459
+      :lastmodtime '(25427 52811 640021 771000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-11233c2"
+      :major-mode c-mode
+      :tags 
+        '( ("ANSII_H" variable (:constant-flag t) nil [257 264])
+            ("BLK" variable (:constant-flag t) nil [274 277])
+            ("RED" variable (:constant-flag t) nil [297 300])
+            ("GRN" variable (:constant-flag t) nil [320 323])
+            ("YEL" variable (:constant-flag t) nil [343 346])
+            ("BLU" variable (:constant-flag t) nil [366 369])
+            ("MAG" variable (:constant-flag t) nil [389 392])
+            ("CYN" variable (:constant-flag t) nil [412 415])
+            ("WHT" variable (:constant-flag t) nil [435 438])
+            ("BBLK" variable (:constant-flag t) nil [480 484])
+            ("BRED" variable (:constant-flag t) nil [504 508])
+            ("BGRN" variable (:constant-flag t) nil [528 532])
+            ("BYEL" variable (:constant-flag t) nil [552 556])
+            ("BBLU" variable (:constant-flag t) nil [576 580])
+            ("BMAG" variable (:constant-flag t) nil [600 604])
+            ("BCYN" variable (:constant-flag t) nil [624 628])
+            ("BWHT" variable (:constant-flag t) nil [648 652])
+            ("UBLK" variable (:constant-flag t) nil [699 703])
+            ("URED" variable (:constant-flag t) nil [723 727])
+            ("UGRN" variable (:constant-flag t) nil [747 751])
+            ("UYEL" variable (:constant-flag t) nil [771 775])
+            ("UBLU" variable (:constant-flag t) nil [795 799])
+            ("UMAG" variable (:constant-flag t) nil [819 823])
+            ("UCYN" variable (:constant-flag t) nil [843 847])
+            ("UWHT" variable (:constant-flag t) nil [867 871])
+            ("BLKB" variable (:constant-flag t) nil [914 918])
+            ("REDB" variable (:constant-flag t) nil [936 940])
+            ("GRNB" variable (:constant-flag t) nil [958 962])
+            ("YELB" variable (:constant-flag t) nil [980 984])
+            ("BLUB" variable (:constant-flag t) nil [1002 1006])
+            ("MAGB" variable (:constant-flag t) nil [1024 1028])
+            ("CYNB" variable (:constant-flag t) nil [1046 1050])
+            ("WHTB" variable (:constant-flag t) nil [1068 1072])
+            ("BLKHB" variable (:constant-flag t) nil [1119 1124])
+            ("REDHB" variable (:constant-flag t) nil [1145 1150])
+            ("GRNHB" variable (:constant-flag t) nil [1171 1176])
+            ("YELHB" variable (:constant-flag t) nil [1197 1202])
+            ("BLUHB" variable (:constant-flag t) nil [1223 1228])
+            ("MAGHB" variable (:constant-flag t) nil [1249 1254])
+            ("CYNHB" variable (:constant-flag t) nil [1275 1280])
+            ("WHTHB" variable (:constant-flag t) nil [1301 1306])
+            ("HBLK" variable (:constant-flag t) nil [1350 1354])
+            ("HRED" variable (:constant-flag t) nil [1374 1378])
+            ("HGRN" variable (:constant-flag t) nil [1398 1402])
+            ("HYEL" variable (:constant-flag t) nil [1422 1426])
+            ("HBLU" variable (:constant-flag t) nil [1446 1450])
+            ("HMAG" variable (:constant-flag t) nil [1470 1474])
+            ("HCYN" variable (:constant-flag t) nil [1494 1498])
+            ("HWHT" variable (:constant-flag t) nil [1518 1522])
+            ("BHBLK" variable (:constant-flag t) nil [1571 1576])
+            ("BHRED" variable (:constant-flag t) nil [1596 1601])
+            ("BHGRN" variable (:constant-flag t) nil [1621 1626])
+            ("BHYEL" variable (:constant-flag t) nil [1646 1651])
+            ("BHBLU" variable (:constant-flag t) nil [1671 1676])
+            ("BHMAG" variable (:constant-flag t) nil [1696 1701])
+            ("BHCYN" variable (:constant-flag t) nil [1721 1726])
+            ("BHWHT" variable (:constant-flag t) nil [1746 1751])
+            ("__resetT_" variable (:constant-flag t) nil [1781 1790])
+            ("CRESET" variable (:constant-flag t) nil [1807 1813])
+            ("COLOR_RESET" variable (:constant-flag t) nil [1830 1841]))          
+      :file "anscii.h"
+      :pointmax 1869
+      :fsize 1868
+      :lastmodtime '(25413 39702 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BLU" . ((string "\"\\e[0;34m\"" 370 . 380)))
+          ("MAG" . ((string "\"\\e[0;35m\"" 393 . 403)))
+          ("BBLK" . ((string "\"\\e[1;30m\"" 485 . 495)))
+          ("BLKB" . ((string "\"\\e[40m\"" 919 . 927)))
+          ("BHBLU" . ((string "\"\\e[1;94m\"" 1677 . 1687)))
+          ("BHMAG" . ((string "\"\\e[1;95m\"" 1702 . 1712)))
+          ("BGRN" . ((string "\"\\e[1;32m\"" 533 . 543)))
+          ("BLUHB" . ((string "\"\\e[0;104m\"" 1229 . 1240)))
+          ("MAGHB" . ((string "\"\\e[0;105m\"" 1255 . 1266)))
+          ("RED" . ((string "\"\\e[0;31m\"" 301 . 311)))
+          ("CYN" . ((string "\"\\e[0;36m\"" 416 . 426)))
+          ("YELB" . ((string "\"\\e[43m\"" 985 . 993)))
+          ("BLKHB" . ((string "\"\\e[0;100m\"" 1125 . 1136)))
+          ("BHRED" . ((string "\"\\e[1;91m\"" 1602 . 1612)))
+          ("BHCYN" . ((string "\"\\e[1;96m\"" 1727 . 1737)))
+          ("BLK" . ((string "\"\\e[0;30m\"" 278 . 288)))
+          ("UBLU" . ((string "\"\\e[4;34m\"" 800 . 810)))
+          ("UMAG" . ((string "\"\\e[4;35m\"" 824 . 834)))
+          ("GRNB" . ((string "\"\\e[42m\"" 963 . 971)))
+          ("HBLU" . ((string "\"\\e[0;94m\"" 1451 . 1461)))
+          ("HMAG" . ((string "\"\\e[0;95m\"" 1475 . 1485)))
+          ("BHBLK" . ((string "\"\\e[1;90m\"" 1577 . 1587)))
+          ("__resetT_" . ((string "\"\\e[0m\"" 1791 . 1798)))
+          ("GRN" . ((string "\"\\e[0;32m\"" 324 . 334)))
+          ("BWHT" . ((string "\"\\e[1;37m\"" 653 . 663)))
+          ("BLUB" . ((string "\"\\e[44m\"" 1007 . 1015)))
+          ("MAGB" . ((string "\"\\e[45m\"" 1029 . 1037)))
+          ("BHGRN" . ((string "\"\\e[1;92m\"" 1627 . 1637)))
+          ("ANSII_H")
+          ("BYEL" . ((string "\"\\e[1;33m\"" 557 . 567)))
+          ("URED" . ((string "\"\\e[4;31m\"" 728 . 738)))
+          ("UCYN" . ((string "\"\\e[4;36m\"" 848 . 858)))
+          ("HRED" . ((string "\"\\e[0;91m\"" 1379 . 1389)))
+          ("HCYN" . ((string "\"\\e[0;96m\"" 1499 . 1509)))
+          ("UBLK" . ((string "\"\\e[4;30m\"" 704 . 714)))
+          ("REDHB" . ((string "\"\\e[0;101m\"" 1151 . 1162)))
+          ("CYNHB" . ((string "\"\\e[0;106m\"" 1281 . 1292)))
+          ("HBLK" . ((string "\"\\e[0;90m\"" 1355 . 1365)))
+          ("WHT" . ((string "\"\\e[0;37m\"" 439 . 449)))
+          ("UGRN" . ((string "\"\\e[4;32m\"" 752 . 762)))
+          ("HGRN" . ((string "\"\\e[0;92m\"" 1403 . 1413)))
+          ("BHWHT" . ((string "\"\\e[1;97m\"" 1752 . 1762)))
+          ("YEL" . ((string "\"\\e[0;33m\"" 347 . 357)))
+          ("YELHB" . ((string "\"\\e[0;103m\"" 1203 . 1214)))
+          ("BHYEL" . ((string "\"\\e[1;93m\"" 1652 . 1662)))
+          ("COLOR_RESET" . ((string "\"\\e[0m\"" 1842 . 1849)))
+          ("BBLU" . ((string "\"\\e[1;34m\"" 581 . 591)))
+          ("BMAG" . ((string "\"\\e[1;35m\"" 605 . 615)))
+          ("UWHT" . ((string "\"\\e[4;37m\"" 872 . 882)))
+          ("REDB" . ((string "\"\\e[41m\"" 941 . 949)))
+          ("CYNB" . ((string "\"\\e[46m\"" 1051 . 1059)))
+          ("HWHT" . ((string "\"\\e[0;97m\"" 1523 . 1533)))
+          ("UYEL" . ((string "\"\\e[4;33m\"" 776 . 786)))
+          ("GRNHB" . ((string "\"\\e[0;102m\"" 1177 . 1188)))
+          ("HYEL" . ((string "\"\\e[0;93m\"" 1427 . 1437)))
+          ("BRED" . ((string "\"\\e[1;31m\"" 509 . 519)))
+          ("BCYN" . ((string "\"\\e[1;36m\"" 629 . 639)))
+          ("WHTB" . ((string "\"\\e[47m\"" 1073 . 1081)))
+          ("WHTHB" . ((string "\"\\e[0;107m\"" 1307 . 1318)))
+          ("CRESET" . ((string "\"\\e[0m\"" 1814 . 1821)))
+          )
+)
+    (semanticdb-table "semanticdb-table-11233e2"
+      :major-mode c-mode
+      :tags 
+        '( ("BOX_H" variable (:constant-flag t) nil [23 28])
+            ("cursor_controls.h" include nil nil [29 57])
+            ("stdlib.h" include (:system-flag t) nil [58 77])
+            ("sys/ioctl.h" include (:system-flag t) nil [78 100])
+            ("draw_rect" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("type" variable
+                       (:default-value "0"
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [158 170]))                  
+                :type "void")
+                nil [143 172])
+            ("draw_footer" function
+               (:prototype-flag t
+                :type "void")
+                nil [173 192])
+            ("_VER_n" variable (:constant-flag t) nil [269 275])
+            ("_TL_n" variable (:constant-flag t) nil [310 315])
+            ("_TR_n" variable (:constant-flag t) nil [351 356])
+            ("_HOR_n" variable (:constant-flag t) nil [392 398])
+            ("_BL_n" variable (:constant-flag t) nil [433 438])
+            ("_BR_n" variable (:constant-flag t) nil [474 479])
+            ("_CROSS_n" variable (:constant-flag t) nil [515 523])
+            ("_VER_b" variable (:constant-flag t) nil [604 610])
+            ("_TL_b" variable (:constant-flag t) nil [623 628])
+            ("_TR_b" variable (:constant-flag t) nil [641 646])
+            ("_HOR_b" variable (:constant-flag t) nil [659 665])
+            ("_BL_b" variable (:constant-flag t) nil [678 683])
+            ("_BR_b" variable (:constant-flag t) nil [696 701])
+            ("_CROSS_b" variable (:constant-flag t) nil [714 722])
+            ("_VER_d" variable (:constant-flag t) nil [751 757])
+            ("_TL_d" variable (:constant-flag t) nil [770 775])
+            ("_TR_d" variable (:constant-flag t) nil [788 793])
+            ("_HOR_d" variable (:constant-flag t) nil [806 812])
+            ("_BL_d" variable (:constant-flag t) nil [825 830])
+            ("_BR_d" variable (:constant-flag t) nil [843 848])
+            ("_CROSS_d" variable (:constant-flag t) nil [861 869])
+            ("_TR_r" variable (:constant-flag t) nil [902 907])
+            ("_TL_r" variable (:constant-flag t) nil [920 925])
+            ("_BL_r" variable (:constant-flag t) nil [938 943])
+            ("_BR_r" variable (:constant-flag t) nil [956 961]))          
+      :file "box.h"
+      :pointmax 974
+      :fsize 1023
+      :lastmodtime '(25412 55112 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_TR_n" . ((string "\"\\x1b(0\\x6b\\x1b(B\"" 357 . 375)))
+          ("_HOR_n" . ((string "\"\\x1b(0\\x71\\x1b(B\"" 399 . 417)))
+          ("_TR_b" . ((string "\"┓\"" 647 . 650)))
+          ("_TL_d" . ((string "\"╔\"" 776 . 779)))
+          ("BOX_H")
+          ("_HOR_b" . ((string "\"━\"" 666 . 669)))
+          ("_TL_r" . ((string "\"╭\"" 926 . 929)))
+          ("_TR_d" . ((string "\"╗\"" 794 . 797)))
+          ("_CROSS_b" . ((string "\"╋\"" 723 . 726)))
+          ("_HOR_d" . ((string "\"═\"" 813 . 816)))
+          ("_TR_r" . ((string "\"╮\"" 908 . 911)))
+          ("_BL_n" . ((string "\"\\x1b(0\\x6d\\x1b(B\"" 439 . 457)))
+          ("_VER_n" . ((string "\"\\x1b(0\\x78\\x1b(B\"" 276 . 294)))
+          ("_BL_b" . ((string "\"┗\"" 684 . 687)))
+          ("_BR_n" . ((string "\"\\x1b(0\\x6a\\x1b(B\"" 480 . 498)))
+          ("_CROSS_n" . ((string "\"\\x1b(0\\x6e\\x1b(B\"" 524 . 542)))
+          ("_VER_b" . ((string "\"┃\"" 611 . 614)))
+          ("_BR_b" . ((string "\"┛\"" 702 . 705)))
+          ("_BL_d" . ((string "\"╚\"" 831 . 834)))
+          ("_CROSS_d" . ((string "\"╬\"" 870 . 873)))
+          ("_VER_d" . ((string "\"║\"" 758 . 761)))
+          ("_BL_r" . ((string "\"╰\"" 944 . 947)))
+          ("_TL_n" . ((string "\"\\x1b(0\\x6c\\x1b(B\"" 316 . 334)))
+          ("_BR_d" . ((string "\"╝\"" 849 . 852)))
+          ("_TL_b" . ((string "\"┏\"" 629 . 632)))
+          ("_BR_r" . ((string "\"╯\"" 962 . 965)))
+          )
+)
+    (semanticdb-table "semanticdb-table-1123402"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOX_PRINT_H" variable (:constant-flag t) nil [29 40])
+            ("anscii.h" include nil nil [41 60])
+            ("box.h" include nil nil [61 77])
+            ("terminal.h" include nil nil [78 99])
+            ("iostream" include (:system-flag t) nil [100 119])
+            ("string" include (:system-flag t) nil [120 137])
+            ("b_printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [152 164])
+                    ("widht" variable (:type "int") (reparse-symbol arg-sub-list) [165 175]))                  
+                :type "void")
+                nil [138 176]))          
+      :file "box_print.h"
+      :pointmax 184
+      :fsize 183
+      :lastmodtime '(25412 3858 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOX_PRINT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-1123422"
+      :major-mode c-mode
+      :tags 
+        '( ("CONTROLS_H" variable (:constant-flag t) nil [28 38])
+            ("anscii.h" include nil nil [39 58])
+            ("cursor_controls.h" include nil nil [59 87])
+            ("stdio.h" include (:system-flag t) nil [88 106])
+            ("correct" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [121 128])
+                    ("initial" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [129 148])
+                    ("index" variable
+                       (:default-value "1"
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [150 163]))                  
+                :type "void")
+                nil [108 165])
+            ("error" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [177 184]))                  
+                :type "void")
+                nil [166 185]))          
+      :file "controls.h"
+      :pointmax 194
+      :fsize 193
+      :lastmodtime '(25412 3688 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CONTROLS_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-1123442"
+      :major-mode c-mode
+      :tags 
+        '( ("CURSOR_CONTROLS_H" variable (:constant-flag t) nil [35 52])
+            ("stdio.h" include (:system-flag t) nil [53 71])
+            ("mv_up" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [135 150]))                  
+                :type "void")
+                nil [124 151])
+            ("mv_down" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [165 180]))                  
+                :type "void")
+                nil [152 181])
+            ("mv_right" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [196 211]))                  
+                :type "void")
+                nil [182 212])
+            ("mv_left" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [226 241]))                  
+                :type "void")
+                nil [213 242])
+            ("mv_xy" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable
+                       (:default-value "0"
+                        :type "unsigned int")
+                        (reparse-symbol arg-sub-list) [254 272])
+                    ("y" variable
+                       (:default-value "0"
+                        :type "unsigned int")
+                        (reparse-symbol arg-sub-list) [274 292]))                  
+                :type "void")
+                nil [243 294])
+            ("mv_nextline" function
+               (:prototype-flag t
+                :type "void")
+                nil [295 314])
+            ("mv_prevline" function
+               (:prototype-flag t
+                :type "void")
+                nil [315 334])
+            ("mv_col" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [347 362]))                  
+                :type "void")
+                nil [335 363]))          
+      :file "cursor_controls.h"
+      :pointmax 372
+      :fsize 371
+      :lastmodtime '(25413 39694 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CURSOR_CONTROLS_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-1123462"
+      :major-mode c-mode
+      :tags 
+        '( ("TERMINAL_H" variable (:constant-flag t) nil [28 38])
+            ("anscii.h" include nil nil [39 58])
+            ("stdio.h" include (:system-flag t) nil [59 77])
+            ("sys/ioctl.h" include (:system-flag t) nil [78 100])
+            ("termios.h" include (:system-flag t) nil [101 121])
+            ("unistd.h" include (:system-flag t) nil [122 141])
+            ("tty_width" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [181 186]))                  
+                :type "int")
+                nil [167 187])
+            ("tty_height" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [203 208]))                  
+                :type "int")
+                nil [188 209])
+            ("sttyCbreak" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [244 251]))                  
+                :type "int")
+                nil [229 252])
+            ("sttyRaw" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [265 272]))                  
+                :type "int")
+                nil [253 273])
+            ("sttyRestore" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [290 297])
+                    ("previous" variable (:type ("termios" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol arg-sub-list) [298 322]))                  
+                :type "int")
+                nil [274 323]))          
+      :file "terminal.h"
+      :pointmax 380
+      :fsize 379
+      :lastmodtime '(25412 3688 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("TERMINAL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-11234be"
+      :major-mode c++-mode
+      :tags 
+        '( ("box.h" include nil nil [1 17])
+            ("w" variable
+               (:default-value "-1"
+                :type "int")
+                nil [19 38])
+            ("h" variable
+               (:default-value "-1"
+                :type "int")
+                nil [19 38])
+            ("draw_rect" function
+               (:arguments 
+                  ( ("type" variable (:type "int") (reparse-symbol arg-sub-list) [54 63]))                  
+                :type "void")
+                nil [39 2677])
+            ("draw_footer" function (:type "void") nil [2679 2972]))          
+      :file "box.cpp"
+      :pointmax 2973
+      :fsize 2978
+      :lastmodtime '(25412 55204 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1204a54"
+      :major-mode c++-mode
+      :tags 
+        '( ("box_print.h" include nil nil [1 23])
+            ("b_printf" function
+               (:arguments 
+                  ( ("text" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38 55])
+                    ("width" variable (:type "int") (reparse-symbol arg-sub-list) [56 66]))                  
+                :type "void")
+                nil [24 568]))          
+      :file "box_print.cpp"
+      :pointmax 570
+      :fsize 573
+      :lastmodtime '(25413 39702 0 0)
+      :unmatched-syntax '((punctuation 568 . 569)))
+    (semanticdb-table "semanticdb-table-1196192"
+      :major-mode c++-mode
+      :tags 
+        '( ("controls.h" include nil nil [1 22])
+            ("anscii.h" include nil nil [23 42])
+            ("cursor_controls.h" include nil nil [43 71])
+            ("terminal.h" include nil nil [72 93])
+            ("width" variable
+               (:typemodifiers ("extern")
+                :type "int")
+                nil [94 111])
+            ("correct" function
+               (:arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [126 133])
+                    ("initial" variable (:type "bool") (reparse-symbol arg-sub-list) [134 147])
+                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [148 158]))                  
+                :type "void")
+                nil [113 551])
+            ("error" function
+               (:arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [563 570]))                  
+                :type "void")
+                nil [552 697]))          
+      :file "controls.cpp"
+      :pointmax 698
+      :fsize 697
+      :lastmodtime '(25413 39700 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-125d80c"
+      :major-mode c++-mode
+      :tags 
+        '( ("cursor_controls.h" include nil nil [1 29])
+            ("mv_xy" function
+               (:arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [42 57])
+                    ("y" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [58 73]))                  
+                :type "void")
+                nil [31 116])
+            ("mv_left" function
+               (:arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [131 146]))                  
+                :type "void")
+                nil [118 173])
+            ("mv_right" function
+               (:arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [189 204]))                  
+                :type "void")
+                nil [175 231])
+            ("mv_down" function
+               (:arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [246 261]))                  
+                :type "void")
+                nil [233 288])
+            ("mv_up" function
+               (:arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [301 316]))                  
+                :type "void")
+                nil [290 343])
+            ("mv_nextline" function (:type "void") nil [345 385])
+            ("mv_prevline" function (:type "void") nil [387 427])
+            ("mv_col" function
+               (:arguments 
+                  ( ("x" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [441 456]))                  
+                :type "void")
+                nil [429 487]))          
+      :file "cursor_controls.cpp"
+      :pointmax 488
+      :fsize 487
+      :lastmodtime '(25413 39696 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-12a16e2"
+      :major-mode c++-mode
+      :tags 
+        '( ("terminal.h" include nil nil [1 22])
+            ("cursor_controls.h" include nil nil [23 51])
+            ("tty_width" function (:type "int") nil [53 145])
+            ("tty_height" function (:type "int") nil [147 240])
+            ("sttyCbreak" function
+               (:arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [306 313]))                  
+                :type "int")
+                nil [291 602])
+            ("sttyRaw" function
+               (:arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [615 622]))                  
+                :type "int")
+                nil [603 1315])
+            ("sttyRestore" function
+               (:arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [1332 1339])
+                    ("previous" variable (:type ("termios" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol arg-sub-list) [1340 1364]))                  
+                :type "int")
+                nil [1316 1444]))          
+      :file "terminal.cpp"
+      :pointmax 1445
+      :fsize 1444
+      :lastmodtime '(25427 52671 340018 267000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!CPP!ttyTypingSpeed!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

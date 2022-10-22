@@ -1,0 +1,429 @@
+;; Object semanticdb-project-database-file-1569f9e86544
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1569f9e86544"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1569f9e86484"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Rectangle" type
+               (:members 
+                  ( ("length" variable (:type "int") (reparse-symbol classsubparts) [41 52])
+                    ("breadth" variable (:type "int") (reparse-symbol classsubparts) [55 67]))                  
+                :type "struct")
+                nil [21 70])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [80 89])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [90 103]))                  
+                :type "int")
+                nil [71 258]))          
+      :file "struct_pointer.cpp"
+      :pointmax 259
+      :fsize 258
+      :lastmodtime '(25140 33229 795007 585000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1569f9e864a4"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Rectangle" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [39 47])
+                    ("length" variable (:type "int") (reparse-symbol classsubparts) [50 69])
+                    ("breadth" variable (:type "int") (reparse-symbol classsubparts) [50 69])
+                    ("public" label nil (reparse-symbol classsubparts) [71 78])
+                    ("getLength" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [81 97])
+                    ("getBreadth" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [100 117])
+                    ("getArea" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [120 134]))                  
+                :type "class")
+                nil [22 137])
+            ("getLength" function
+               (:parent "Rectangle"
+                :type "int")
+                nil [139 185])
+            ("getBreadth" function
+               (:parent "Rectangle"
+                :type "int")
+                nil [187 235])
+            ("getArea" function
+               (:parent "Rectangle"
+                :type "int")
+                nil [237 290])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [303 312])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [313 326]))                  
+                :type "int")
+                nil [294 389]))          
+      :file "decimal_to_bin.cpp"
+      :pointmax 390
+      :fsize 389
+      :lastmodtime '(25145 19528 402013 570000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1569f9e864c4"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 53]))                  
+                :type "int")
+                nil [21 158]))          
+      :file "test_for_sum.cpp"
+      :pointmax 159
+      :fsize 158
+      :lastmodtime '(25149 43032 84219 785000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1569f9e864e4"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("stdlib.h" include (:system-flag t) nil [58 77])
+            ("math.h" include (:system-flag t) nil [78 95])
+            ("global" variable
+               (:default-value "0"
+                :type "int")
+                nil [97 110])
+            ("reverse" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [131 143]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [111 144])
+            ("ctoi" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "char") (reparse-symbol arg-sub-list) [154 159]))                  
+                :type "int")
+                nil [145 160])
+            ("atoc" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [171 175]))                  
+                :type "char")
+                nil [161 176])
+            ("itoc" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [187 191]))                  
+                :type "char")
+                nil [177 192])
+            ("cots" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "char") (reparse-symbol arg-sub-list) [210 215]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [193 216])
+            ("itos" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [234 238]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [217 239])
+            ("f_multiply" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [263 275])
+                    ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [275 287]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [240 288])
+            ("sum_str" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [309 321])
+                    ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [321 333]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [289 334])
+            ("multiply" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [356 368])
+                    ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [368 380]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [335 381])
+            ("factorial" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [404 416]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [382 417])
+            ("recursion_factorial" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [450 464]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [418 465])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [478 487])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [488 501]))                  
+                :type "int")
+                nil [468 940])
+            ("reverse" function
+               (:arguments 
+                  ( ("str" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [962 978]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [942 1113])
+            ("ctoi" function
+               (:arguments 
+                  ( ("x" variable (:type "char") (reparse-symbol arg-sub-list) [1124 1131]))                  
+                :type "int")
+                nil [1114 1155])
+            ("itoc" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [1168 1174]))                  
+                :type "char")
+                nil [1157 1201])
+            ("ctos" function
+               (:arguments 
+                  ( ("x" variable (:type "char") (reparse-symbol arg-sub-list) [1220 1227]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [1203 1288])
+            ("sum_str" function
+               (:arguments 
+                  ( ("str_1" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1310 1328])
+                    ("str_2" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1328 1346]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [1290 3270])
+            ("multiply" function
+               (:arguments 
+                  ( ("str_1" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3295 3313])
+                    ("str_2" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3313 3331]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [3274 3635])
+            ("multiply" function
+               (:arguments 
+                  ( ("str_1" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3658 3676])
+                    ("str_2" variable (:type "char") (reparse-symbol arg-sub-list) [3676 3687]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [3637 3991])
+            ("itos" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [4009 4015]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [3992 4223])
+            ("factorial" function
+               (:arguments 
+                  ( ("x" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4247 4261]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [4225 4411])
+            ("f_multiply" function
+               (:arguments 
+                  ( ("x" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4436 4450])
+                    ("y" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4450 4464]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [4413 4676]))          
+      :file "large_num_addition.cpp"
+      :pointmax 4681
+      :fsize 4680
+      :lastmodtime '(25152 10403 592783 260000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1569f9e86504"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [37 56])
+            ("thread" include (:system-flag t) nil [57 74])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [75 95])
+            ("foo" function
+               (:arguments 
+                  ( ("Z" variable (:type "int") (reparse-symbol arg-sub-list) [128 134]))                  
+                :type "void")
+                nil [119 259])
+            ("thread_obj" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [303 310])
+                    ("()" function
+                       (:operator-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [331 337]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [315 473]))                  
+                :type "class")
+                nil [284 476])
+            ("main" function (:type "int") nil [480 1270]))          
+      :file "multiple_threadin.cpp"
+      :pointmax 1271
+      :fsize 1270
+      :lastmodtime '(25152 17354 615124 871000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1569f9e86524"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("stdlib.h" include (:system-flag t) nil [58 77])
+            ("math.h" include (:system-flag t) nil [78 95])
+            ("thread" include (:system-flag t) nil [96 113])
+            ("global" variable
+               (:default-value "0"
+                :type "int")
+                nil [115 128])
+            ("reverse" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [149 161]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [129 162])
+            ("ctoi" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "char") (reparse-symbol arg-sub-list) [172 177]))                  
+                :type "int")
+                nil [163 178])
+            ("atoc" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [189 193]))                  
+                :type "char")
+                nil [179 194])
+            ("itoc" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [205 209]))                  
+                :type "char")
+                nil [195 210])
+            ("cots" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "char") (reparse-symbol arg-sub-list) [228 233]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [211 234])
+            ("itos" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [252 256]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [235 257])
+            ("f_multiply" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [281 293])
+                    ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [293 305]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [258 306])
+            ("sum_str" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [327 339])
+                    ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [339 351]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [307 352])
+            ("multiply" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [374 386])
+                    ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [386 398]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [353 399])
+            ("factorial" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [422 434]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [400 435])
+            ("recursion_factorial" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [468 482]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [436 483])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [496 505])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [506 519]))                  
+                :type "int")
+                nil [486 840])
+            ("reverse" function
+               (:arguments 
+                  ( ("str" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [862 878]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [842 1013])
+            ("ctoi" function
+               (:arguments 
+                  ( ("x" variable (:type "char") (reparse-symbol arg-sub-list) [1024 1031]))                  
+                :type "int")
+                nil [1014 1055])
+            ("itoc" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [1068 1074]))                  
+                :type "char")
+                nil [1057 1101])
+            ("ctos" function
+               (:arguments 
+                  ( ("x" variable (:type "char") (reparse-symbol arg-sub-list) [1120 1127]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [1103 1188])
+            ("sum_str" function
+               (:arguments 
+                  ( ("str_1" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1210 1228])
+                    ("str_2" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1228 1246]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [1190 3257])
+            ("multiply" function
+               (:arguments 
+                  ( ("str_1" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3282 3300])
+                    ("str_2" variable (:type "char") (reparse-symbol arg-sub-list) [3300 3311]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [3261 3615])
+            ("itos" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [3633 3639]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [3616 3847])
+            ("factorial" function
+               (:arguments 
+                  ( ("x" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3871 3885]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [3849 4035])
+            ("f_multiply" function
+               (:arguments 
+                  ( ("x" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4060 4074])
+                    ("y" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4074 4088]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [4037 4348]))          
+      :file "new_large_num.cpp"
+      :pointmax 4353
+      :fsize 4352
+      :lastmodtime '(25207 38578 951667 484000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!DataStructures_Algorithm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

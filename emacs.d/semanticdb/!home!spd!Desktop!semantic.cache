@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file-15630e96ca70
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15630e96ca70"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15630e96caaa"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [148 166])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [168 188])
+            ("area" function (:type "void") nil [190 361])
+            ("main" function (:type "int") nil [363 397]))          
+      :file "lab1.6.cpp"
+      :pointmax 398
+      :fsize 420
+      :lastmodtime '(25173 38534 0 0)
+      :unmatched-syntax nil))
+  :file "!home!spd!Desktop!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

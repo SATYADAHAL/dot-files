@@ -1,0 +1,44 @@
+;; Object semanticdb-project-database-file-156384286780
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156384286780"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1563842867b0"
+      :major-mode makefile-automake-mode
+      :tags 
+        '( ("AUTOMAKE_OPTIONS" variable (:default-value ("subdir-objects")) nil [760 794])
+            ("check_PROGRAMS" variable (:default-value ("bitset_iterator/test")) nil [795 1176])
+            ("TESTS" variable (:default-value ("bitset_iterator/test" "object_move/test" "gdk_rgba/test" "test_validate_docs_xhtml.sh")) nil [1177 1276])
+            ("bitset_iterator_test_SOURCES" variable (:default-value ("bitset_iterator/main.cc")) nil [1277 1338])
+            ("builder_test_SOURCES" variable (:default-value ("builder/main.cc")) nil [1338 1391])
+            ("child_widget_test_SOURCES" variable (:default-value ("child_widget/main.cc" "child_widget/testwindow.cc" "child_widget/testwindow.h")) nil [1391 1580])
+            ("child_widget2_test_SOURCES" variable (:default-value ("child_widget2/main.cc")) nil [1580 1639])
+            ("child_widget_managed_test_SOURCES" variable (:default-value ("child_widget_managed/main.cc")) nil [1639 1705])
+            ("delete_cpp_child_test_SOURCES" variable (:default-value ("delete_cpp_child/main.cc")) nil [1705 1767])
+            ("dialog_deletethis_test_SOURCES" variable (:default-value ("dialog_deletethis/main.cc")) nil [1767 1830])
+            ("gdk_rgba_test_SOURCES" variable (:default-value ("gdk_rgba/main.cc")) nil [1830 1884])
+            ("main_with_options_test_SOURCES" variable (:default-value ("main_with_options/main.cc")) nil [1884 1947])
+            ("object_move_test_SOURCES" variable (:default-value ("object_move/main.cc")) nil [1947 2004])
+            ("property_notification_test_SOURCES" variable (:default-value ("property_notification/main.cc")) nil [2004 2071])
+            ("refcount_dialog_test_SOURCES" variable (:default-value ("refcount_dialog/main.cc")) nil [2071 2132])
+            ("scrolledwindow_test_SOURCES" variable (:default-value ("scrolledwindow/main.cc")) nil [2132 2192])
+            ("tree_model_iterator_test_SOURCES" variable (:default-value ("tree_model_iterator/main.cc")) nil [2192 2257])
+            ("wrap_existing_test_SOURCES" variable (:default-value ("wrap_existing/main.cc")) nil [2257 2316])
+            ("gdkmm_includes" variable (:default-value ("-I$(top_builddir)/gdk" "$(if $(srcdir:.=),-I$(top_srcdir)/gdk)")) nil [2317 2395])
+            ("gdkmm_ldadd" variable nil nil [2395 2412])
+            ("gtkmm_includes" variable (:default-value ("-I$(top_builddir)/gtk" "$(if $(srcdir:.=),-I$(top_srcdir)/gtk)")) nil [2413 2491])
+            ("gtkmm_ldadd" variable (:default-value ("$(top_builddir)/gtk/gtkmm/libgtkmm-$(GTKMM_API_VERSION).la")) nil [2491 2567])
+            ("local_includes" variable (:default-value ("-I$(top_builddir)" "$(gdkmm_includes)" "$(gtkmm_includes)")) nil [2568 2639])
+            ("local_ldadd" variable (:default-value ("$(gdkmm_ldadd)" "$(gtkmm_ldadd)")) nil [2639 2686])
+            ("AM_CPPFLAGS" variable (:default-value ("$(local_includes)" "$(GTHREAD_CFLAGS)" "$(GTKMM_CFLAGS)")) nil [2687 2753])
+            ("AM_CXXFLAGS" variable (:default-value ("$(GTKMM_WXXFLAGS)")) nil [2753 2785])
+            ("LDADD" variable (:default-value ("$(GTKMM_LIBS)" "$(local_ldadd)")) nil [2785 2828])
+            ("EXTRA_DIST" variable (:default-value ("test_validate_docs_xhtml.sh")) nil [2829 2870]))          
+      :file "Makefile.am"
+      :pointmax 2870
+      :fsize 2869
+      :lastmodtime '(24743 57942 611896 300000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!gtkmm-4.0.2!tests!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file-dfbe70
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-dfbe70"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-dfbe8c"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("unistd.h" include (:system-flag t) nil [40 59])
+            ("main" function (:type "int") nil [60 1103566]))          
+      :file "Flag.c"
+      :pointmax 1103567
+      :fsize 1103566
+      :lastmodtime '(25282 56894 784829 607000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Nepal-s-Flag!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

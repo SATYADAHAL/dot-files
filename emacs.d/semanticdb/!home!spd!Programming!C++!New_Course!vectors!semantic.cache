@@ -1,0 +1,68 @@
+;; Object semanticdb-project-database-file-159141d02fce
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-159141d02fce"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-159141d02f8e"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("vector" include (:system-flag t) nil [21 38])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [48 57])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [58 71]))                  
+                :type "int")
+                nil [39 348]))          
+      :file "vectors_1.cpp"
+      :pointmax 349
+      :fsize 348
+      :lastmodtime '(25167 1172 88032 844000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-159141d02fae"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("vector" include (:system-flag t) nil [21 38])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [49 58])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [59 72]))                  
+                :type "int")
+                nil [40 714]))          
+      :file "vectors_2.cpp"
+      :pointmax 715
+      :fsize 714
+      :lastmodtime '(25174 16325 620429 47000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-159141d03014"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("unistd.h" include (:system-flag t) nil [20 39])
+            ("fcntl.h" include (:system-flag t) nil [40 58])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [69 78])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [79 91]))                  
+                :type "int")
+                nil [60 769]))          
+      :file "mouse.c"
+      :pointmax 770
+      :fsize 769
+      :lastmodtime '(25174 37414 636794 633000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!New_Course!vectors!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

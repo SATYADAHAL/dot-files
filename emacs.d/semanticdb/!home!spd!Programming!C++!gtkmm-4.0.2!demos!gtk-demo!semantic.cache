@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file-158ab75d2848
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158ab75d2848"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158ab7563a40"
+      :major-mode c++-mode
+      :tags 
+        '( ("gtkmm-4.0/gtkmm/application.h" include (:system-flag t) nil [818 858])
+            ("demowindow.h" include nil nil [859 882])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [893 902])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [903 916]))                  
+                :type "int")
+                nil [884 1021]))          
+      :file "main.cc"
+      :pointmax 1022
+      :fsize 1021
+      :lastmodtime '(25209 13271 248329 24000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158ab76c512a"
+      :file "demowindow.h"
+      :fsize 2419
+      :lastmodtime '(24743 57942 419895 600000)))
+  :file "!home!spd!Programming!C++!gtkmm-4.0.2!demos!gtk-demo!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

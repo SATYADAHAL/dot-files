@@ -1,0 +1,36 @@
+;; Object semanticdb-project-database-file-15720dc5e608
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15720dc5e608"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15720db2b08c"
+      :major-mode c-mode
+      :tags 
+        '( ("init_all" function (:type "bool") nil [1 363])
+            ("load_image" function
+               (:pointer 1
+                :arguments 
+                  ( ("filename" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [445 466])
+                    ("col1" variable
+                       (:default-value "0xFF"
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [466 479])
+                    ("col2" variable
+                       (:default-value "0xFF"
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [480 493])
+                    ("col3" variable
+                       (:default-value "0xFF"
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [496 509]))                  
+                :type ("SDL_Surface" type (:type "class") nil nil))
+                nil [421 1016])
+            ("load_files" function (:type "bool") nil [1018 3041]))          
+      :file "init.h"
+      :pointmax 3042
+      :fsize 3135
+      :lastmodtime '(19531 57288 0 0)
+      :unmatched-syntax nil))
+  :file "!home!spd!Desktop!Bike Race Game in C++!Bike Race!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

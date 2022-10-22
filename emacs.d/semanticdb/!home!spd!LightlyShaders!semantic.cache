@@ -1,0 +1,141 @@
+;; Object semanticdb-project-database-file-15804543d452
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15804543d452"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15804543d494"
+      :major-mode c++-mode
+      :tags 
+        '( ("dbus.h" include nil nil [846 863])
+            ("lightlyshaders.h" include nil nil [864 891])
+            ("QPainter" include (:system-flag t) nil [892 911])
+            ("QImage" include (:system-flag t) nil [912 929])
+            ("QFile" include (:system-flag t) nil [930 946])
+            ("QTextStream" include (:system-flag t) nil [947 969])
+            ("QStandardPaths" include (:system-flag t) nil [970 995])
+            ("kwinglplatform.h" include (:system-flag t) nil [996 1023])
+            ("kwinglutils.h" include (:system-flag t) nil [1024 1048])
+            ("kwindowsystem.h" include (:system-flag t) nil [1049 1075])
+            ("QMatrix4x4" include (:system-flag t) nil [1076 1097])
+            ("KConfigGroup" include (:system-flag t) nil [1098 1121])
+            ("QtDBus/QDBusConnection" include (:system-flag t) nil [1122 1155])
+            ("LightlyShadersEffect" function
+               (:constructor-flag t
+                :parent "LightlyShadersEffect"
+                :type ("LightlyShadersEffect" type (:type "class") nil nil))
+                nil [1498 3895])
+            ("LightlyShadersEffect" function
+               (:destructor-flag t
+                :parent "LightlyShadersEffect"
+                :type "void")
+                nil [3897 4140])
+            ("windowAdded" function
+               (:parent "LightlyShadersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4181 4203]))                  
+                :type "void")
+                nil [4142 4530])
+            ("genMasks" function
+               (:parent "LightlyShadersEffect"
+                :type "void")
+                nil [4532 5359])
+            ("genRect" function
+               (:parent "LightlyShadersEffect"
+                :type "void")
+                nil [5361 6591])
+            ("setRoundness" function
+               (:parent "LightlyShadersEffect"
+                :arguments 
+                  ( ("r" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [6633 6645]))                  
+                :type "void")
+                nil [6593 6734])
+            ("reconfigure" function
+               (:parent "LightlyShadersEffect"
+                :arguments 
+                  ( ("flags" variable (:type ("ReconfigureFlags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6775 6798]))                  
+                :type "void")
+                nil [6736 7067])
+            ("prePaintWindow" function
+               (:parent "LightlyShadersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7276 7298])
+                    ("data" variable
+                       (:reference 1
+                        :type ("KWin::WindowPrePaintData" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7299 7330])
+                    ("time" variable (:type "int") (reparse-symbol arg-sub-list) [7331 7340]))                  
+                :type "void")
+                nil [7069 8363])
+            ("hasShadow" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("qds" variable
+                       (:reference 1
+                        :type ("KWin::WindowQuadList" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8387 8413]))                  
+                :type "bool")
+                nil [8365 8558])
+            ("paintWindow" function
+               (:parent "LightlyShadersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8599 8621])
+                    ("mask" variable (:type "int") (reparse-symbol arg-sub-list) [8622 8631])
+                    ("region" variable (:type ("QRegion" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8632 8647])
+                    ("data" variable
+                       (:reference 1
+                        :type ("KWin::WindowPaintData" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8648 8676]))                  
+                :type "void")
+                nil [8560 12625])
+            ("fillRegion" function
+               (:parent "LightlyShadersEffect"
+                :arguments 
+                  ( ("reg" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12665 12684])
+                    ("c" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QColor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12685 12701]))                  
+                :type "void")
+                nil [12627 13291])
+            ("enabledByDefault" function
+               (:parent "LightlyShadersEffect"
+                :type "bool")
+                nil [13293 13366])
+            ("supported" function
+               (:parent "LightlyShadersEffect"
+                :type "bool")
+                nil [13368 13496])
+            ("lightlyshaders.moc" include nil nil [13498 13527]))          
+      :file "lightlyshaders.cpp"
+      :pointmax 13528
+      :fsize 13529
+      :lastmodtime '(25177 8073 314165 48000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1580455652da"
+      :file "dbus.h"
+      :fsize 906
+      :lastmodtime '(25177 7971 134200 448000))
+    (semanticdb-table "semanticdb-table-158045565664"
+      :file "lightlyshaders.h"
+      :fsize 2194
+      :lastmodtime '(25177 7971 134200 448000)))
+  :file "!home!spd!LightlyShaders!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

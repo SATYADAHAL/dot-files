@@ -1,0 +1,55 @@
+;; Object semanticdb-project-database-file-157ff9e56ed0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157ff9e56ed0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157ff9e56eb0"
+      :major-mode c++-mode
+      :tags 
+        '( ("typeinfo" include (:system-flag t) nil [2 21])
+            ("gtkmm-4.0/gtkmm.h" include (:system-flag t) nil [22 50])
+            ("iostream" include (:system-flag t) nil [51 70])
+            ("MyWindow" type
+               (:superclasses 
+                  ( ("Gtk::Window" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [109 116])
+                    ("MyWindow" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("MyWindow" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [119 130]))                  
+                :type "class")
+                nil [71 133])
+            ("MyWindow" function
+               (:constructor-flag t
+                :parent "MyWindow"
+                :type ("MyWindow" type (:type "class") nil nil))
+                nil [135 222])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [233 242])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [243 256]))                  
+                :type "int")
+                nil [224 439]))          
+      :file "base.cc"
+      :pointmax 440
+      :fsize 439
+      :lastmodtime '(25249 58403 422990 465000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-157ff9e56f1e"
+      :major-mode c++-mode
+      :tags nil
+      :file "test.cpp"
+      :pointmax 1
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!GUI!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

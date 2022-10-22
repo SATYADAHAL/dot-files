@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file-155d147c60c4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155d147c60c4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155d147c60d0"
+      :major-mode makefile-automake-mode
+      :tags 
+        '( ("ACLOCAL_AMFLAGS" variable (:default-value ("-I" "build" "${ACLOCAL_FLAGS}")) nil [47 91])
+            ("DISTCHECK_CONFIGURE_FLAGS" variable (:default-value ("--enable-warnings=fatal")) nil [91 143])
+            ("SUBDIRS" variable (:default-value ("examples" "docs/tutorial")) nil [144 177])
+            ("dist_noinst_DATA" variable (:default-value ("COPYING.examples")) nil [178 214])
+            ("dist_noinst_SCRIPTS" variable (:default-value ("autogen.sh")) nil [214 247])
+            ("EXTRA_DIST" variable (:default-value ("meson.build" "meson_options.txt" "docs/tutorial/can_use_xmllint.xml" "docs/tutorial/insert_example_code.py" "docs/tutorial/meson.build" "docs/tutorial/LINGUAS" "examples/meson.build" "examples/book/meson.build" "examples/book/buildapp/meson.build" "examples/book/giomm/meson.build" "examples/book/treeview/meson.build" "examples/others/meson.build" "tools/meson_aux/compile-schemas.py" "tools/meson_aux/copy-to-subdir.py" "tools/meson_aux/extra-dist-cmd.py" "tools/meson_aux/tutorial-custom-cmd.py")) nil [300 845])
+            ("$(top_srcdir)/build/dist-changelog.am" include nil nil [911 957]))          
+      :file "Makefile.am"
+      :pointmax 957
+      :fsize 956
+      :lastmodtime '(25119 8391 827792 218000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!GTK!gitlab!gtkmm-documentation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

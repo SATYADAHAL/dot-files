@@ -1,0 +1,90 @@
+;; Object semanticdb-project-database-file-1580a79a9678
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1580a79a9678"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1580a79a9658"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 53]))                  
+                :type "int")
+                nil [21 72]))          
+      :file "helloworld.cpp"
+      :pointmax 73
+      :fsize 72
+      :lastmodtime '(25225 42835 719820 5000)
+      :unmatched-syntax '((semantic-list 29 . 31) (symbol 25 . 29) (INT 21 . 24)))
+    (semanticdb-table "semanticdb-table-1580a79a96c6"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 19])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [20 40])
+            ("stock2" type
+               (:prototype t
+                :type "class")
+                nil [41 54])
+            ("stock1" type
+               (:members 
+                  ( ("code" variable (:type "int") (reparse-symbol classsubparts) [72 87])
+                    ("item" variable (:type "int") (reparse-symbol classsubparts) [72 87])
+                    ("price" variable (:type "float") (reparse-symbol classsubparts) [90 102])
+                    ("public" label nil (reparse-symbol classsubparts) [104 111])
+                    ("stock1" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [120 126])
+                            ("b" variable (:type "int") (reparse-symbol arg-sub-list) [127 133])
+                            ("c" variable (:type "float") (reparse-symbol arg-sub-list) [134 142]))                          
+                        :type ("stock1" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [113 179])
+                    ("disp" function (:type "void") (reparse-symbol classsubparts) [181 304])
+                    ("getcode" function (:type "int") (reparse-symbol classsubparts) [306 338])
+                    ("getitem" function (:type "int") (reparse-symbol classsubparts) [340 372])
+                    ("getprice" function (:type "int") (reparse-symbol classsubparts) [374 407]))                  
+                :type "class")
+                nil [55 460])
+            ("stock2" type
+               (:members 
+                  ( ("code" variable (:type "int") (reparse-symbol classsubparts) [479 488])
+                    ("val" variable (:type "float") (reparse-symbol classsubparts) [491 501])
+                    ("public" label nil (reparse-symbol classsubparts) [503 510])
+                    ("stock2" function
+                       (:constructor-flag t
+                        :type ("stock2" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [512 543])
+                    ("stock2" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [552 558])
+                            ("y" variable (:type "float") (reparse-symbol arg-sub-list) [559 567]))                          
+                        :type ("stock2" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [545 590])
+                    ("disp" function (:type "void") (reparse-symbol classsubparts) [592 683])
+                    ("stock2" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("p" variable (:type ("stockl" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [692 701]))                          
+                        :type ("stock2" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [685 767]))                  
+                :type "class")
+                nil [462 770])
+            ("main" function (:type "int") nil [772 1055]))          
+      :file "class_to_class.cpp"
+      :pointmax 1056
+      :fsize 1091
+      :lastmodtime '(25244 10222 80850 11000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!classwork!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

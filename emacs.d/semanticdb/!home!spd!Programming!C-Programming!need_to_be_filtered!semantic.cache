@@ -1,0 +1,34 @@
+;; Object semanticdb-project-database-file-15864d469ebc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15864d469ebc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15864d469ec8"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("unistd.h" include (:system-flag t) nil [40 59])
+            ("test_struct" type
+               (:members 
+                  ( ("x" variable (:type "int") (reparse-symbol classsubparts) [88 94]))                  
+                :type "struct")
+                nil [61 99])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [109 118])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [119 132]))                  
+                :type "int")
+                nil [100 210]))          
+      :file "structure_test.c"
+      :pointmax 211
+      :fsize 210
+      :lastmodtime '(25131 23887 134802 308000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C-Programming!need_to_be_filtered!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

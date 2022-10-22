@@ -1,0 +1,14 @@
+;; Object semanticdb-project-database-file-15926cc73aca
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15926cc73aca"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15926cc73b0c"
+      :major-mode c++-mode
+      :tags nil
+      :file "divide_by_0.cpp"
+      :pointmax 1
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C-Programming!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

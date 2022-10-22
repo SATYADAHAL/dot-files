@@ -1,0 +1,199 @@
+;; Object semanticdb-project-database-file-155d3d4fa230
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155d3d4fa230"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155d3d4fa130"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 53]))                  
+                :type "int")
+                nil [21 268]))          
+      :file "lab1_01.cpp"
+      :pointmax 269
+      :fsize 268
+      :lastmodtime '(25164 16712 155393 614000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155d3d4fa150"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 53]))                  
+                :type "int")
+                nil [21 279]))          
+      :file "lab1_02.cpp"
+      :pointmax 280
+      :fsize 279
+      :lastmodtime '(25164 16889 715821 626000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155d3d4fa170"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 53]))                  
+                :type "int")
+                nil [21 336]))          
+      :file "lab1_03.cpp"
+      :pointmax 337
+      :fsize 336
+      :lastmodtime '(25164 17302 379264 403000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155d3d4fa190"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 53]))                  
+                :type "int")
+                nil [21 376]))          
+      :file "lab1_04.cpp"
+      :pointmax 377
+      :fsize 376
+      :lastmodtime '(25164 18415 721395 191000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155d3d4fa1b0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("add" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [31 36]))                  
+                :type "void")
+                nil [22 205])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [216 225])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [226 239]))                  
+                :type "int")
+                nil [207 264]))          
+      :file "lab1_05.cpp"
+      :pointmax 265
+      :fsize 264
+      :lastmodtime '(25164 18655 162228 409000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155d3d4fa1d0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("getArea" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35 40]))                  
+                :type "void")
+                nil [22 243])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [253 262])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [263 276]))                  
+                :type "int")
+                nil [244 305]))          
+      :file "lab1_06.cpp"
+      :pointmax 306
+      :fsize 305
+      :lastmodtime '(25164 18931 153220 597000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155d3d4fa1f0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("getArea" function
+               (:arguments 
+                  ( ("radius" variable (:type "double") (reparse-symbol arg-sub-list) [42 56]))                  
+                :type "long double")
+                nil [22 118])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [129 138])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [139 152]))                  
+                :type "int")
+                nil [120 313]))          
+      :file "lab1_07.cpp"
+      :pointmax 314
+      :fsize 313
+      :lastmodtime '(25164 19352 924773 191000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155d3d4fa210"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [2 21])
+            ("multiply" function
+               (:typemodifiers ("inline")
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [43 49])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [49 55]))                  
+                :type "int")
+                nil [23 73])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [84 93])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [94 107]))                  
+                :type "int")
+                nil [75 282]))          
+      :file "lab2_01.cpp"
+      :pointmax 283
+      :fsize 282
+      :lastmodtime '(25164 24660 972575 552000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155d3d4fa250"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("check_largest_num" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [45 52])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [53 60])
+                    ("z" variable (:type "int") (reparse-symbol arg-sub-list) [61 67]))                  
+                :type "void")
+                nil [22 288])
+            ("main" function (:type "int") nil [289 423]))          
+      :file "lab2_02.cpp"
+      :pointmax 424
+      :fsize 423
+      :lastmodtime '(25164 63874 485885 258000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!Lab!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

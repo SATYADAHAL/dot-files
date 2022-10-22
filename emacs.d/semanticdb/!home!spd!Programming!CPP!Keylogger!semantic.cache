@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file-af2d1e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-af2d1e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-af2d4c"
+      :major-mode c++-mode
+      :tags 
+        '( ("linux/input.h" include (:system-flag t) nil [1 25])
+            ("iostream" include (:system-flag t) nil [26 45])
+            ("sys/stat.h" include (:system-flag t) nil [46 67])
+            ("unistd.h" include (:system-flag t) nil [68 87])
+            ("fcntl.h" include (:system-flag t) nil [88 106])
+            ("string" include (:system-flag t) nil [107 124])
+            ("red" variable (:constant-flag t) nil [133 136])
+            ("reset" variable (:constant-flag t) nil [158 163])
+            ("event_key" function (:type ("std::string" type (:type "class") nil nil)) nil [175 811])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [822 831])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [832 845]))                  
+                :type "int")
+                nil [813 1945]))          
+      :file "keylogger.cpp"
+      :pointmax 1950
+      :fsize 1949
+      :lastmodtime '(25329 8840 578166 212000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("red" . ((string "\"\\x1b[1;31m\"" 137 . 149)))
+          ("reset" . ((string "\"\\x1b[0m\"" 164 . 173)))
+          )
+))
+  :file "!home!spd!Programming!CPP!Keylogger!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,109 @@
+;; Object semanticdb-project-database-file-155af8fbd154
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155af8fbd154"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155af8fbd0f4"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("unistd.h" include (:system-flag t) nil [40 59])
+            ("sys/ioctl.h" include (:system-flag t) nil [60 82])
+            ("bold" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "\"\\x1b[5m\""
+                :type "char")
+                nil [84 113])
+            ("size" variable (:type ("winsize" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [115 135])
+            ("check" variable
+               (:default-value "0"
+                :type ("auto" type (:type "class") nil nil))
+                nil [136 149])
+            ("create_box" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [165 171])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [171 177])
+                    ("ws_row" variable (:type "int") (reparse-symbol arg-sub-list) [177 188])
+                    ("ws_col" variable (:type "int") (reparse-symbol arg-sub-list) [188 200]))                  
+                :type "int")
+                nil [150 966])
+            ("box" function (:type "int") nil [969 1948])
+            ("hello_world" function (:type "void") nil [1950 2017])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2028 2037])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2038 2051]))                  
+                :type "int")
+                nil [2019 2290]))          
+      :file "ansci.cpp"
+      :pointmax 2402
+      :fsize 2457
+      :lastmodtime '(25146 46792 301390 674000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155af8fbd114"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("test_class" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [59 66])
+                    ("test_class" function
+                       (:constructor-flag t
+                        :type ("test_class" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [70 135])
+                    ("test_class" function
+                       (:destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [138 212]))                  
+                :type "class")
+                nil [40 215])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [226 235])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [236 249]))                  
+                :type "int")
+                nil [217 399]))          
+      :file "const_desct.cpp"
+      :pointmax 402
+      :fsize 401
+      :lastmodtime '(25120 24067 858735 300000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155af8fbd134"
+      :major-mode c++-mode
+      :tags 
+        '( ("unistd.h" include (:system-flag t) nil [1 20])
+            ("iostream" include (:system-flag t) nil [21 40])
+            ("fstream" include (:system-flag t) nil [41 59])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [69 78])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [79 92]))                  
+                :type "int")
+                nil [60 274]))          
+      :file "read_and_display.cpp"
+      :pointmax 275
+      :fsize 274
+      :lastmodtime '(25122 13911 739493 34000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!ANSI!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
