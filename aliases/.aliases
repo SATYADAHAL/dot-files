@@ -1,7 +1,9 @@
 alias ls="lsd"
 
+#Clear command
 alias clr='printf "\e[2J\e[3J" && echo "\ec" && clear'
 alias  clea="celar"
+alias claer="clear"
 
 #File size sorted
 alias lt='du -sh * | sort -h'
@@ -11,7 +13,7 @@ alias dnfu="sudo dnf update"
 alias dnfi="sudo dnf install"
 
 #touchegg
-alias restart_touchegg="sudo systemctl restart touchegg.service ;touchegg &>/dev/null & disown"
+alias restart_touchegg="sudo systemctl restart touchegg.service ;touchegg & disown"
 
 #xclip
 alias xclip="xclip -selection clipboard"
@@ -30,3 +32,7 @@ alias nfetch="clear && neofetch --backend kitty --source ~/.icons/fedora.png"
 
 #Generate clang config
 alias clang-config="clang-format -style=llvm -dump-config > .clang-format"
+
+#Docker commands
+alias start-docker_d="systemctl --user start docker-desktop"
+alias stop-docker_d="systemctl --user stop docker-desktop"
