@@ -1,0 +1,85 @@
+#include <iostream>
+
+class Stack {
+private:
+  int top, size, *stack;
+
+public:
+  Stack(int size) {
+    this->size = size;
+    stack = new int[size];
+    top = 0;
+  }
+
+  ~Stack() {
+    free(stack);
+
+    printf("\nStack Cleared\n");
+  }
+
+  void print() {
+    printf("[");
+    for (int i = 0; i < top; i++) {
+      printf(" %d,", *(stack + i));
+    }
+    printf(" ]\n");
+  }
+  /*Stack operations*/
+  bool isEmpty() { return (top == 0) ? true : false; }
+  bool isFull() { return (top == size) ? true : false; }
+
+  bool push(int value) {
+    if (isFull())
+      return false;
+    *(stack + top++) = value;
+    return true;
+  }
+  int pop() {
+    if (isEmpty()) {
+      printf("\nError!! Stack is empty\n");
+      return 0;
+    }
+    printf("\nPop Succesfull\n");
+
+    return *(stack + top--);
+  }
+  bool add(int value) {
+    if (isFull()) {
+      printf("\nError!! Stack overflow\n");
+      return false;
+    }
+    *(stack + top++) = value;
+    printf("\nSuccesfully added to the stack\n");
+    return true;
+  }
+};
+
+int main() {
+  Stack s(4);
+  int x, y;
+  while (true) {
+    printf("\nChoose any of the options\n\
+1. Pop\n\
+2. Push\n\
+3. Print\n\
+>>> ");
+
+    scanf("%d", &x);
+    switch (x) {
+    case 1:
+      s.pop();
+      break;
+    case 2:
+      printf("Enter value to push: ");
+      scanf("%d", &y);
+      s.add(y);
+      break;
+    case 3:
+      s.print();
+      break;
+    default:
+      break;
+    }
+  }
+  return 0;
+}

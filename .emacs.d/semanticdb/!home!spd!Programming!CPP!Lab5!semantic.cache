@@ -1,0 +1,634 @@
+;; Object semanticdb-project-database-file-d83900
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-d83900"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-d837e0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Room" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [35 45])
+                    ("length" variable (:type "int") (reparse-symbol classsubparts) [48 71])
+                    ("breadth" variable (:type "int") (reparse-symbol classsubparts) [48 71])
+                    ("public" label nil (reparse-symbol classsubparts) [72 79])
+                    ("area" function (:type "int") (reparse-symbol classsubparts) [85 127]))                  
+                :type "class")
+                nil [22 131])
+            ("BedRoom" type
+               (:superclasses 
+                  ( ("Room" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [162 170])
+                    ("height" variable (:type "int") (reparse-symbol classsubparts) [173 186])
+                    ("public" label nil (reparse-symbol classsubparts) [187 194])
+                    ("BedRoom" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("length" variable (:type "int") (reparse-symbol arg-sub-list) [206 217])
+                            ("breadth" variable (:type "int") (reparse-symbol arg-sub-list) [217 229])
+                            ("height" variable (:type "int") (reparse-symbol arg-sub-list) [229 240]))                          
+                        :type ("BedRoom" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [198 329])
+                    ("volume" function (:type "int") (reparse-symbol classsubparts) [332 383]))                  
+                :type "class")
+                nil [134 388])
+            ("length" variable
+               (:default-value "length"
+                :type "int")
+                nil [604 618])
+            ("breadth" variable
+               (:default-value "breadth"
+                :type "int")
+                nil [631 647])
+            ("height" variable
+               (:default-value "height"
+                :type "int")
+                nil [660 675])
+            ("height" variable
+               (:pointer 1
+                :type ("breadth" type (:type "class") nil nil))
+                nil [714 729])
+            ("length" variable (:type "int") nil [1022 1029])
+            ("breadth" variable (:type "int") nil [1069 1077])
+            ("height" variable (:type "int") nil [1116 1123])
+            ("std::endl" variable (:type "int") nil [1243 1253]))          
+      :file "Lab5_01.cpp"
+      :pointmax 1276
+      :fsize 1273
+      :lastmodtime '(25286 26127 139012 428000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-d83800"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Class1" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [36 46])
+                    ("var_1" variable (:type "int") (reparse-symbol classsubparts) [49 59])
+                    ("public" label nil (reparse-symbol classsubparts) [60 67])
+                    ("initialize" function
+                       (:arguments 
+                          ( ("var_1" variable (:type "int") (reparse-symbol arg-sub-list) [86 96]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [70 126]))                  
+                :type "class")
+                nil [22 129])
+            ("Class2" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [145 155])
+                    ("var_2" variable (:type "int") (reparse-symbol classsubparts) [158 168])
+                    ("public" label nil (reparse-symbol classsubparts) [169 176])
+                    ("initialize" function
+                       (:arguments 
+                          ( ("var_2" variable (:type "int") (reparse-symbol arg-sub-list) [195 205]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [179 235]))                  
+                :type "class")
+                nil [131 238])
+            ("Class3" type
+               (:superclasses 
+                  ( ("Class1" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil)
+                    ("Class2" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [283 290])
+                    ("sum" function (:type "int") (reparse-symbol classsubparts) [293 331]))                  
+                :type "class")
+                nil [240 334])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [345 354])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [355 368]))                  
+                :type "int")
+                nil [336 510]))          
+      :file "Lab5_02.cpp"
+      :pointmax 512
+      :fsize 511
+      :lastmodtime '(25271 63500 70895 259000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-d83820"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Student" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [36 46])
+                    ("roll" variable (:type "int") (reparse-symbol classsubparts) [49 60])
+                    ("public" label nil (reparse-symbol classsubparts) [61 68])
+                    ("init_roll" function
+                       (:arguments 
+                          ( ("roll" variable (:type "int") (reparse-symbol arg-sub-list) [85 94]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [71 136]))                  
+                :type "class")
+                nil [21 139])
+            ("Test" type
+               (:superclasses 
+                  ( ("Student" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [168 178])
+                    ("sub1" variable (:type "int") (reparse-symbol classsubparts) [181 200])
+                    ("sub2" variable (:type "int") (reparse-symbol classsubparts) [181 200])
+                    ("public" label nil (reparse-symbol classsubparts) [201 208])
+                    ("init_marks" function
+                       (:arguments 
+                          ( ("sub1" variable (:type "int") (reparse-symbol arg-sub-list) [226 235])
+                            ("sub2" variable (:type "int") (reparse-symbol arg-sub-list) [235 244]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [211 363]))                  
+                :type "class")
+                nil [141 366])
+            ("Result" type
+               (:superclasses 
+                  ( ("Test" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [395 403])
+                    ("total" variable (:type "int") (reparse-symbol classsubparts) [406 416])
+                    ("public" label nil (reparse-symbol classsubparts) [417 424])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [430 715]))                  
+                :type "class")
+                nil [368 720])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [731 740])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [741 754]))                  
+                :type "int")
+                nil [722 1041]))          
+      :file "Lab5_03.cpp"
+      :pointmax 1046
+      :fsize 1045
+      :lastmodtime '(25272 13411 886069 892000)
+      :unmatched-syntax '((number 1044 . 1046)))
+    (semanticdb-table "semanticdb-table-d83840"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Student" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [38 48])
+                    ("roll_no" variable (:type "int") (reparse-symbol classsubparts) [51 63])
+                    ("public" label nil (reparse-symbol classsubparts) [64 71])
+                    ("initialize" function
+                       (:arguments 
+                          ( ("roll_no" variable (:type "int") (reparse-symbol arg-sub-list) [89 101]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [74 147])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [150 235]))                  
+                :type "class")
+                nil [22 238])
+            ("Test" type
+               (:superclasses 
+                  ( ("Student" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [267 277])
+                    ("sub_1" variable (:type "int") (reparse-symbol classsubparts) [280 302])
+                    ("sub_2" variable (:type "int") (reparse-symbol classsubparts) [280 302])
+                    ("public" label nil (reparse-symbol classsubparts) [303 310])
+                    ("initialize" function
+                       (:arguments 
+                          ( ("sub_1" variable (:type "int") (reparse-symbol arg-sub-list) [328 338])
+                            ("sub_2" variable (:type "int") (reparse-symbol arg-sub-list) [338 348]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [313 421])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [424 572]))                  
+                :type "class")
+                nil [240 575])
+            ("Sport" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [590 600])
+                    ("s_marks" variable (:type "int") (reparse-symbol classsubparts) [603 617])
+                    ("public" label nil (reparse-symbol classsubparts) [618 625])
+                    ("initialize" function
+                       (:arguments 
+                          ( ("s_marks" variable (:type "int") (reparse-symbol arg-sub-list) [643 655]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [628 701])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [704 798]))                  
+                :type "class")
+                nil [577 804])
+            ("Result" type
+               (:superclasses 
+                  ( ("Test" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil)
+                    ("Sport" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [844 851])
+                    ("display_all" function (:type "int") (reparse-symbol classsubparts) [854 933]))                  
+                :type "class")
+                nil [805 936])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [946 955])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [956 969]))                  
+                :type "int")
+                nil [937 1002]))          
+      :file "Lab5_04.cpp"
+      :pointmax 1003
+      :fsize 1002
+      :lastmodtime '(25272 21070 151144 47000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-d83860"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Shape" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [34 44])
+                    ("number_of_sides" variable (:type "int") (reparse-symbol classsubparts) [47 86])
+                    ("internal_angle" variable (:type "int") (reparse-symbol classsubparts) [47 86])
+                    ("adjacent_equal" variable (:type "bool") (reparse-symbol classsubparts) [89 111])
+                    ("public" label nil (reparse-symbol classsubparts) [112 119]))                  
+                :type "class")
+                nil [21 122])
+            ("Square" type
+               (:superclasses 
+                  ( ("Shape" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [151 159])
+                    ("length" variable (:type "int") (reparse-symbol classsubparts) [162 175])
+                    ("public" label nil (reparse-symbol classsubparts) [176 183])
+                    ("Square" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("length" variable (:type "int") (reparse-symbol arg-sub-list) [193 204]))                          
+                        :type ("Square" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [186 310])
+                    ("Area" function (:type "int") (reparse-symbol classsubparts) [315 415]))                  
+                :type "class")
+                nil [124 418])
+            ("Rectangle" type
+               (:superclasses 
+                  ( ("Shape" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [450 458])
+                    ("length" variable (:type "int") (reparse-symbol classsubparts) [461 484])
+                    ("breadth" variable (:type "int") (reparse-symbol classsubparts) [461 484])
+                    ("public" label nil (reparse-symbol classsubparts) [485 492])
+                    ("Rectangle" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("length" variable (:type "int") (reparse-symbol arg-sub-list) [505 516])
+                            ("breadth" variable (:type "int") (reparse-symbol arg-sub-list) [516 528]))                          
+                        :type ("Rectangle" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [495 664])
+                    ("Area" function (:type "int") (reparse-symbol classsubparts) [667 769]))                  
+                :type "class")
+                nil [420 772])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [784 793])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [794 807]))                  
+                :type "int")
+                nil [775 916]))          
+      :file "Lab5_05.cpp"
+      :pointmax 917
+      :fsize 916
+      :lastmodtime '(25274 56788 605481 138000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-d83880"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Student" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [37 45])
+                    ("roll" variable (:type "int") (reparse-symbol classsubparts) [48 59])
+                    ("protected" label nil (reparse-symbol classsubparts) [60 70])
+                    ("assign" function
+                       (:arguments 
+                          ( ("roll" variable (:type "int") (reparse-symbol arg-sub-list) [84 93]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [73 136])
+                    ("display_roll" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [156 161]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [139 230]))                  
+                :type "class")
+                nil [21 235])
+            ("Theory" type
+               (:superclasses 
+                  ( ("Student" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [275 285])
+                    ("theory" variable (:type "int") (reparse-symbol classsubparts) [288 301])
+                    ("public" label nil (reparse-symbol classsubparts) [302 309])
+                    ("assign" function
+                       (:arguments 
+                          ( ("theory" variable (:type "int") (reparse-symbol arg-sub-list) [323 334]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [312 382])
+                    ("display" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [397 402]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [385 480]))                  
+                :type "class")
+                nil [237 483])
+            ("Practical" type
+               (:superclasses 
+                  ( ("Student" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [525 535])
+                    ("practical" variable (:type "int") (reparse-symbol classsubparts) [538 554])
+                    ("public" label nil (reparse-symbol classsubparts) [555 562])
+                    ("assign" function
+                       (:arguments 
+                          ( ("practical" variable (:type "int") (reparse-symbol arg-sub-list) [576 590]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [565 644])
+                    ("display" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [659 664]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [647 748]))                  
+                :type "class")
+                nil [485 751])
+            ("Result" type
+               (:superclasses 
+                  ( ("Practical" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil)
+                    ("Theory" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [798 805])
+                    ("Result" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("roll" variable (:type "int") (reparse-symbol arg-sub-list) [815 824])
+                            ("practical" variable (:type "int") (reparse-symbol arg-sub-list) [824 838])
+                            ("theory" variable (:type "int") (reparse-symbol arg-sub-list) [838 849]))                          
+                        :type ("Result" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [808 947])
+                    ("display_total" function (:type "int") (reparse-symbol classsubparts) [950 1128]))                  
+                :type "class")
+                nil [753 1131])
+            ("main" function (:type "int") nil [1133 1204]))          
+      :file "Lab5_06.cpp"
+      :pointmax 1205
+      :fsize 1204
+      :lastmodtime '(25274 59793 716645 634000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-d838a0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("stdlib.h" include (:system-flag t) nil [21 40])
+            ("unistd.h" include (:system-flag t) nil [41 60])
+            ("Student" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [77 85])
+                    ("roll" variable (:type "int") (reparse-symbol classsubparts) [88 97])
+                    ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [100 117])
+                    ("public" label nil (reparse-symbol classsubparts) [118 125])
+                    ("Student" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("roll" variable (:type "int") (reparse-symbol arg-sub-list) [136 146])
+                            ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [147 164]))                          
+                        :type ("Student" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [128 217])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [220 348]))                  
+                :type "class")
+                nil [61 351])
+            ("Marks" type
+               (:members 
+                  ( ("oop" variable (:type "int") (reparse-symbol classsubparts) [368 391])
+                    ("pmm" variable (:type "int") (reparse-symbol classsubparts) [368 391])
+                    ("bc" variable (:type "int") (reparse-symbol classsubparts) [368 391])
+                    ("acc" variable (:type "int") (reparse-symbol classsubparts) [368 391])
+                    ("fin" variable (:type "int") (reparse-symbol classsubparts) [368 391]))                  
+                :type "class")
+                nil [352 397])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [408 417])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [418 431]))                  
+                :type "int")
+                nil [399 450]))          
+      :file "Lab5_07.cpp"
+      :pointmax 452
+      :fsize 451
+      :lastmodtime '(25285 7903 630486 162000)
+      :unmatched-syntax '((symbol 387 . 388) (punctuation 386 . 387) (symbol 383 . 386) (punctuation 382 . 383) (symbol 380 . 382) (punctuation 379 . 380) (symbol 376 . 379) (punctuation 375 . 376) (symbol 372 . 375) (INT 368 . 371) (symbol 387 . 388) (punctuation 386 . 387) (symbol 383 . 386) (punctuation 382 . 383) (symbol 380 . 382) (punctuation 379 . 380) (symbol 376 . 379) (punctuation 375 . 376) (symbol 372 . 375) (INT 368 . 371) (punctuation 386 . 387) (symbol 383 . 386) (punctuation 382 . 383) (symbol 380 . 382) (punctuation 379 . 380) (symbol 376 . 379) (punctuation 375 . 376) (symbol 372 . 375) (INT 368 . 371) (punctuation 386 . 387) (symbol 383 . 386) (punctuation 382 . 383) (symbol 380 . 382) (punctuation 379 . 380) (symbol 376 . 379) (punctuation 375 . 376) (symbol 372 . 375) (INT 368 . 371)))
+    (semanticdb-table "semanticdb-table-d838c0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Employee" type
+               (:members 
+                  ( ("eid" variable (:type "int") (reparse-symbol classsubparts) [39 49])
+                    ("esalary" variable (:type "double") (reparse-symbol classsubparts) [52 69])
+                    ("ename" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [72 92])
+                    ("public" label nil (reparse-symbol classsubparts) [93 100])
+                    ("set" function (:type "int") (reparse-symbol classsubparts) [103 330])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [333 511]))                  
+                :type "class")
+                nil [21 517])
+            ("Company" type
+               (:members 
+                  ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [536 562])
+                    ("location" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [536 562])
+                    ("emp" variable (:type ("Employee" type (:type "class") nil nil)) (reparse-symbol classsubparts) [565 578])
+                    ("public" label nil (reparse-symbol classsubparts) [579 586])
+                    ("set" function
+                       (:arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [597 614])
+                            ("location" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [615 636]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [589 726])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [729 892]))                  
+                :type "class")
+                nil [518 897])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [908 917])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [918 931]))                  
+                :type "int")
+                nil [899 1010]))          
+      :file "Lab5_08.cpp"
+      :pointmax 1011
+      :fsize 1010
+      :lastmodtime '(25285 9487 293794 978000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-d838e0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Staff" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [34 44])
+                    ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [47 83])
+                    ("address" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [47 83])
+                    ("post" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [47 83])
+                    ("public" label nil (reparse-symbol classsubparts) [84 91])
+                    ("Staff" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [100 117])
+                            ("address" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [117 137])
+                            ("post" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [137 154]))                          
+                        :type ("Staff" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [94 240])
+                    ("Staff" function
+                       (:constructor-flag t
+                        :type ("Staff" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [243 252])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [256 438]))                  
+                :type "class")
+                nil [21 441])
+            ("NonTeaching" type
+               (:superclasses 
+                  ( ("Staff" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [483 490])
+                    ("NonTeaching" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [505 522])
+                            ("address" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [522 542])
+                            ("post" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [542 559]))                          
+                        :type ("NonTeaching" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [493 586])
+                    ("NonTeaching" function
+                       (:constructor-flag t
+                        :type ("NonTeaching" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [590 605]))                  
+                :type "class")
+                nil [442 609])
+            ("Teaching" type
+               (:superclasses 
+                  ( ("Staff" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [648 658])
+                    ("dept" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [661 680])
+                    ("public" label nil (reparse-symbol classsubparts) [681 688])
+                    ("Teaching" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [700 717])
+                            ("address" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [717 737])
+                            ("dept" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [737 754]))                          
+                        :type ("Teaching" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [691 805])
+                    ("Teaching" function
+                       (:constructor-flag t
+                        :type ("Teaching" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [809 822])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [826 1008]))                  
+                :type "class")
+                nil [611 1011])
+            ("Admin" type
+               (:superclasses 
+                  ( ("NonTeaching" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil)
+                    ("Teaching" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [1060 1068])
+                    ("working_hrs" variable (:type "int") (reparse-symbol classsubparts) [1071 1087])
+                    ("public" label nil (reparse-symbol classsubparts) [1088 1095])
+                    ("Admin" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1104 1121])
+                            ("address" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1121 1141])
+                            ("post" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1141 1158])
+                            ("working_hrs" variable (:type "int") (reparse-symbol arg-sub-list) [1158 1174]))                          
+                        :type ("Admin" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1098 1241])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [1246 1490]))                  
+                :type "class")
+                nil [1012 1493])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1504 1513])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1513 1526]))                  
+                :type "int")
+                nil [1495 2000]))          
+      :file "Lab5_09.cpp"
+      :pointmax 2001
+      :fsize 2000
+      :lastmodtime '(25286 47887 999576 217000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!CPP!Lab5!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

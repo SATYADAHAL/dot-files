@@ -1,0 +1,56 @@
+;; Object semanticdb-project-database-file-edde2e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-edde2e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-edde72"
+      :major-mode python-mode
+      :tags 
+        '( ("string" variable nil nil [1 847])
+            ("" code nil nil [875 892])
+            ("" code nil nil [919 931])
+            ("" code nil nil [958 1008])
+            ("" code nil nil [1035 1048])
+            ("" code nil nil [1075 1105])
+            ("" code nil nil [1132 1142])
+            ("" code nil nil [1169 1188])
+            ("" code nil nil [1215 1234])
+            ("" code nil nil [1261 1271])
+            ("" code nil nil [1298 1309])
+            ("" code nil nil [1336 1347])
+            ("" code nil nil [1374 1385])
+            ("" code nil nil [1412 1423])
+            ("" code nil nil [1450 1461])
+            ("" code nil nil [1488 1499])
+            ("" code nil nil [1526 1537])
+            ("" code nil nil [1564 1598])
+            ("" code nil nil [1625 1649])
+            ("" code nil nil [1676 1686])
+            ("" code nil nil [1713 1723])
+            ("" code nil nil [1750 1760])
+            ("" code nil nil [1787 1801])
+            ("" code nil nil [1828 1838])
+            ("" code nil nil [1865 1875])
+            ("" code nil nil [1902 1912])
+            ("" code nil nil [1939 1949])
+            ("" code nil nil [1976 1986])
+            ("" code nil nil [2013 2023])
+            ("" code nil nil [2050 2060])
+            ("" code nil nil [2087 2097])
+            ("" code nil nil [2124 2135])
+            ("" code nil nil [2162 2176])
+            ("" code nil nil [2203 2213]))          
+      :file "dict.py"
+      :pointmax 2214
+      :unmatched-syntax '((STRING_LITERAL 2177 . 2189) (COLON 2201 . 2202) (STRING_LITERAL 2136 . 2150) (COLON 2160 . 2161) (STRING_LITERAL 2098 . 2114) (COLON 2122 . 2123) (STRING_LITERAL 2061 . 2069) (COLON 2085 . 2086) (STRING_LITERAL 2024 . 2032) (COLON 2048 . 2049) (STRING_LITERAL 1987 . 1994) (COLON 2011 . 2012) (STRING_LITERAL 1950 . 1958) (COLON 1974 . 1975) (STRING_LITERAL 1913 . 1931) (COLON 1937 . 1938) (STRING_LITERAL 1876 . 1896) (COLON 1900 . 1901) (STRING_LITERAL 1839 . 1854) (COLON 1863 . 1864) (STRING_LITERAL 1802 . 1808) (COLON 1826 . 1827) (STRING_LITERAL 1761 . 1768) (COLON 1785 . 1786) (STRING_LITERAL 1724 . 1742) (COLON 1748 . 1749) (STRING_LITERAL 1687 . 1702) (COLON 1711 . 1712) (STRING_LITERAL 1650 . 1662) (COLON 1674 . 1675) (STRING_LITERAL 1599 . 1612) (COLON 1623 . 1624) (STRING_LITERAL 1538 . 1557) (COLON 1562 . 1563) (STRING_LITERAL 1500 . 1522) (COLON 1524 . 1525) (STRING_LITERAL 1462 . 1473) (COLON 1486 . 1487) (STRING_LITERAL 1424 . 1430) (COLON 1448 . 1449) (STRING_LITERAL 1386 . 1393) (COLON 1410 . 1411) (STRING_LITERAL 1348 . 1356) (COLON 1372 . 1373) (STRING_LITERAL 1310 . 1326) (COLON 1334 . 1335) (STRING_LITERAL 1272 . 1294) (COLON 1296 . 1297) (STRING_LITERAL 1235 . 1252) (COLON 1259 . 1260) (STRING_LITERAL 1189 . 1198) (COLON 1213 . 1214) (STRING_LITERAL 1143 . 1149) (COLON 1167 . 1168) (STRING_LITERAL 1106 . 1122) (COLON 1130 . 1131) (STRING_LITERAL 1049 . 1054) (COLON 1073 . 1074) (STRING_LITERAL 1009 . 1018) (COLON 1033 . 1034) (STRING_LITERAL 932 . 940) (COLON 956 . 957) (STRING_LITERAL 893 . 901) (COLON 917 . 918) (STRING_LITERAL 849 . 858) (COLON 873 . 874) ($EOI 848 . 848) ($EOI 852 . 852) ($EOI 851 . 851) ($EOI 849 . 849) ($EOI 848 . 848) ($EOI 882 . 882) ($EOI 875 . 875) ($EOI 876 . 876) ($EOI 913 . 913) ($EOI 913 . 913) ($EOI 918 . 918) ($EOI 948 . 948) ($EOI 946 . 946) ($EOI 946 . 946) ($EOI 947 . 947) ($EOI 1016 . 1016) ($EOI 1011 . 1011) ($EOI 1016 . 1016) ($EOI 1048 . 1048) ($EOI 1048 . 1048) ($EOI 1045 . 1045) ($EOI 1080 . 1080) ($EOI 1139 . 1139) ($EOI 1137 . 1137) ($EOI 1173 . 1173) ($EOI 1171 . 1171) ($EOI 1205 . 1205) ($EOI 1216 . 1216) ($EOI 1210 . 1210) ($EOI 1207 . 1207) ($EOI 1265 . 1265) ($EOI 1305 . 1305) ($EOI 1300 . 1300) ($EOI 1297 . 1297) ($EOI 1301 . 1301) ($EOI 1296 . 1296) ($EOI 1301 . 1301) ($EOI 1335 . 1335) ($EOI 1329 . 1329) ($EOI 1332 . 1332) ($EOI 1368 . 1368) ($EOI 1373 . 1373) ($EOI 1356 . 1356) ($EOI 1351 . 1351) ($EOI 1382 . 1382) ($EOI 1421 . 1421) ($EOI 1420 . 1420) ($EOI 1414 . 1414) ($EOI 1451 . 1451) ($EOI 1455 . 1455) ($EOI 1483 . 1483) ($EOI 1479 . 1479) ($EOI 1516 . 1516) ($EOI 1516 . 1516) ($EOI 1514 . 1514) ($EOI 1511 . 1511) ($EOI 1548 . 1548) ($EOI 1547 . 1547) ($EOI 1580 . 1580) ($EOI 1556 . 1556) ($EOI 1552 . 1552) ($EOI 1551 . 1551) ($EOI 1590 . 1590) ($EOI 1585 . 1585) ($EOI 1582 . 1582) ($EOI 1621 . 1621) ($EOI 1604 . 1604) ($EOI 1612 . 1612) ($EOI 1659 . 1659) ($EOI 1654 . 1654) ($EOI 1645 . 1645) ($EOI 1686 . 1686) ($EOI 1690 . 1690) ($EOI 1685 . 1685) ($EOI 1720 . 1720) ($EOI 1720 . 1720) ($EOI 1684 . 1684) ($EOI 1721 . 1721) ($EOI 1726 . 1726) ($EOI 1724 . 1724)))
+    (semanticdb-table "semanticdb-table-ee630c"
+      :major-mode python-mode
+      :tags nil
+      :file "carrefour_get_data.py"
+      :pointmax 420
+      :fsize 419
+      :lastmodtime '(25431 33588 666269 915000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Omnimart!Add_Product_Bot!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

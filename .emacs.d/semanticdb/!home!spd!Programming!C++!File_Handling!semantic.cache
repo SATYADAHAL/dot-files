@@ -1,0 +1,74 @@
+;; Object semanticdb-project-database-file-155c9b918c50
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155c9b918c50"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155c9b918bf0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [49 58])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [59 72]))                  
+                :type "int")
+                nil [40 193]))          
+      :file "file_handling_first.cpp"
+      :pointmax 194
+      :fsize 193
+      :lastmodtime '(25103 48868 849068 300000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155c9b918c10"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [40 60])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [70 79])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [80 93]))                  
+                :type "int")
+                nil [61 283]))          
+      :file "more_file_handling.cpp"
+      :pointmax 284
+      :fsize 283
+      :lastmodtime '(25103 11529 308195 94000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-155c9b918c30"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("cmath" include (:system-flag t) nil [58 74])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [85 94])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [95 108]))                  
+                :type "int")
+                nil [76 389]))          
+      :file "new_file_handling_basics.cpp"
+      :pointmax 663
+      :fsize 662
+      :lastmodtime '(25143 50031 465503 374000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!File_Handling!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,28 @@
+#include "box.h"
+#include "box_print.h"
+#include "controls.h"
+#include "cursor_controls.h"
+#include "terminal.h"
+#include <chrono>
+#include <iostream>
+#include <string>
+#include <time.h>
+#include <unistd.h>
+
+
+
+//Global variables
+int index_of_string{0};
+int height = tty_height();
+int width = tty_width();
+
+
+int main(){
+  sttyCbreak(0);// Put terminal into cbreak mode
+  draw_rect(1);
+  draw_footer();
+  mv_xy(width,height+1);
+  printf("\n");
+  
+  return 0;
+}

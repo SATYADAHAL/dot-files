@@ -1,0 +1,303 @@
+;; Object semanticdb-project-database-file-158241f23204
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158241f23204"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158241f1f2c2"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("cmath" include (:system-flag t) nil [58 74])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [75 95])
+            ("main" function (:type "int") nil [97 296]))          
+      :file "array.cpp"
+      :pointmax 304
+      :fsize 304
+      :lastmodtime '(25161 25968 379573 407000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f2e2"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [39 52]))                  
+                :type "int")
+                nil [21 452]))          
+      :file "switch_case.cpp"
+      :pointmax 453
+      :fsize 452
+      :lastmodtime '(25088 45349 438141 774000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f302"
+      :major-mode c++-mode
+      :tags 
+        '( ("unistd.h" include (:system-flag t) nil [1 20])
+            ("iostream" include (:system-flag t) nil [21 40])
+            ("function" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [54 60])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [60 66]))                  
+                :type "int")
+                nil [41 67])
+            ("Myclass" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [93 100])
+                    ("number" variable (:type "int") (reparse-symbol classsubparts) [111 122])
+                    ("mystring" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [133 154]))                  
+                :type "class")
+                nil [68 165])
+            ("main" function (:type "int") nil [167 310]))          
+      :file "cpp_classes.cpp"
+      :pointmax 311
+      :fsize 310
+      :lastmodtime '(25113 41099 322385 610000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f322"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("ostream" include (:system-flag t) nil [21 39])
+            ("iomanip" include (:system-flag t) nil [40 58])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [68 77])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [78 91]))                  
+                :type "int")
+                nil [59 183]))          
+      :file "emacs.cpp"
+      :pointmax 184
+      :fsize 183
+      :lastmodtime '(25117 39517 335674 708000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f342"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("agrc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [39 52]))                  
+                :type "int")
+                nil [21 219]))          
+      :file "for_loop.cpp"
+      :pointmax 220
+      :fsize 219
+      :lastmodtime '(25118 4122 666782 883000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f362"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [21 530]))          
+      :file "datatypes.cpp"
+      :pointmax 531
+      :fsize 530
+      :lastmodtime '(25123 20854 527884 62000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f382"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [39 59])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [69 74]))                  
+                :type "int")
+                nil [60 248]))          
+      :file "string.cpp"
+      :pointmax 249
+      :fsize 248
+      :lastmodtime '(25128 18332 118336 297000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f3a2"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cmath" include (:system-flag t) nil [21 37])
+            ("string" include (:system-flag t) nil [38 55])
+            ("ncurses.h" include (:system-flag t) nil [56 76])
+            ("const_parameter" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [103 110])
+                    ("const_parameter" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [129 146])
+                            ("age" variable (:type "int") (reparse-symbol arg-sub-list) [146 154]))                          
+                        :type ("const_parameter" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [113 238]))                  
+                :type "class")
+                nil [78 241])
+            ("main" function (:type "int") nil [242 335]))          
+      :file "constructor_parameter.cpp"
+      :pointmax 336
+      :fsize 314
+      :lastmodtime '(25144 44869 301785 343000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f3c2"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 53]))                  
+                :type "int")
+                nil [21 127]))          
+      :file "wide_char.cpp"
+      :pointmax 128
+      :fsize 127
+      :lastmodtime '(25247 18274 643036 821000)
+      :unmatched-syntax '((punctuation 20 . 21) (symbol 12 . 20) (punctuation 11 . 12) (symbol 3 . 10) (punctuation 2 . 3) (symbol 1 . 2)))
+    (semanticdb-table "semanticdb-table-158241f1f3e2"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("function" function (:type "int") nil [76 163])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [175 184])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [185 198]))                  
+                :type "int")
+                nil [166 1356]))          
+      :file "data_types_all.cpp"
+      :pointmax 1358
+      :fsize 1357
+      :lastmodtime '(25142 49384 326646 246000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f402"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("main" function (:type "int") nil [42 329]))          
+      :file "sizeof.cpp"
+      :pointmax 330
+      :fsize 329
+      :lastmodtime '(25139 59834 999999 838000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f422"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("my_math" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [37 44])
+                    ("factorial" function
+                       (:arguments 
+                          ( ("num" variable (:type "int") (reparse-symbol arg-sub-list) [64 72]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [47 279]))                  
+                :type "class")
+                nil [21 285])
+            ("inherted" type
+               (:superclasses 
+                  ( ("my_math" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("x" variable (:type "int") (reparse-symbol classsubparts) [319 325]))                  
+                :type "class")
+                nil [286 328])
+            ("rectangle" type
+               (:members 
+                  ( ("length" variable (:type "int") (reparse-symbol classsubparts) [351 362])
+                    ("breadth" variable (:type "int") (reparse-symbol classsubparts) [365 377])
+                    ("public" label nil (reparse-symbol classsubparts) [378 385])
+                    ("getlenght" function (:type "int") (reparse-symbol classsubparts) [388 430])
+                    ("getbreadth" function (:type "int") (reparse-symbol classsubparts) [434 478])
+                    ("setlenght" function
+                       (:arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [497 503]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [482 525])
+                    ("setbreadth" function
+                       (:arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [545 551]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [529 574]))                  
+                :type "class")
+                nil [331 577])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [590 599])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [600 613]))                  
+                :type "int")
+                nil [581 714]))          
+      :file "inheritance.cpp"
+      :pointmax 716
+      :fsize 715
+      :lastmodtime '(25142 48423 677555 773000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158241f1f442"
+      :major-mode c++-mode
+      :tags nil
+      :file "reference_vs_pointers.cpp"
+      :pointmax 3
+      :fsize 2
+      :lastmodtime '(25142 49235 645203 656000)
+      :unmatched-syntax '((symbol 1 . 2)))
+    (semanticdb-table "semanticdb-table-158241f1f462"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [50 59])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [60 73]))                  
+                :type "int")
+                nil [41 399]))          
+      :file "circle.cpp"
+      :pointmax 401
+      :fsize 403
+      :lastmodtime '(25161 33102 305302 546000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

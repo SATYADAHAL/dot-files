@@ -1,0 +1,100 @@
+#include "character.h"
+#include<stdlib.h>
+#include<time.h>
+
+
+
+
+//setting default character info
+Character::Character()
+{
+	name = "Hermione";//change this name and style how code is written
+	CharHp = 100;
+	strength = rand() % 100 + 1;
+	 defence = rand() % 100 + 1;
+
+}
+
+Character::Character(std::string _name, int _CharHp)
+{
+	name = _name;
+	CharHp = _CharHp;
+
+}
+
+
+
+
+//deltDamage is a random damage between 1-100
+int Character::deltDamage(int damagedealt)
+{
+	srand(time(0));
+	//int damagedealt;
+	damagedealt = rand() % 100;
+	std::cout << name << " is doing " << damagedealt << "damage." << std::endl;
+	CharHp = damagedealt;
+	return damagedealt;
+
+}//don't forget this all is for idea i have to do another one similar to it, where all code will be diffrent and format of code will also be completely diffrent
+
+
+int Character::doAction()
+{
+	//dealtDamage();
+	return 0;
+}
+
+void Character::takeDamage(int damageTaken)
+{
+	srand(time(0));
+
+
+
+	damageTaken = rand() % 100;
+
+	
+	int newCharHp = CharHp - damageTaken;
+
+	 std::cout << "you have been hit! Damage taken " << damageTaken << "your new hp is  " << newCharHp << "be careful" << std::endl;
+	 //after being hit by enemy several time hp may increase so try to manage it as well
+
+
+}
+
+bool Character::isAlive()
+{
+	if (CharHp <= 0)
+	{
+		return false;
+		std::cout << "you are dead" << std::endl;
+
+	}
+	else
+		return true;
+
+}
+
+std::string Character::getname()
+{
+	return name;//string()....satya change
+
+}//here get name set name uper case lower case may cause problem
+void Character::setName(std::string _name)
+{
+	if (_name.length() > 0)
+		name = _name;
+
+	else
+		std::cout << "please enter valid character name" << std::endl;
+
+}
+
+
+void Character::displayInfo()
+{
+	std::cout << "Name: " << name << ",HP:" << CharHp << "Strength" << strength << std::endl;
+}
+
+
+
+

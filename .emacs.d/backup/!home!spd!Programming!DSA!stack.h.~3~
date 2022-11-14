@@ -1,0 +1,21 @@
+#include <iostream>
+
+#ifndef STACK_H
+#define STACK_H
+
+class Stack {
+private:
+  int top, size;
+  char *stack;
+
+public:
+  Stack(int);
+  ~Stack();
+  bool isEmpty();
+  bool isFull();
+  void push(char);
+  int pop();
+  void print();
+  char peek();
+};
+#endif

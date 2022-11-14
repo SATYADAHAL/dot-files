@@ -1,0 +1,29 @@
+;; Object semanticdb-project-database-file-ef6d7e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-ef6d7e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-ef6dc2"
+      :major-mode java-mode
+      :tags 
+        '( ("CalculateSum" type
+               (:members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [47 60]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [23 182]))                  
+                :type "class")
+                nil [1 184]))          
+      :file "test.java"
+      :pointmax 185
+      :fsize 957
+      :lastmodtime '(25456 25797 38977 156000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!Java!Lab1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

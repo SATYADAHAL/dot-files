@@ -1,0 +1,229 @@
+;; Object semanticdb-project-database-file-cf1630
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-cf1630"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-c3d7e0"
+      :major-mode c++-mode
+      :tags 
+        '( ("dbus.h" include nil nil [846 863])
+            ("shapecorners.h" include nil nil [864 889])
+            ("QPainter" include (:system-flag t) nil [890 909])
+            ("QImage" include (:system-flag t) nil [910 927])
+            ("QFile" include (:system-flag t) nil [928 944])
+            ("QStandardPaths" include (:system-flag t) nil [945 970])
+            ("kwinglplatform.h" include (:system-flag t) nil [971 998])
+            ("kwinglutils.h" include (:system-flag t) nil [999 1023])
+            ("kwindowsystem.h" include (:system-flag t) nil [1024 1050])
+            ("QMatrix4x4" include (:system-flag t) nil [1051 1072])
+            ("KConfigGroup" include (:system-flag t) nil [1073 1096])
+            ("QDBusConnection" include (:system-flag t) nil [1097 1123])
+            ("ShapeCornersEffect" function
+               (:constructor-flag t
+                :parent "ShapeCornersEffect"
+                :type ("ShapeCornersEffect" type (:type "class") nil nil))
+                nil [1815 4258])
+            ("windowAdded" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4351 4373]))                  
+                :type "void")
+                nil [4314 4980])
+            ("setRoundness" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("r" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5020 5032]))                  
+                :type "void")
+                nil [4982 5052])
+            ("reconfigure" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("flags" variable (:type ("ReconfigureFlags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5091 5114]))                  
+                :type "void")
+                nil [5054 5420])
+            ("prePaintWindow" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5629 5651])
+                    ("data" variable
+                       (:reference 1
+                        :type ("KWin::WindowPrePaintData" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5652 5683])
+                    ("time" variable (:type "int") (reparse-symbol arg-sub-list) [5684 5693]))                  
+                :type "void")
+                nil [5589 6964])
+            ("hasShadow" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("qds" variable
+                       (:reference 1
+                        :type ("KWin::WindowQuadList" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7022 7048]))                  
+                :type "bool")
+                nil [7000 7193])
+            ("paintWindow" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7239 7261])
+                    ("mask" variable (:type "int") (reparse-symbol arg-sub-list) [7262 7271])
+                    ("region" variable (:type ("QRegion" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7272 7287])
+                    ("data" variable
+                       (:reference 1
+                        :type ("KWin::WindowPaintData" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7288 7316]))                  
+                :type "void")
+                nil [7202 11522])
+            ("supported" function
+               (:parent "ShapeCornersEffect"
+                :type "bool")
+                nil [11524 11746])
+            ("isMaximized" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11785 11807]))                  
+                :type "bool")
+                nil [11748 12146])
+            ("shapecorners.moc" include nil nil [12148 12175]))          
+      :file "shapecorners.cpp"
+      :pointmax 12176
+      :fsize 12177
+      :lastmodtime '(25303 27279 795106 493000)
+      :unmatched-syntax '((punctuation 4311 . 4312) (DEFAULT 4304 . 4311) (punctuation 4302 . 4303) (semantic-list 4299 . 4301) (symbol 4281 . 4299) (punctuation 4280 . 4281) (punctuation 4279 . 4280) (punctuation 4278 . 4279) (symbol 4260 . 4278) (semantic-list 1196 . 1509) (symbol 1159 . 1196) (punctuation 1507 . 1508) (semantic-list 1505 . 1507) (RETURN 1462 . 1468) (punctuation 1419 . 1420) (semantic-list 1417 . 1419) (RETURN 1381 . 1387) (string 1320 . 1339)))
+    (semanticdb-table "semanticdb-table-c3d800"
+      :file "dbus.h"
+      :fsize 892
+      :lastmodtime '(25303 27279 755106 279000))
+    (semanticdb-table "semanticdb-table-cf1610"
+      :file "shapecorners.h"
+      :fsize 2285
+      :lastmodtime '(25303 27279 796106 498000))
+    (semanticdb-table "semanticdb-table-cf1650"
+      :major-mode c++-mode
+      :tags 
+        '( ("shapecorners_config.h" include nil nil [1 33])
+            ("ui_shapecorners_config.h" include nil nil [34 69])
+            ("QDialog" include (:system-flag t) nil [71 89])
+            ("QVBoxLayout" include (:system-flag t) nil [90 112])
+            ("kwineffects.h" include (:system-flag t) nil [114 138])
+            ("kwineffects_interface.h" include (:system-flag t) nil [139 173])
+            ("QDBusConnection" include (:system-flag t) nil [175 201])
+            ("QDBusMessage" include (:system-flag t) nil [202 225])
+            ("QDBusArgument" include (:system-flag t) nil [226 250])
+            ("KConfigGroup" include (:system-flag t) nil [252 275])
+            ("KPluginFactory" include (:system-flag t) nil [276 301])
+            ("KAboutData" include (:system-flag t) nil [302 323])
+            ("kcoreaddons_version.h" include nil nil [325 357])
+            ("ConfigDialog" type
+               (:superclasses 
+                  ( ("QWidget" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil)
+                    ("Ui::Form" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [600 607])
+                    ("ConfigDialog" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("parent" variable
+                               (:pointer 1
+                                :type ("QWidget" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [634 650]))                          
+                        :type ("ConfigDialog" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [621 691]))                  
+                :type "class")
+                nil [544 694])
+            ("Private" type
+               (:parent "ShapeCornersConfig"
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [732 739])
+                    ("Private" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("config" variable
+                               (:pointer 1
+                                :type ("ShapeCornersConfig" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [752 779]))                          
+                        :type ("Private" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [744 1095])
+                    ("q" variable
+                       (:pointer 1
+                        :type ("ShapeCornersConfig" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1100 1122])
+                    ("roundness" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1127 1177])
+                    ("dsp" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1127 1177])
+                    ("shadowColor" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1127 1177])
+                    ("outlineColor" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1127 1177])
+                    ("defaultRoundness" variable (:type ("QVariant" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1182 1265])
+                    ("defaultShadows" variable (:type ("QVariant" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1182 1265])
+                    ("defaultShadowColor" variable (:type ("QVariant" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1182 1265])
+                    ("defaultOutlineColor" variable (:type ("QVariant" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1182 1265])
+                    ("ui" variable
+                       (:pointer 1
+                        :type ("ConfigDialog" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1270 1287]))                  
+                :type "class")
+                nil [696 1290])
+            ("ShapeCornersConfig" function
+               (:constructor-flag t
+                :parent "ShapeCornersConfig"
+                :arguments 
+                  ( ("parent" variable
+                       (:pointer 1
+                        :type ("QWidget" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1331 1347])
+                    ("args" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QVariantList" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1348 1373]))                  
+                :type ("ShapeCornersConfig" type (:type "class") nil nil))
+                nil [1292 1625])
+            ("ShapeCornersConfig" function
+               (:destructor-flag t
+                :parent "ShapeCornersConfig"
+                :type "void")
+                nil [1627 1686])
+            ("load" function
+               (:parent "ShapeCornersConfig"
+                :type "void")
+                nil [1688 2489])
+            ("save" function
+               (:parent "ShapeCornersConfig"
+                :type "void")
+                nil [2491 3452])
+            ("defaults" function
+               (:parent "ShapeCornersConfig"
+                :type "void")
+                nil [3454 3996])
+            ("shapecorners_config.moc" include nil nil [3998 4032]))          
+      :file "shapecorners_config.cpp"
+      :pointmax 4033
+      :fsize 4032
+      :lastmodtime '(25303 27279 796106 498000)
+      :unmatched-syntax '((EXPLICIT 612 . 620) (semantic-list 426 . 446) (symbol 412 . 426) (EXPLICIT 612 . 620) (EXPLICIT 612 . 620)))
+    (semanticdb-table "semanticdb-table-d62adc"
+      :file "shapecorners_config.h"
+      :fsize 407
+      :lastmodtime '(25303 27279 796106 498000)))
+  :file "!home!spd!Programming!KDE-Rounded-Corners!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

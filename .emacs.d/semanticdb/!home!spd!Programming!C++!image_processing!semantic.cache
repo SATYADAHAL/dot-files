@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file-157a0305ff40
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157a0305ff40"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157a0305ff20"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [39 58])
+            ("opencv2/opencv.hpp" include (:system-flag t) nil [59 88])
+            ("cv" using (:type ("cv" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [89 108])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [109 129])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [157 166])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [167 179]))                  
+                :type "int")
+                nil [148 731]))          
+      :file "image_processs.cpp"
+      :pointmax 732
+      :fsize 731
+      :lastmodtime '(25268 19710 820090 591000)
+      :unmatched-syntax '((semantic-list 219 . 335) (semantic-list 205 . 217) (IF 202 . 204))))
+  :file "!home!spd!Programming!C++!image_processing!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

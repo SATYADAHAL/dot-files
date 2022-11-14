@@ -1,0 +1,13 @@
+#include "warrior.h"
+Mage::Mage() :Character()
+{
+	manaPoints = this->strength;
+}
+
+void Mage::displayMageInfo()
+{
+	std::cout << "Your mage detials are as follow" << std::endl;
+	std::cout << "Name: " << name << "HP: " << CharHp << "Mana:" << manaPoints << std::endl;
+	
+
+}

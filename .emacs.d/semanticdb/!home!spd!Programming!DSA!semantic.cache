@@ -1,0 +1,172 @@
+;; Object semanticdb-project-database-file-d7a344
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-d7a344"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-d721ca"
+      :major-mode c++-mode
+      :tags 
+        '( ("stack.h" include nil nil [1 19])
+            ("Stack" function
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type ("Stack" type (:type "class") nil nil)
+                :arguments 
+                  ( ("size" variable (:type "int") (reparse-symbol arg-sub-list) [70 79]))                  
+                :parent "Stack"
+                :constructor-flag t)
+                nil [21 145])
+            ("Stack" function
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type "void"
+                :parent "Stack"
+                :destructor-flag t)
+                nil [147 215])
+            ("print" function
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type "void"
+                :parent "Stack")
+                nil [217 524])
+            ("isEmpty" function
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type "bool"
+                :parent "Stack")
+                nil [526 627])
+            ("isFull" function
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type "bool"
+                :parent "Stack")
+                nil [629 728])
+            ("pop" function
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type ("variable" type (:type "class") nil nil)
+                :parent "Stack")
+                nil [730 930])
+            ("push" function
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type "void"
+                :arguments 
+                  ( ("value" variable (:type ("variable" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [985 1000]))                  
+                :parent "Stack")
+                nil [932 1166])
+            ("peek" function
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type ("variable" type (:type "class") nil nil)
+                :parent "Stack")
+                nil [1168 1335]))          
+      :file "stack.cpp"
+      :pointmax 1336
+      :fsize 1331
+      :lastmodtime '(25451 31091 988953 606000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-d721ea"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("STACK_H" variable (:constant-flag t) nil [46 53])
+            ("Stack" type
+               (:template 
+                  ( ("variable" type (:type "class") nil nil))                  
+                :type "class"
+                :members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [95 103])
+                    ("top" variable (:type "int") (reparse-symbol classsubparts) [106 120])
+                    ("size" variable (:type "int") (reparse-symbol classsubparts) [106 120])
+                    ("stack" variable
+                       (:pointer 1
+                        :type ("variable" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [123 139])
+                    ("public" label nil (reparse-symbol classsubparts) [141 148])
+                    ("Stack" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [157 161]))                          
+                        :type ("Stack" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [151 162])
+                    ("Stack" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [165 174])
+                    ("isEmpty" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol classsubparts) [177 192])
+                    ("isFull" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol classsubparts) [195 209])
+                    ("push" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("variable" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [222 231]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [212 232])
+                    ("pop" function
+                       (:prototype-flag t
+                        :type ("variable" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [235 250])
+                    ("print" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [253 266])
+                    ("peek" function
+                       (:prototype-flag t
+                        :type ("variable" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [269 285]))                  )
+                nil [55 288]))          
+      :file "stack.h"
+      :pointmax 297
+      :fsize 296
+      :lastmodtime '(25450 4952 964912 649000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("STACK_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-d7220a"
+      :major-mode c++-mode
+      :tags 
+        '( ("stack.h" include nil nil [1 19])
+            ("iostream" include (:system-flag t) nil [20 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("precdence" function
+               (:arguments 
+                  ( ("x" variable (:type "char") (reparse-symbol arg-sub-list) [72 79]))                  
+                :type "int")
+                nil [58 240])
+            ("is_operator" function
+               (:arguments 
+                  ( ("x" variable (:type "char") (reparse-symbol arg-sub-list) [258 265]))                  
+                :type "bool")
+                nil [241 378])
+            ("main" function (:type "int") nil [380 766]))          
+      :file "infix_postfix.cpp"
+      :pointmax 767
+      :fsize 766
+      :lastmodtime '(25449 46809 861900 272000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-d7222a"
+      :major-mode c++-mode
+      :tags 
+        '( ("stack.cpp" include nil nil [1 21])
+            ("iostream" include (:system-flag t) nil [22 41])
+            ("clear_stdin" function (:type "void") nil [43 111])
+            ("main" function (:type "int") nil [112 520]))          
+      :file "test.cpp"
+      :pointmax 521
+      :fsize 520
+      :lastmodtime '(25451 14443 603889 762000)
+      :unmatched-syntax nil)
+)
+  :file "!home!spd!Programming!DSA!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

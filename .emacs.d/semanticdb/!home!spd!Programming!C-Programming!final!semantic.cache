@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file-1573a5f038cc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1573a5f038cc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1573a5f038d8"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("factorial" function
+               (:arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [35 41]))                  
+                :type "int")
+                nil [21 427])
+            ("main" function
+               (:arguments 
+                  ( ("arg" variable (:type "int") (reparse-symbol arg-sub-list) [439 447])
+                    ("argc" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [447 460]))                  
+                :type "int")
+                nil [429 792]))          
+      :file "recu_factorial.c"
+      :pointmax 793
+      :fsize 792
+      :lastmodtime '(25128 9438 102437 371000)
+      :unmatched-syntax '((semantic-list 38 . 41) (semantic-list 38 . 41))))
+  :file "!home!spd!Programming!C-Programming!final!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file-1563842684fa
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1563842684fa"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15638426feb6"
+      :major-mode makefile-automake-mode
+      :tags 
+        '( ("lib_LTLIBRARIES" variable (:default-value ("libgtkmm-@GTKMM_API_VERSION@.la")) nil [760 810])
+            ("$(srcdir)/../src/filelist.gmake.am" include nil nil [811 854])
+            ("$(srcdir)/filelist.gmake.am" include nil nil [854 890])
+            ("files_built_cc" variable (:default-value ("$(gtkmm_files_built_cc)")) nil [891 932])
+            ("files_built_h" variable (:default-value ("$(gtkmm_files_built_h)")) nil [932 972])
+            ("files_built_ph" variable (:default-value ("$(gtkmm_files_built_ph)")) nil [972 1013])
+            ("files_extra_cc" variable (:default-value ("$(gtkmm_files_extra_cc)")) nil [1013 1054])
+            ("files_extra_h" variable (:default-value ("$(gtkmm_files_extra_h)")) nil [1054 1094])
+            ("files_extra_ph" variable (:default-value ("$(gtkmm_files_extra_ph)")) nil [1094 1135])
+            ("local_includes" variable (:default-value ("-I$(top_builddir)/gdk" "$(if $(srcdir:.=),-I$(top_srcdir)/gdk)")) nil [1136 1214])
+            ("local_libadd" variable (:default-value ("$(top_builddir)/gdk/gdkmm/libgdkmm-$(GDKMM_API_VERSION).la")) nil [1214 1290])
+            ("$(top_srcdir)/build/compile-binding.am" include nil nil [1291 1338])
+            ("local_cppflags" variable (:default-value ("$(binding_includes)" "$(local_includes)" "$(binding_cppflags)" "-DGTKMM_BUILD=1")) nil [1339 1430])
+            ("AM_CPPFLAGS" variable (:default-value ("$(local_cppflags)" "$(GTHREAD_CFLAGS)" "$(GTKMM_CFLAGS)")) nil [1431 1497])
+            ("AM_CXXFLAGS" variable (:default-value ("$(GTKMM_WXXFLAGS)")) nil [1497 1529]))          
+      :file "Makefile.am"
+      :pointmax 1756
+      :fsize 1755
+      :lastmodtime '(24743 57942 471895 700000)
+      :unmatched-syntax '((semantic-list 1743 . 1755) (punctuation 1742 . 1743) (semantic-list 1727 . 1741) (punctuation 1726 . 1727) (punctuation 1724 . 1725) (symbol 1712 . 1722) (punctuation 1711 . 1712) (symbol 1694 . 1711) (punctuation 1693 . 1694) (symbol 1684 . 1693) (bol 1684 . 1684) (semantic-list 1662 . 1683) (punctuation 1661 . 1662) (symbol 1647 . 1660) (symbol 1633 . 1646) (punctuation 1631 . 1632) (symbol 1619 . 1630) (punctuation 1618 . 1619) (symbol 1601 . 1618) (punctuation 1600 . 1601) (symbol 1591 . 1600) (bol 1591 . 1591) (semantic-list 1573 . 1590) (punctuation 1572 . 1573) (punctuation 1570 . 1571) (symbol 1558 . 1569) (punctuation 1557 . 1558) (symbol 1540 . 1557) (punctuation 1539 . 1540) (symbol 1530 . 1539) (bol 1530 . 1530)))
+    (semanticdb-table "semanticdb-table-1563841c45dc"
+      :file "filelist.gmake.am"
+      :fsize 461
+      :lastmodtime '(24743 57942 471895 700000)))
+  :file "!home!spd!Programming!C++!gtkmm-4.0.2!gtk!gtkmm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

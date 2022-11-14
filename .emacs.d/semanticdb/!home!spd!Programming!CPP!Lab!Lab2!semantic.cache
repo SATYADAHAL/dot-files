@@ -1,0 +1,47 @@
+;; Object semanticdb-project-database-file-4408ac
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4408ac"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4408b8"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("volume" function
+               (:arguments 
+                  ( ("l" variable (:type "int") (reparse-symbol arg-sub-list) [73 79])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [79 85])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [86 92]))                  
+                :type "void")
+                nil [61 161])
+            ("volume" function
+               (:arguments 
+                  ( ("h" variable (:type "int") (reparse-symbol arg-sub-list) [175 181])
+                    ("r" variable (:type "int") (reparse-symbol arg-sub-list) [181 187]))                  
+                :type "void")
+                nil [163 274])
+            ("volume" function
+               (:arguments 
+                  ( ("l" variable (:type "int") (reparse-symbol arg-sub-list) [288 294]))                  
+                :type "void")
+                nil [276 358])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [369 378])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [379 392]))                  
+                :type "int")
+                nil [360 1011]))          
+      :file "lab2_08.cpp"
+      :pointmax 1012
+      :fsize 1011
+      :lastmodtime '(25302 54634 265785 820000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!CPP!Lab!Lab2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

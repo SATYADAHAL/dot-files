@@ -1,0 +1,26 @@
+"""For sys.exit"""
+import sys
+import requests
+from bs4 import BeautifulSoup
+
+
+check_lst = []
+for i in range(50):
+    url = "https://drive.carrefour.be"\
+        f"/nl/Bier/c/BEDR307000000000000?q=%3Aname-asc&page={i}"
+    resp = requests.get(url, timeout=100)
+    soup = BeautifulSoup(resp.content, "lxml")
+    product_grid = soup.find_all("div", {"class":
+                                         "product__listing product__grid"})
+    a_tag_list = product_grid[0].find_all("a")
+    print(len(a_tag_list))
+    if len(a_tag_list) == 0:
+        sys.exit(0)
+    for items in a_tag_list:
+        final_url = f"https://drive.carrefour.be{items['href']}\n"
+        if final_url not in check_lst:
+            check_lst.append(final_url)
+            with open("url.txt", "a", encoding="utf8") as f:
+                f.write(final_url)
+    print(f"Page {i} completed")
+    print(len(check_lst))

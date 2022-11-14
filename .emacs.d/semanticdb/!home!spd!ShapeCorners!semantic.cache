@@ -1,0 +1,102 @@
+;; Object semanticdb-project-database-file-157cbf950448
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157cbf950448"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157cbf950408"
+      :major-mode c++-mode
+      :tags 
+        '( ("QPainter" include (:system-flag t) nil [849 868])
+            ("QImage" include (:system-flag t) nil [869 886])
+            ("QFile" include (:system-flag t) nil [887 903])
+            ("QTextStream" include (:system-flag t) nil [904 926])
+            ("QStandardPaths" include (:system-flag t) nil [927 952])
+            ("kwinglplatform.h" include (:system-flag t) nil [953 980])
+            ("kwinglutils.h" include (:system-flag t) nil [981 1005])
+            ("QMatrix4x4" include (:system-flag t) nil [1006 1027])
+            ("KConfig" include (:system-flag t) nil [1028 1046])
+            ("KConfigGroup" include (:system-flag t) nil [1047 1070])
+            ("shapecorners.h" include nil nil [1071 1096])
+            ("ShapeCornersEffect" function
+               (:constructor-flag t
+                :parent "ShapeCornersEffect"
+                :type ("ShapeCornersEffect" type (:type "class") nil nil))
+                nil [1367 2491])
+            ("ShapeCornersEffect" function
+               (:destructor-flag t
+                :parent "ShapeCornersEffect"
+                :type "void")
+                nil [2493 2646])
+            ("readConfig" function
+               (:parent "ShapeCornersEffect"
+                :type "void")
+                nil [2648 4135])
+            ("genMasks" function
+               (:parent "ShapeCornersEffect"
+                :type "void")
+                nil [4137 5104])
+            ("reconfigure" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("flags" variable (:type ("ReconfigureFlags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5143 5166]))                  
+                :type "void")
+                nil [5106 5310])
+            ("isValid" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5345 5367]))                  
+                :type "bool")
+                nil [5312 5898])
+            ("paintWindow" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5937 5959])
+                    ("mask" variable (:type "int") (reparse-symbol arg-sub-list) [5960 5969])
+                    ("region" variable (:type ("QRegion" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5970 5985])
+                    ("data" variable
+                       (:reference 1
+                        :type ("KWin::WindowPaintData" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5986 6014]))                  
+                :type "void")
+                nil [5900 8256])
+            ("enabledByDefault" function
+               (:parent "ShapeCornersEffect"
+                :type "bool")
+                nil [8258 8326])
+            ("supported" function
+               (:parent "ShapeCornersEffect"
+                :type "bool")
+                nil [8328 8451])
+            ("shapecorners.moc" include nil nil [8453 8480]))          
+      :file "shapecorners.cpp"
+      :pointmax 8481
+      :fsize 8482
+      :lastmodtime '(25117 29302 849644 516000)
+      :unmatched-syntax '((semantic-list 1135 . 1365) (symbol 1098 . 1135) (punctuation 1363 . 1364) (semantic-list 1361 . 1363) (RETURN 1318 . 1324) (punctuation 1304 . 1305) (semantic-list 1302 . 1304) (RETURN 1266 . 1272) (string 1199 . 1218) (semantic-list 1135 . 1365) (symbol 1098 . 1135) (punctuation 1363 . 1364) (semantic-list 1361 . 1363) (RETURN 1318 . 1324) (punctuation 1304 . 1305) (semantic-list 1302 . 1304) (RETURN 1266 . 1272) (string 1199 . 1218)))
+    (semanticdb-table "semanticdb-table-157cbf950428"
+      :major-mode c++-mode
+      :tags 
+        '( ("kwineffects.h" include (:system-flag t) nil [859 883])
+            ("KWin" type
+               (:members 
+                  ( ("GLTexture" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [902 918]))                  
+                :type "namespace")
+                nil [885 920])
+            ("KWin::Effect" variable (:type "int") nil [970 1908]))          
+      :file "shapecorners.h"
+      :pointmax 1909
+      :fsize 1910
+      :lastmodtime '(25111 5223 801476 300000)
+      :unmatched-syntax '((PUBLIC 963 . 969) (punctuation 961 . 962) (symbol 942 . 960) (symbol 928 . 941) (CLASS 922 . 927) (symbol 854 . 858) (symbol 847 . 853) (punctuation 846 . 847))))
+  :file "!home!spd!ShapeCorners!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

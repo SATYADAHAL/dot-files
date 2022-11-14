@@ -1,0 +1,26 @@
+#include "box_print.h"
+void b_printf(std::string text, int width) {
+  width = width - 2;
+  mv_xy(0, 0);
+  int text_len = (int)text.length();
+  for (int i = 0; i < text_len; ++i) {
+    if (i % width == 0) {
+      mv_nextline();
+      mv_right(1);
+      printf("%c", text[i]);
+    } else {
+      if (text[i] == '\n') {
+        printf("↵");
+        mv_nextline();
+        mv_right(1);
+      } else {
+        if (text[i] == ' ') {
+          printf("%s⎵%s", MAG, __resetT_);
+        } else {
+          printf("%c", text[i]);
+        }
+      }
+    }
+  }
+  fflush(stdout);
+};

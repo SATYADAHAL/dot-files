@@ -1,0 +1,89 @@
+;; Object semanticdb-project-database-file-1555b756f170
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1555b756f170"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1555b6ffa844"
+      :major-mode c++-mode
+      :tags 
+        '( ("helloworld.h" include nil nil [714 737])
+            ("iostream" include (:system-flag t) nil [738 757])
+            ("HelloWorld" function
+               (:constructor-flag t
+                :parent "HelloWorld"
+                :type ("HelloWorld" type (:type "class") nil nil))
+                nil [759 1236])
+            ("HelloWorld" function
+               (:destructor-flag t
+                :parent "HelloWorld"
+                :type "void")
+                nil [1238 1267])
+            ("on_button_clicked" function
+               (:parent "HelloWorld"
+                :type "void")
+                nil [1269 1352]))          
+      :file "helloworld.cc"
+      :pointmax 1353
+      :fsize 1352
+      :lastmodtime '(25119 8391 867791 82000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1555b756f130"
+      :major-mode c++-mode
+      :tags 
+        '( ("GTKMM_EXAMPLE_HELLOWORLD_H" variable (:constant-flag t) nil [757 783])
+            ("gtkmm-4.0/gtkmm/button.h" include (:system-flag t) nil [785 820])
+            ("gtkmm-4.0/gtkmm/window.h" include (:system-flag t) nil [821 856])
+            ("HelloWorld" type
+               (:superclasses 
+                  ( ("Gtk::Window" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [899 906])
+                    ("HelloWorld" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("HelloWorld" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [909 922])
+                    ("override" variable (:type "int") (reparse-symbol classsubparts) [939 948])
+                    ("protected" label nil (reparse-symbol classsubparts) [950 960])
+                    ("on_button_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [984 1009])
+                    ("m_button" variable (:type ("Gtk::Button" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1033 1054]))                  
+                :type "class")
+                nil [858 1057]))          
+      :file "helloworld.h"
+      :pointmax 1096
+      :fsize 1095
+      :lastmodtime '(25119 8654 632363 386000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("GTKMM_EXAMPLE_HELLOWORLD_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-1555b756f150"
+      :major-mode c++-mode
+      :tags 
+        '( ("helloworld.h" include nil nil [714 737])
+            ("gtk-4.0/gtk/gtk.h" include (:system-flag t) nil [738 766])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [776 785])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [786 799]))                  
+                :type "int")
+                nil [767 975]))          
+      :file "main.cc"
+      :pointmax 976
+      :fsize 975
+      :lastmodtime '(25119 8488 135361 420000)
+      :unmatched-syntax '((symbol 764 . 765) (punctuation 763 . 764) (symbol 760 . 763) (punctuation 759 . 760) (symbol 756 . 759) (punctuation 755 . 756) (number 752 . 755) (punctuation 751 . 752) (symbol 748 . 751) (punctuation 747 . 748) (symbol 739 . 746) (punctuation 738 . 739) (punctuation 759 . 760) (symbol 756 . 759) (punctuation 755 . 756) (number 752 . 755) (punctuation 751 . 752) (symbol 748 . 751) (punctuation 747 . 748) (symbol 739 . 746) (punctuation 738 . 739) (punctuation 759 . 760) (symbol 756 . 759) (punctuation 755 . 756) (number 752 . 755) (punctuation 751 . 752) (symbol 748 . 751) (punctuation 747 . 748) (symbol 739 . 746) (punctuation 738 . 739) (punctuation 755 . 756) (number 752 . 755) (punctuation 751 . 752) (symbol 748 . 751) (punctuation 747 . 748) (symbol 739 . 746) (punctuation 738 . 739) (punctuation 755 . 756) (number 752 . 755) (punctuation 751 . 752) (symbol 748 . 751) (punctuation 747 . 748) (symbol 739 . 746) (punctuation 738 . 739) (symbol 748 . 750) (punctuation 747 . 748) (symbol 739 . 746) (punctuation 738 . 739) (symbol 748 . 750) (punctuation 747 . 748) (symbol 739 . 746) (punctuation 738 . 739) (symbol 748 . 750) (punctuation 747 . 748) (symbol 739 . 746) (punctuation 738 . 739))))
+  :file "!home!spd!Programming!C++!GTK!gitlab!gtkmm-documentation!examples!book!helloworld!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,123 @@
+string=f"""
+name="channel":"default",
+"locale":"nl",
+"_token":"ei9PyY9SUn6sP4b1V4EZtp0IC4tFISAFvBLgVNy4",
+"_method":"PUT""
+
+Content-Disposition: form-data; name="sku"
+
+om20221024cb86kmdsm3
+
+Content-Disposition: form-data; name="product_number"
+
+
+
+Content-Disposition: form-data; name="name"
+
+sdfghjk
+
+Content-Disposition: form-data; name="url_key"
+
+sdfghjk
+
+Content-Disposition: form-data; name="tax_category_id"
+
+
+
+Content-Disposition: form-data; name="visible_individually"
+
+1
+
+Content-Disposition: form-data; name="guest_checkout"
+
+1
+
+Content-Disposition: form-data; name="status"
+
+1
+
+Content-Disposition: form-data; name="color"
+
+1
+
+Content-Disposition: form-data; name="size"
+
+6
+
+Content-Disposition: form-data; name="vendor_id"
+
+1
+
+Content-Disposition: form-data; name="product_food_type_id"
+
+1
+
+Content-Disposition: form-data; name="short_description"
+
+<p>jhkhkjh</p>
+
+Content-Disposition: form-data; name="description"
+
+<p>fdghjk</p>
+
+Content-Disposition: form-data; name="meta_title"
+
+
+
+Content-Disposition: form-data; name="meta_keywords"
+
+
+
+Content-Disposition: form-data; name="meta_description"
+
+
+
+Content-Disposition: form-data; name="price"
+
+12345
+
+Content-Disposition: form-data; name="cost"
+
+
+
+Content-Disposition: form-data; name="special_price"
+
+
+
+Content-Disposition: form-data; name="special_price_from"
+
+
+
+Content-Disposition: form-data; name="special_price_to"
+
+
+
+Content-Disposition: form-data; name="length"
+
+
+
+Content-Disposition: form-data; name="width"
+
+
+
+Content-Disposition: form-data; name="height"
+
+
+
+Content-Disposition: form-data; name="weight"
+
+1234
+
+Content-Disposition: form-data; name="inventories[1]"
+
+0
+
+Content-Disposition: form-data; name="categories[]"
+
+1006
+
+Content-Disposition: form-data; name="channels[]"
+
+1
+
+"""

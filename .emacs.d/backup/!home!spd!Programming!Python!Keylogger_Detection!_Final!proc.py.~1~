@@ -1,0 +1,5 @@
+import os
+
+def get_all_pids():
+    path="/proc"
+    dir_=os.listdir(path)

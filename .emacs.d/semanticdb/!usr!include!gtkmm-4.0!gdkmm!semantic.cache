@@ -1,0 +1,2955 @@
+;; Object semanticdb-project-database-file-15826f1f76ec
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15826f1f76ec"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15826f1f744c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_APPLAUNCHCONTEXT_H" variable (:constant-flag t) nil [92 117])
+            ("gdkmmconfig.h" include (:system-flag t) nil [119 143])
+            ("glibmm/ustring.h" include (:system-flag t) nil [146 173])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [174 200])
+            ("giomm/appinfo.h" include (:system-flag t) nil [980 1006])
+            ("_GdkAppLaunchContext" type
+               (:prototype t
+                :type "struct")
+                nil [1070 1098])
+            ("_GdkAppLaunchContextClass" type
+               (:prototype t
+                :type "struct")
+                nil [1132 1165])
+            ("Gdk" type
+               (:members 
+                  ( ("AppLaunchContext_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1255 1294]))                  
+                :type "namespace")
+                nil [1239 1296])
+            ("Gdk" type
+               (:members 
+                  ( ("Display" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1365 1389])
+                    ("Gio::AppLaunchContext" variable (:type "int") (reparse-symbol namespacesubparts) [1684 6048]))                  
+                :type "namespace")
+                nil [1349 6051])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkAppLaunchContext" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6455 6483])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [6484 6506]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::AppLaunchContext" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [6414 6508]))                  
+                :type "namespace")
+                nil [6070 6510]))          
+      :file "applaunchcontext.h"
+      :pointmax 6553
+      :fsize 6552
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 6402 . 6411) (PUBLIC 1677 . 1683) (punctuation 1675 . 1676) (symbol 1658 . 1674) (symbol 1648 . 1657) (CLASS 1642 . 1647) (USING 1099 . 1104) (USING 1042 . 1047))
+      :lexical-table 
+        '(("_GDKMM_APPLAUNCHCONTEXT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f746c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_CAIROCONTEXT_H" variable (:constant-flag t) nil [88 109])
+            ("glibmm/ustring.h" include (:system-flag t) nil [112 139])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [140 166])
+            ("gdkmm/drawcontext.h" include (:system-flag t) nil [893 923])
+            ("cairomm/context.h" include (:system-flag t) nil [924 952])
+            ("_GdkCairoContext" type
+               (:prototype t
+                :type "struct")
+                nil [1012 1036])
+            ("_GdkCairoContextClass" type
+               (:prototype t
+                :type "struct")
+                nil [1066 1095])
+            ("Gdk" type
+               (:members 
+                  ( ("CairoContext_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1185 1220]))                  
+                :type "namespace")
+                nil [1169 1222])
+            ("Gdk" type
+               (:members 
+                  ( ("Gdk::DrawContext" variable (:type "int") (reparse-symbol namespacesubparts) [1635 3858]))                  
+                :type "namespace")
+                nil [1275 3861])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkCairoContext" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4258 4282])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [4283 4305]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::CairoContext" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [4221 4307]))                  
+                :type "namespace")
+                nil [3881 4309]))          
+      :file "cairocontext.h"
+      :pointmax 4348
+      :fsize 4347
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 4209 . 4218) (PUBLIC 1628 . 1634) (punctuation 1626 . 1627) (symbol 1613 . 1625) (symbol 1603 . 1612) (CLASS 1597 . 1602) (USING 1037 . 1042) (USING 988 . 993))
+      :lexical-table 
+        '(("_GDKMM_CAIROCONTEXT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f748c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_CONTENTFORMATSBUILDER_H" variable (:constant-flag t) nil [97 127])
+            ("glibmm/ustring.h" include (:system-flag t) nil [130 157])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [158 184])
+            ("gdkmm/contentformats.h" include (:system-flag t) nil [912 945])
+            ("Gdk" type
+               (:members 
+                  ( ("final" variable (:type ("ContentFormatsBuilder" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1054 3931]))                  
+                :type "namespace")
+                nil [947 3934])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkContentFormatsBuilder" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4330 4363])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [4364 4386]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::ContentFormatsBuilder" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [4284 4388]))                  
+                :type "namespace")
+                nil [3954 4391]))          
+      :file "contentformatsbuilder.h"
+      :pointmax 4457
+      :fsize 4456
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 4274 . 4283) (symbol 1044 . 1053) (CLASS 1038 . 1043))
+      :lexical-table 
+        '(("_GDKMM_CONTENTFORMATSBUILDER_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f74ac"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_CLIPBOARD_H" variable (:constant-flag t) nil [85 103])
+            ("glibmm/ustring.h" include (:system-flag t) nil [106 133])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [134 160])
+            ("glibmm/object.h" include (:system-flag t) nil [887 913])
+            ("gdkmm/contentformats.h" include (:system-flag t) nil [914 947])
+            ("gdkmm/contentprovider.h" include (:system-flag t) nil [948 982])
+            ("gdkmm/display.h" include (:system-flag t) nil [983 1009])
+            ("gdkmm/texture.h" include (:system-flag t) nil [1010 1036])
+            ("_GdkClipboard" type
+               (:prototype t
+                :type "struct")
+                nil [1093 1114])
+            ("_GdkClipboardClass" type
+               (:prototype t
+                :type "struct")
+                nil [1141 1167])
+            ("Gdk" type
+               (:members 
+                  ( ("Clipboard_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1257 1289]))                  
+                :type "namespace")
+                nil [1241 1291])
+            ("Gio" type
+               (:members 
+                  ( ("Cancellable" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1360 1388])
+                    ("InputStream" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1389 1417]))                  
+                :type "namespace")
+                nil [1344 1419])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [2344 12558]))                  
+                :type "namespace")
+                nil [1421 12561])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkClipboard" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [12952 12973])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [12974 12996]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Clipboard" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [12918 12998]))                  
+                :type "namespace")
+                nil [12581 13000]))          
+      :file "clipboard.h"
+      :pointmax 13036
+      :fsize 13035
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 12906 . 12915) (PUBLIC 2337 . 2343) (punctuation 2335 . 2336) (symbol 2325 . 2334) (symbol 2315 . 2324) (CLASS 2309 . 2314) (USING 1115 . 1120) (USING 1072 . 1077))
+      :lexical-table 
+        '(("_GDKMM_CLIPBOARD_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f74cc"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_CURSOR_H" variable (:constant-flag t) nil [82 97])
+            ("glibmm/ustring.h" include (:system-flag t) nil [100 127])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [128 154])
+            ("gdkmm/texture.h" include (:system-flag t) nil [962 988])
+            ("_GdkCursor" type
+               (:prototype t
+                :type "struct")
+                nil [1042 1060])
+            ("_GdkCursorClass" type
+               (:prototype t
+                :type "struct")
+                nil [1084 1107])
+            ("Gdk" type
+               (:members 
+                  ( ("Cursor_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1197 1226]))                  
+                :type "namespace")
+                nil [1181 1228])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [1365 10496]))                  
+                :type "namespace")
+                nil [1281 10499])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkCursor" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [10883 10901])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [10902 10924]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Cursor" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [10852 10926]))                  
+                :type "namespace")
+                nil [10518 10928]))          
+      :file "cursor.h"
+      :pointmax 10961
+      :fsize 10968
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 10840 . 10849) (PUBLIC 1358 . 1364) (punctuation 1356 . 1357) (symbol 1349 . 1355) (symbol 1339 . 1348) (CLASS 1333 . 1338) (USING 1061 . 1066) (USING 1024 . 1029))
+      :lexical-table 
+        '(("_GDKMM_CURSOR_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f74ec"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_DEVICEPAD_H" variable (:constant-flag t) nil [85 103])
+            ("gdkmmconfig.h" include (:system-flag t) nil [105 129])
+            ("glibmm/ustring.h" include (:system-flag t) nil [132 159])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [160 186])
+            ("glibmm/interface.h" include (:system-flag t) nil [914 943])
+            ("GdkDevicePadInterface" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_GdkDevicePadInterface" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [992 1052])
+            ("_GdkDevicePad" type
+               (:prototype t
+                :type "struct")
+                nil [1148 1169])
+            ("_GdkDevicePadClass" type
+               (:prototype t
+                :type "struct")
+                nil [1196 1222])
+            ("Gdk" type
+               (:members 
+                  ( ("DevicePad_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1312 1344]))                  
+                :type "namespace")
+                nil [1296 1346])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Interface" variable (:type "int") (reparse-symbol namespacesubparts) [2431 6120]))                  
+                :type "namespace")
+                nil [1400 6123])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [6262 6358]))                  
+                :type "namespace")
+                nil [6176 6361])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkDevicePad" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6791 6812])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [6813 6835]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::DevicePad" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [6757 6837]))                  
+                :type "namespace")
+                nil [6420 6840]))          
+      :file "devicepad.h"
+      :pointmax 6894
+      :fsize 6893
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 6745 . 6754) (PUBLIC 6255 . 6261) (punctuation 6253 . 6254) (punctuation 6251 . 6252) (symbol 6244 . 6251) (punctuation 6243 . 6244) (punctuation 6242 . 6243) (symbol 6233 . 6242) (punctuation 6232 . 6233) (punctuation 6231 . 6232) (symbol 6228 . 6231) (punctuation 6227 . 6228) (symbol 6222 . 6227) (symbol 6212 . 6221) (CLASS 6206 . 6211) (punctuation 6204 . 6205) (punctuation 6203 . 6204) (TEMPLATE 6194 . 6202) (PUBLIC 2424 . 2430) (punctuation 2422 . 2423) (symbol 2412 . 2421) (symbol 2402 . 2411) (CLASS 2396 . 2401) (USING 1170 . 1175) (USING 1127 . 1132))
+      :lexical-table 
+        '(("_GDKMM_DEVICEPAD_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f750c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_DEVICETOOL_H" variable (:constant-flag t) nil [86 105])
+            ("glibmm/ustring.h" include (:system-flag t) nil [108 135])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [136 162])
+            ("glibmm/object.h" include (:system-flag t) nil [889 915])
+            ("gdkmm/enums.h" include (:system-flag t) nil [916 940])
+            ("_GdkDeviceTool" type
+               (:prototype t
+                :type "struct")
+                nil [998 1020])
+            ("_GdkDeviceToolClass" type
+               (:prototype t
+                :type "struct")
+                nil [1048 1075])
+            ("Gdk" type
+               (:members 
+                  ( ("DeviceTool_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1165 1198]))                  
+                :type "namespace")
+                nil [1149 1200])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [1378 6316]))                  
+                :type "namespace")
+                nil [1253 6319])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [6456 6550]))                  
+                :type "namespace")
+                nil [6372 6553])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkDeviceTool" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6985 7007])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [7008 7030]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::DeviceTool" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [6950 7032]))                  
+                :type "namespace")
+                nil [6612 7034]))          
+      :file "devicetool.h"
+      :pointmax 7071
+      :fsize 7070
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 6938 . 6947) (PUBLIC 6449 . 6455) (punctuation 6447 . 6448) (punctuation 6445 . 6446) (symbol 6441 . 6445) (punctuation 6440 . 6441) (punctuation 6439 . 6440) (symbol 6429 . 6439) (punctuation 6428 . 6429) (punctuation 6427 . 6428) (symbol 6424 . 6427) (punctuation 6423 . 6424) (symbol 6418 . 6423) (symbol 6408 . 6417) (CLASS 6402 . 6407) (punctuation 6400 . 6401) (punctuation 6399 . 6400) (TEMPLATE 6390 . 6398) (PUBLIC 1371 . 1377) (punctuation 1369 . 1370) (symbol 1358 . 1368) (symbol 1348 . 1357) (CLASS 1342 . 1347) (USING 1021 . 1026) (USING 976 . 981))
+      :lexical-table 
+        '(("_GDKMM_DEVICETOOL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f752c"
+      :major-mode c-mode
+      :tags 
+        '( ("_GDKMM_DEVICEWITHPAD_H" variable (:constant-flag t) nil [40 62])
+            ("gdkmm/device.h" include (:system-flag t) nil [789 814])
+            ("gdkmm/devicepad.h" include (:system-flag t) nil [815 843])
+            ("Gdk" type
+               (:members 
+                  ( ("DevicePad" variable (:type "int") (reparse-symbol namespacesubparts) [1197 1587]))                  
+                :type "namespace")
+                nil [845 1590]))          
+      :file "devicewithpad.h"
+      :pointmax 1645
+      :fsize 1644
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((PUBLIC 1190 . 1196) (punctuation 1188 . 1189) (symbol 1182 . 1188) (PUBLIC 1175 . 1181) (punctuation 1173 . 1174) (symbol 1159 . 1172) (symbol 1149 . 1158) (CLASS 1143 . 1148))
+      :lexical-table 
+        '(("_GDKMM_DEVICEWITHPAD_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f754c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_DISPLAY_H" variable (:constant-flag t) nil [83 99])
+            ("glibmm/ustring.h" include (:system-flag t) nil [102 129])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [130 156])
+            ("vector" include (:system-flag t) nil [964 981])
+            ("gdkmm/applaunchcontext.h" include (:system-flag t) nil [983 1018])
+            ("gdkmm/event.h" include (:system-flag t) nil [1019 1043])
+            ("_GdkDisplay" type
+               (:prototype t
+                :type "struct")
+                nil [1098 1117])
+            ("_GdkDisplayClass" type
+               (:prototype t
+                :type "struct")
+                nil [1142 1166])
+            ("Gdk" type
+               (:members 
+                  ( ("Display_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1256 1286]))                  
+                :type "namespace")
+                nil [1240 1288])
+            ("Gio" type
+               (:members 
+                  ( ("ListModel" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1357 1383]))                  
+                :type "namespace")
+                nil [1341 1385])
+            ("Gdk" type
+               (:members 
+                  ( ("Clipboard" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1405 1431])
+                    ("Device" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1432 1455])
+                    ("GLContext" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1456 1482])
+                    ("Seat" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1483 1504])
+                    ("Monitor" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1505 1529])
+                    ("Surface" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1530 1554])
+                    ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [2179 16982])
+                    ("get_setting" function
+                       (:template 
+                          ( ("ValueType" type (:type "class") nil nil))                          
+                        :type "bool"
+                        :arguments 
+                          ( ("name" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Glib::ustring" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [17037 17063])
+                            ("value" variable
+                               (:reference 1
+                                :type ("ValueType" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [17064 17081]))                          
+                        :parent "Display"
+                        :methodconst-flag t)
+                        (reparse-symbol namespacesubparts) [16984 17347]))                  
+                :type "namespace")
+                nil [1387 17351])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkDisplay" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [17738 17757])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [17758 17780]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Display" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [17706 17782]))                  
+                :type "namespace")
+                nil [17371 17784]))          
+      :file "display.h"
+      :pointmax 17818
+      :fsize 17821
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 17694 . 17703) (PUBLIC 2172 . 2178) (punctuation 2170 . 2171) (symbol 2162 . 2169) (symbol 2152 . 2161) (CLASS 2146 . 2151) (USING 1118 . 1123) (USING 1079 . 1084))
+      :lexical-table 
+        '(("_GDKMM_DISPLAY_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f756c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_DISPLAYMANAGER_H" variable (:constant-flag t) nil [90 113])
+            ("glibmm/ustring.h" include (:system-flag t) nil [116 143])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [144 170])
+            ("vector" include (:system-flag t) nil [973 990])
+            ("glibmm/object.h" include (:system-flag t) nil [992 1018])
+            ("gdkmm/display.h" include (:system-flag t) nil [1019 1045])
+            ("_GdkDisplayManager" type
+               (:prototype t
+                :type "struct")
+                nil [1107 1133])
+            ("_GdkDisplayManagerClass" type
+               (:prototype t
+                :type "struct")
+                nil [1165 1196])
+            ("Gdk" type
+               (:members 
+                  ( ("DisplayManager_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1286 1323]))                  
+                :type "namespace")
+                nil [1270 1325])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [1592 5599]))                  
+                :type "namespace")
+                nil [1378 5602])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkDisplayManager" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6003 6029])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [6030 6052]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::DisplayManager" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [5964 6054]))                  
+                :type "namespace")
+                nil [5622 6056]))          
+      :file "displaymanager.h"
+      :pointmax 6097
+      :fsize 6096
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 5952 . 5961) (PUBLIC 1585 . 1591) (punctuation 1583 . 1584) (symbol 1568 . 1582) (symbol 1558 . 1567) (CLASS 1552 . 1557) (USING 1134 . 1139) (USING 1081 . 1086))
+      :lexical-table 
+        '(("_GDKMM_DISPLAYMANAGER_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f758c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_DRAGSURFACE_H" variable (:constant-flag t) nil [87 107])
+            ("gdkmmconfig.h" include (:system-flag t) nil [109 133])
+            ("glibmm/ustring.h" include (:system-flag t) nil [136 163])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [164 190])
+            ("glibmm/interface.h" include (:system-flag t) nil [918 947])
+            ("GdkDragSurfaceInterface" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_GdkDragSurfaceInterface" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [996 1060])
+            ("_GdkDragSurface" type
+               (:prototype t
+                :type "struct")
+                nil [1158 1181])
+            ("_GdkDragSurfaceClass" type
+               (:prototype t
+                :type "struct")
+                nil [1210 1238])
+            ("Gdk" type
+               (:members 
+                  ( ("DragSurface_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1328 1362]))                  
+                :type "namespace")
+                nil [1312 1364])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Interface" variable (:type "int") (reparse-symbol namespacesubparts) [1613 4070]))                  
+                :type "namespace")
+                nil [1418 4073])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkDragSurface" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4468 4491])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [4492 4514]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::DragSurface" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [4432 4516]))                  
+                :type "namespace")
+                nil [4093 4519]))          
+      :file "dragsurface.h"
+      :pointmax 4575
+      :fsize 4574
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 4420 . 4429) (PUBLIC 1606 . 1612) (punctuation 1604 . 1605) (symbol 1592 . 1603) (symbol 1582 . 1591) (CLASS 1576 . 1581) (USING 1182 . 1187) (USING 1135 . 1140))
+      :lexical-table 
+        '(("_GDKMM_DRAGSURFACE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f75ac"
+      :major-mode c-mode
+      :tags 
+        '( ("_GDKMM_DRAGSURFACEIMPL_H" variable (:constant-flag t) nil [42 66])
+            ("gdkmmconfig.h" include (:system-flag t) nil [794 818])
+            ("gdkmm/dragsurface.h" include (:system-flag t) nil [819 849])
+            ("gdkmm/surface.h" include (:system-flag t) nil [850 876])
+            ("Gdk" type
+               (:members 
+                  ( ("Surface" variable (:type "int") (reparse-symbol namespacesubparts) [1718 2188]))                  
+                :type "namespace")
+                nil [878 2191]))          
+      :file "dragsurfaceimpl.h"
+      :pointmax 2248
+      :fsize 2247
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((PUBLIC 1711 . 1717) (punctuation 1709 . 1710) (symbol 1698 . 1709) (PUBLIC 1691 . 1697) (punctuation 1689 . 1690) (symbol 1673 . 1688) (symbol 1663 . 1672) (CLASS 1657 . 1662))
+      :lexical-table 
+        '(("_GDKMM_DRAGSURFACEIMPL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f75cc"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_DROP_H" variable (:constant-flag t) nil [80 93])
+            ("glibmm/ustring.h" include (:system-flag t) nil [96 123])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [124 150])
+            ("glibmm/object.h" include (:system-flag t) nil [877 903])
+            ("giomm/asyncresult.h" include (:system-flag t) nil [904 934])
+            ("gdkmm/enums.h" include (:system-flag t) nil [935 959])
+            ("_GdkDrop" type
+               (:prototype t
+                :type "struct")
+                nil [1011 1027])
+            ("_GdkDropClass" type
+               (:prototype t
+                :type "struct")
+                nil [1049 1070])
+            ("Gdk" type
+               (:members 
+                  ( ("Drop_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1160 1187]))                  
+                :type "namespace")
+                nil [1144 1189])
+            ("Gio" type
+               (:members 
+                  ( ("Cancellable" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1258 1286])
+                    ("InputStream" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1287 1315]))                  
+                :type "namespace")
+                nil [1242 1317])
+            ("Gdk" type
+               (:members 
+                  ( ("ContentFormats" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1335 1366])
+                    ("Device" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1367 1390])
+                    ("Drag" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1391 1412])
+                    ("Display" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1413 1437])
+                    ("Surface" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1438 1462])
+                    ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [1618 12195]))                  
+                :type "namespace")
+                nil [1319 12198])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkDrop" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [12579 12595])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [12596 12618]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Drop" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [12550 12620]))                  
+                :type "namespace")
+                nil [12218 12622]))          
+      :file "drop.h"
+      :pointmax 12653
+      :fsize 12652
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 12538 . 12547) (PUBLIC 1611 . 1617) (punctuation 1609 . 1610) (symbol 1604 . 1608) (symbol 1594 . 1603) (CLASS 1588 . 1593) (USING 1028 . 1033) (USING 995 . 1000))
+      :lexical-table 
+        '(("_GDKMM_DROP_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f75ec"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_EVENT_H" variable (:constant-flag t) nil [81 95])
+            ("glibmm/ustring.h" include (:system-flag t) nil [98 125])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [126 152])
+            ("glibmm/refptr.h" include (:system-flag t) nil [958 984])
+            ("glibmm/value.h" include (:system-flag t) nil [985 1010])
+            ("gdkmm/enums.h" include (:system-flag t) nil [1011 1035])
+            ("gdkmm/timecoord.h" include (:system-flag t) nil [1036 1064])
+            ("Gdk" type
+               (:members 
+                  ( ("Device" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1410 1433])
+                    ("DeviceTool" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1434 1461])
+                    ("Display" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1462 1486])
+                    ("Drop" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1487 1508])
+                    ("Seat" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1509 1530])
+                    ("Surface" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1531 1555])
+                    ("KeyMatch" type (:type "class") (reparse-symbol namespacesubparts) [2059 2105]))                  
+                :type "namespace")
+                nil [1394 2109])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [2237 2323]))                  
+                :type "namespace")
+                nil [2161 2326])
+            ("Gdk" type
+               (:members 
+                  ( ("EventSequence" type
+                       (:prototype t
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [2637 2658])
+                    ("final" variable (:type ("Event" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [3224 20472]))                  
+                :type "namespace")
+                nil [2384 20475])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [20607 20696]))                  
+                :type "namespace")
+                nil [20528 20699])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkEvent" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [21102 21119])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [21120 21142]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Event" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [21072 21144]))                  
+                :type "namespace")
+                nil [20758 21147]))          
+      :file "event.h"
+      :pointmax 21197
+      :fsize 21196
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 21062 . 21071) (PUBLIC 20600 . 20606) (punctuation 20598 . 20599) (punctuation 20596 . 20597) (symbol 20592 . 20596) (punctuation 20591 . 20592) (punctuation 20590 . 20591) (symbol 20585 . 20590) (punctuation 20584 . 20585) (punctuation 20583 . 20584) (symbol 20580 . 20583) (punctuation 20579 . 20580) (symbol 20574 . 20579) (symbol 20564 . 20573) (CLASS 20558 . 20563) (punctuation 20556 . 20557) (punctuation 20555 . 20556) (TEMPLATE 20546 . 20554) (symbol 3214 . 3223) (CLASS 3208 . 3213) (PUBLIC 2230 . 2236) (punctuation 2228 . 2229) (punctuation 2226 . 2227) (symbol 2218 . 2226) (punctuation 2217 . 2218) (punctuation 2216 . 2217) (symbol 2213 . 2216) (punctuation 2212 . 2213) (symbol 2207 . 2212) (symbol 2197 . 2206) (CLASS 2191 . 2196) (punctuation 2189 . 2190) (punctuation 2188 . 2189) (TEMPLATE 2179 . 2187) (symbol 2097 . 2102) (punctuation 2093 . 2094) (symbol 2086 . 2093) (punctuation 2082 . 2083) (symbol 2078 . 2082) (ENUM 2054 . 2058))
+      :lexical-table 
+        '(("_GDKMM_EVENT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f760c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_FRAMECLOCK_H" variable (:constant-flag t) nil [86 105])
+            ("glibmm/ustring.h" include (:system-flag t) nil [108 135])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [136 162])
+            ("glibmm/object.h" include (:system-flag t) nil [889 915])
+            ("gdkmm/frametimings.h" include (:system-flag t) nil [916 947])
+            ("GdkFrameClock" type
+               (:typedef ("_GdkFrameClock" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [961 1005])
+            ("_GdkFrameClock" type
+               (:prototype t
+                :type "struct")
+                nil [1062 1084])
+            ("_GdkFrameClockClass" type
+               (:prototype t
+                :type "struct")
+                nil [1112 1139])
+            ("Gdk" type
+               (:members 
+                  ( ("FrameClock_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1229 1262]))                  
+                :type "namespace")
+                nil [1213 1264])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [3294 13750]))                  
+                :type "namespace")
+                nil [1317 13753])
+            ("Gdk" type
+               (:members 
+                  ( ("|" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13851 13873])
+                            ("rhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13874 13896]))                          
+                        :type ("FrameClock::Phase" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [13816 13998])
+                    ("&" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14062 14084])
+                            ("rhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14085 14107]))                          
+                        :type ("FrameClock::Phase" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14027 14209])
+                    ("^" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14273 14295])
+                            ("rhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14296 14318]))                          
+                        :type ("FrameClock::Phase" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14238 14420])
+                    ("~" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("flags" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14484 14508]))                          
+                        :type ("FrameClock::Phase" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14449 14584])
+                    ("|=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("FrameClock::Phase" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14650 14673])
+                            ("rhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14674 14696]))                          
+                        :type ("FrameClock::Phase" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14613 14806])
+                    ("&=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("FrameClock::Phase" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14872 14895])
+                            ("rhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14896 14918]))                          
+                        :type ("FrameClock::Phase" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14835 15028])
+                    ("^=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("FrameClock::Phase" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [15094 15117])
+                            ("rhs" variable (:type ("FrameClock::Phase" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15118 15140]))                          
+                        :type ("FrameClock::Phase" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [15057 15250]))                  
+                :type "namespace")
+                nil [13772 15252])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Flags" variable (:type "int") (reparse-symbol namespacesubparts) [15389 15485]))                  
+                :type "namespace")
+                nil [15304 15488])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkFrameClock" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [15920 15942])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [15943 15965]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::FrameClock" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [15885 15967]))                  
+                :type "namespace")
+                nil [15547 15969]))          
+      :file "frameclock.h"
+      :pointmax 16006
+      :fsize 16017
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 15873 . 15882) (PUBLIC 15382 . 15388) (punctuation 15380 . 15381) (punctuation 15378 . 15379) (symbol 15373 . 15378) (punctuation 15372 . 15373) (punctuation 15371 . 15372) (symbol 15361 . 15371) (punctuation 15360 . 15361) (punctuation 15359 . 15360) (symbol 15356 . 15359) (punctuation 15355 . 15356) (symbol 15350 . 15355) (symbol 15340 . 15349) (CLASS 15334 . 15339) (punctuation 15332 . 15333) (punctuation 15331 . 15332) (TEMPLATE 15322 . 15330) (PUBLIC 3287 . 3293) (punctuation 3285 . 3286) (symbol 3274 . 3284) (symbol 3264 . 3273) (CLASS 3258 . 3263) (USING 1085 . 1090) (USING 1040 . 1045))
+      :lexical-table 
+        '(("_GDKMM_FRAMECLOCK_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f762c"
+      :major-mode c-mode
+      :tags 
+        '( ("_GDKMM_GENERAL_H" variable (:constant-flag t) nil [833 849])
+            ("gdkmm/pixbuf.h" include (:system-flag t) nil [851 876])
+            ("gdkmm/rectangle.h" include (:system-flag t) nil [877 905])
+            ("gdkmm/rgba.h" include (:system-flag t) nil [906 929])
+            ("gdkmm/glcontext.h" include (:system-flag t) nil [930 958])
+            ("gdkmm/surface.h" include (:system-flag t) nil [959 985])
+            ("cairomm/context.h" include (:system-flag t) nil [986 1014])
+            ("cairomm/region.h" include (:system-flag t) nil [1015 1042])
+            ("cairomm/surface.h" include (:system-flag t) nil [1043 1071])
+            ("Gdk" type
+               (:members 
+                  ( ("Cairo" type
+                       (:members 
+                          ( ("set_source_rgba" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("Cairo::RefPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1336 1350])
+                                    ("" variable (:type ("Cairo::Context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1353 1369])
+                                    ("" variable (:type ("context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1371 1379])
+                                    ("color" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Gdk::RGBA" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1380 1403]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1307 1404])
+                            ("set_source_pixbuf" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("Cairo::RefPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1919 1933])
+                                    ("" variable (:type ("Cairo::Context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1936 1952])
+                                    ("" variable (:type ("context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1954 1962])
+                                    ("pixbuf" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Glib::RefPtr" type
+                                             (:template-specifier 
+                                                ( ("Gdk::Pixbuf" type (:constant-flag t) nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1965 2011])
+                                    ("pixbuf_x" variable
+                                       (:default-value "0"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2012 2031])
+                                    ("pixbuf_y" variable
+                                       (:default-value "0"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2033 2052]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1888 2054])
+                            ("add_rectangle_to_path" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("Cairo::RefPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2294 2308])
+                                    ("" variable (:type ("Cairo::Context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2311 2327])
+                                    ("" variable (:type ("context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2329 2337])
+                                    ("rectangle" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Gdk::Rectangle" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2338 2370]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [2259 2371])
+                            ("add_region_to_path" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("Cairo::RefPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2599 2613])
+                                    ("" variable (:type ("Cairo::Context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2616 2632])
+                                    ("" variable (:type ("context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2634 2642])
+                                    ("" variable (:type ("Cairo::RefPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2651 2665])
+                                    ("" variable (:type ("Cairo::Region" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2668 2682])
+                                    ("" variable (:type ("region" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2684 2691]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [2567 2692])
+                            ("create_region_from_surface" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("Cairo::RefPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3076 3090])
+                                    ("" variable (:type ("Cairo::Surface" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3093 3108])
+                                    ("" variable (:type ("surface" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3110 3118]))                                  
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [3041 3119])
+                            ("draw_from_gl" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type ("Cairo::RefPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5076 5090])
+                                    ("" variable (:type ("Cairo::Context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5093 5109])
+                                    ("" variable (:type ("context" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5111 5119])
+                                    ("surface" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Glib::RefPtr" type
+                                             (:template-specifier 
+                                                ( ("Gdk::Surface" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [5122 5164])
+                                    ("source" variable (:type "int") (reparse-symbol arg-sub-list) [5165 5176])
+                                    ("source_type" variable (:type "int") (reparse-symbol arg-sub-list) [5177 5193])
+                                    ("buffer_scale" variable (:type "int") (reparse-symbol arg-sub-list) [5196 5213])
+                                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [5214 5220])
+                                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [5221 5227])
+                                    ("width" variable (:type "int") (reparse-symbol arg-sub-list) [5228 5238])
+                                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [5239 5250]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [5050 5251]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1090 5289]))                  
+                :type "namespace")
+                nil [1073 5310]))          
+      :file "general.h"
+      :pointmax 5354
+      :fsize 5353
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((punctuation 5109 . 5110) (punctuation 5108 . 5109) (punctuation 5092 . 5093) (punctuation 5091 . 5092) (punctuation 5089 . 5090) (punctuation 5075 . 5076) (punctuation 5074 . 5075) (CONST 5068 . 5073) (symbol 5040 . 5049) (punctuation 3108 . 3109) (punctuation 3107 . 3108) (punctuation 3092 . 3093) (punctuation 3091 . 3092) (punctuation 3089 . 3090) (punctuation 3075 . 3076) (punctuation 3074 . 3075) (CONST 3068 . 3073) (punctuation 3039 . 3040) (symbol 3033 . 3039) (punctuation 3032 . 3033) (punctuation 3031 . 3032) (symbol 3026 . 3031) (punctuation 3025 . 3026) (punctuation 3024 . 3025) (punctuation 3022 . 3023) (symbol 3016 . 3022) (punctuation 3015 . 3016) (punctuation 3014 . 3015) (symbol 3009 . 3014) (punctuation 3008 . 3009) (punctuation 3007 . 3008) (symbol 2997 . 3006) (punctuation 2682 . 2683) (punctuation 2681 . 2682) (punctuation 2667 . 2668) (punctuation 2666 . 2667) (punctuation 2664 . 2665) (punctuation 2650 . 2651) (punctuation 2649 . 2650) (CONST 2643 . 2648) (punctuation 2632 . 2633) (punctuation 2631 . 2632) (punctuation 2615 . 2616) (punctuation 2614 . 2615) (punctuation 2612 . 2613) (punctuation 2598 . 2599) (punctuation 2597 . 2598) (CONST 2591 . 2596) (symbol 2557 . 2566) (punctuation 2327 . 2328) (punctuation 2326 . 2327) (punctuation 2310 . 2311) (punctuation 2309 . 2310) (punctuation 2307 . 2308) (punctuation 2293 . 2294) (punctuation 2292 . 2293) (CONST 2286 . 2291) (symbol 2249 . 2258) (punctuation 1952 . 1953) (punctuation 1951 . 1952) (punctuation 1935 . 1936) (punctuation 1934 . 1935) (punctuation 1932 . 1933) (punctuation 1918 . 1919) (punctuation 1917 . 1918) (CONST 1911 . 1916) (symbol 1878 . 1887) (punctuation 1369 . 1370) (punctuation 1368 . 1369) (punctuation 1352 . 1353) (punctuation 1351 . 1352) (punctuation 1349 . 1350) (punctuation 1335 . 1336) (punctuation 1334 . 1335) (CONST 1328 . 1333) (symbol 1297 . 1306))
+      :lexical-table 
+        '(("_GDKMM_GENERAL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f764c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_GLCONTEXT_H" variable (:constant-flag t) nil [85 103])
+            ("glibmm/ustring.h" include (:system-flag t) nil [106 133])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [134 160])
+            ("gdkmmconfig.h" include (:system-flag t) nil [960 984])
+            ("gdkmm/drawcontext.h" include (:system-flag t) nil [985 1015])
+            ("gdkmm/display.h" include (:system-flag t) nil [1016 1042])
+            ("gdkmm/surface.h" include (:system-flag t) nil [1043 1069])
+            ("_GdkGLContext" type
+               (:prototype t
+                :type "struct")
+                nil [1126 1147])
+            ("_GdkGLContextClass" type
+               (:prototype t
+                :type "struct")
+                nil [1174 1200])
+            ("Gdk" type
+               (:members 
+                  ( ("GLContext_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1290 1322]))                  
+                :type "namespace")
+                nil [1274 1324])
+            ("Gdk" type
+               (:members 
+                  ( ("GLAPI" type (:type "class") (reparse-symbol namespacesubparts) [2796 2843])
+                    ("|" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2895 2905])
+                            ("rhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2906 2916]))                          
+                        :type ("GLAPI" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2872 3006])
+                    ("&" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3058 3068])
+                            ("rhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3069 3079]))                          
+                        :type ("GLAPI" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [3035 3169])
+                    ("^" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3221 3231])
+                            ("rhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3232 3242]))                          
+                        :type ("GLAPI" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [3198 3332])
+                    ("~" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("flags" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3384 3396]))                          
+                        :type ("GLAPI" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [3361 3460])
+                    ("|=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("GLAPI" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3514 3525])
+                            ("rhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3526 3536]))                          
+                        :type ("GLAPI" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [3489 3634])
+                    ("&=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("GLAPI" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3688 3699])
+                            ("rhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3700 3710]))                          
+                        :type ("GLAPI" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [3663 3808])
+                    ("^=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("GLAPI" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3862 3873])
+                            ("rhs" variable (:type ("GLAPI" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3874 3884]))                          
+                        :type ("GLAPI" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [3837 3982]))                  
+                :type "namespace")
+                nil [1377 3986])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Flags" variable (:type "int") (reparse-symbol namespacesubparts) [4111 4195]))                  
+                :type "namespace")
+                nil [4038 4198])
+            ("Gdk" type
+               (:members 
+                  ( ("GLError" type
+                       (:superclasses 
+                          ( ("Glib::Error" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [4348 4355])
+                            ("Code" type
+                               (:members 
+                                  ( ("NOT_AVAILABLE" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4871 4885])
+                                    ("UNSUPPORTED_FORMAT" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4890 4909])
+                                    ("UNSUPPORTED_PROFILE" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4914 4934])
+                                    ("COMPILATION_FAILED" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4939 4958])
+                                    ("LINK_FAILED" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4963 4978]))                                  
+                                :type "enum")
+                                (reparse-symbol classsubparts) [4853 4979])
+                            ("GLError" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("error_code" variable (:type ("Code" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5001 5017])
+                                    ("error_message" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Glib::ustring" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5018 5053]))                                  
+                                :type ("GDKMM_API" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4983 5054])
+                            ("GLError" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("gobject" variable
+                                       (:pointer 1
+                                        :type ("GError" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5084 5100]))                                  
+                                :type ("GLError" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5076 5101])
+                            ("code" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :type ("Code" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5114 5132])
+                            ("private" label nil (reparse-symbol classsubparts) [5167 5175])
+                            ("throw_func" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("gobject" variable
+                                       (:pointer 1
+                                        :type ("GError" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5212 5228]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [5189 5229])
+                            ("wrap_init" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [5250 5267]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [4311 5328]))                  
+                :type "namespace")
+                nil [4256 5331])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [5464 5555]))                  
+                :type "namespace")
+                nil [5383 5558])
+            ("Gdk" type
+               (:members 
+                  ( ("DrawContext" variable (:type "int") (reparse-symbol namespacesubparts) [6252 18955]))                  
+                :type "namespace")
+                nil [5616 18958])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkGLContext" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [19349 19370])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [19371 19393]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::GLContext" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [19315 19395]))                  
+                :type "namespace")
+                nil [18978 19397]))          
+      :file "glcontext.h"
+      :pointmax 19433
+      :fsize 19432
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 19303 . 19312) (PUBLIC 6245 . 6251) (punctuation 6243 . 6244) (symbol 6233 . 6242) (symbol 6223 . 6232) (CLASS 6217 . 6222) (PUBLIC 5457 . 5463) (punctuation 5455 . 5456) (punctuation 5453 . 5454) (symbol 5449 . 5453) (punctuation 5448 . 5449) (punctuation 5447 . 5448) (symbol 5440 . 5447) (punctuation 5439 . 5440) (punctuation 5438 . 5439) (symbol 5435 . 5438) (punctuation 5434 . 5435) (symbol 5429 . 5434) (symbol 5419 . 5428) (CLASS 5413 . 5418) (punctuation 5411 . 5412) (punctuation 5410 . 5411) (TEMPLATE 5401 . 5409) (symbol 5240 . 5249) (FRIEND 5233 . 5239) (symbol 5179 . 5188) (symbol 5104 . 5113) (EXPLICIT 5067 . 5075) (symbol 5057 . 5066) (PUBLIC 4104 . 4110) (punctuation 4102 . 4103) (punctuation 4100 . 4101) (symbol 4095 . 4100) (punctuation 4094 . 4095) (punctuation 4093 . 4094) (symbol 4090 . 4093) (punctuation 4089 . 4090) (symbol 4084 . 4089) (symbol 4074 . 4083) (CLASS 4068 . 4073) (punctuation 4066 . 4067) (punctuation 4065 . 4066) (TEMPLATE 4056 . 4064) (number 2839 . 2840) (punctuation 2837 . 2838) (punctuation 2836 . 2837) (number 2834 . 2835) (punctuation 2832 . 2833) (symbol 2827 . 2831) (punctuation 2823 . 2824) (number 2822 . 2823) (punctuation 2820 . 2821) (punctuation 2819 . 2820) (number 2817 . 2818) (punctuation 2815 . 2816) (symbol 2812 . 2814) (ENUM 2791 . 2795) (USING 1148 . 1153) (USING 1105 . 1110))
+      :lexical-table 
+        '(("_GDKMM_GLCONTEXT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f766c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_GLTEXTURE_H" variable (:constant-flag t) nil [85 103])
+            ("glibmm/ustring.h" include (:system-flag t) nil [106 133])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [134 160])
+            ("gdkmm/texture.h" include (:system-flag t) nil [887 913])
+            ("_GdkGLTexture" type
+               (:prototype t
+                :type "struct")
+                nil [970 991])
+            ("_GdkGLTextureClass" type
+               (:prototype t
+                :type "struct")
+                nil [1018 1044])
+            ("Gdk" type
+               (:members 
+                  ( ("GLTexture_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1134 1166]))                  
+                :type "namespace")
+                nil [1118 1168])
+            ("Gdk" type
+               (:members 
+                  ( ("GLContext" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1237 1263])
+                    ("Gdk::Texture" variable (:type "int") (reparse-symbol namespacesubparts) [1377 4214]))                  
+                :type "namespace")
+                nil [1221 4217])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkGLTexture" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4608 4629])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [4630 4652]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::GLTexture" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [4574 4654]))                  
+                :type "namespace")
+                nil [4237 4656]))          
+      :file "gltexture.h"
+      :pointmax 4692
+      :fsize 4691
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 4562 . 4571) (PUBLIC 1370 . 1376) (punctuation 1368 . 1369) (symbol 1358 . 1367) (symbol 1348 . 1357) (CLASS 1342 . 1347) (USING 992 . 997) (USING 949 . 954))
+      :lexical-table 
+        '(("_GDKMM_GLTEXTURE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f768c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_MEMORYTEXTURE_H" variable (:constant-flag t) nil [89 111])
+            ("glibmm/ustring.h" include (:system-flag t) nil [114 141])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [142 168])
+            ("gdkmm/texture.h" include (:system-flag t) nil [895 921])
+            ("glibmm/bytes.h" include (:system-flag t) nil [922 947])
+            ("gdk/gdk.h" include (:system-flag t) nil [948 968])
+            ("_GdkMemoryTexture" type
+               (:prototype t
+                :type "struct")
+                nil [1055 1080])
+            ("_GdkMemoryTextureClass" type
+               (:prototype t
+                :type "struct")
+                nil [1111 1141])
+            ("Gdk" type
+               (:members 
+                  ( ("MemoryTexture_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1231 1267]))                  
+                :type "namespace")
+                nil [1215 1269])
+            ("Gdk" type
+               (:members 
+                  ( ("Gdk::Texture" variable (:type "int") (reparse-symbol namespacesubparts) [1455 7702]))                  
+                :type "namespace")
+                nil [1322 7705])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [7847 7946]))                  
+                :type "namespace")
+                nil [7758 7949])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkMemoryTexture" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8387 8412])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [8413 8435]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::MemoryTexture" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [8349 8437]))                  
+                :type "namespace")
+                nil [8008 8439]))          
+      :file "memorytexture.h"
+      :pointmax 8479
+      :fsize 8478
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 8337 . 8346) (PUBLIC 7840 . 7846) (punctuation 7838 . 7839) (punctuation 7836 . 7837) (symbol 7830 . 7836) (punctuation 7829 . 7830) (punctuation 7828 . 7829) (symbol 7815 . 7828) (punctuation 7814 . 7815) (punctuation 7813 . 7814) (symbol 7810 . 7813) (punctuation 7809 . 7810) (symbol 7804 . 7809) (symbol 7794 . 7803) (CLASS 7788 . 7793) (punctuation 7786 . 7787) (punctuation 7785 . 7786) (TEMPLATE 7776 . 7784) (PUBLIC 1448 . 1454) (punctuation 1446 . 1447) (symbol 1432 . 1445) (symbol 1422 . 1431) (CLASS 1416 . 1421) (USING 1081 . 1086) (USING 1030 . 1035))
+      :lexical-table 
+        '(("_GDKMM_MEMORYTEXTURE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f76ac"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_MONITOR_H" variable (:constant-flag t) nil [83 99])
+            ("glibmm/ustring.h" include (:system-flag t) nil [102 129])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [130 156])
+            ("glibmm/object.h" include (:system-flag t) nil [883 909])
+            ("gdkmm/rectangle.h" include (:system-flag t) nil [910 938])
+            ("_GdkMonitor" type
+               (:prototype t
+                :type "struct")
+                nil [993 1012])
+            ("_GdkMonitorClass" type
+               (:prototype t
+                :type "struct")
+                nil [1037 1061])
+            ("Gdk" type
+               (:members 
+                  ( ("Monitor_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1151 1181]))                  
+                :type "namespace")
+                nil [1135 1183])
+            ("Gdk" type
+               (:members 
+                  ( ("SubpixelLayout" type (:type "class") (reparse-symbol namespacesubparts) [1978 2089]))                  
+                :type "namespace")
+                nil [1236 2093])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [2227 2319]))                  
+                :type "namespace")
+                nil [2145 2322])
+            ("Gdk" type
+               (:members 
+                  ( ("Display" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [2398 2422])
+                    ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [2795 10891]))                  
+                :type "namespace")
+                nil [2380 10894])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkMonitor" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [11281 11300])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [11301 11323]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Monitor" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [11249 11325]))                  
+                :type "namespace")
+                nil [10914 11327]))          
+      :file "monitor.h"
+      :pointmax 11361
+      :fsize 11370
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 11237 . 11246) (PUBLIC 2788 . 2794) (punctuation 2786 . 2787) (symbol 2778 . 2785) (symbol 2768 . 2777) (CLASS 2762 . 2767) (PUBLIC 2220 . 2226) (punctuation 2218 . 2219) (punctuation 2216 . 2217) (symbol 2202 . 2216) (punctuation 2201 . 2202) (punctuation 2200 . 2201) (symbol 2197 . 2200) (punctuation 2196 . 2197) (symbol 2191 . 2196) (symbol 2181 . 2190) (CLASS 2175 . 2180) (punctuation 2173 . 2174) (punctuation 2172 . 2173) (TEMPLATE 2163 . 2171) (symbol 2074 . 2086) (punctuation 2070 . 2071) (symbol 2058 . 2070) (punctuation 2054 . 2055) (symbol 2040 . 2054) (punctuation 2036 . 2037) (symbol 2022 . 2036) (punctuation 2018 . 2019) (symbol 2014 . 2018) (punctuation 2010 . 2011) (symbol 2003 . 2010) (ENUM 1973 . 1977) (USING 1013 . 1018) (USING 974 . 979))
+      :lexical-table 
+        '(("_GDKMM_MONITOR_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f1f76cc"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_PAINTABLE_H" variable (:constant-flag t) nil [85 103])
+            ("gdkmmconfig.h" include (:system-flag t) nil [105 129])
+            ("glibmm/ustring.h" include (:system-flag t) nil [132 159])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [160 186])
+            ("glibmm/interface.h" include (:system-flag t) nil [914 943])
+            ("GdkPaintableInterface" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_GdkPaintableInterface" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [992 1052])
+            ("_GdkPaintable" type
+               (:prototype t
+                :type "struct")
+                nil [1148 1169])
+            ("_GdkPaintableClass" type
+               (:prototype t
+                :type "struct")
+                nil [1196 1222])
+            ("Gdk" type
+               (:members 
+                  ( ("Paintable_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1312 1344]))                  
+                :type "namespace")
+                nil [1296 1346])
+            ("Gdk" type
+               (:members 
+                  ( ("Snapshot" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1416 1441])
+                    ("Glib::Interface" variable (:type "int") (reparse-symbol namespacesubparts) [3702 13899]))                  
+                :type "namespace")
+                nil [1400 13902])
+            ("Gdk" type
+               (:members 
+                  ( ("|" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13999 14020])
+                            ("rhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14021 14042]))                          
+                        :type ("Paintable::Flags" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [13965 14143])
+                    ("&" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14206 14227])
+                            ("rhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14228 14249]))                          
+                        :type ("Paintable::Flags" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14172 14350])
+                    ("^" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14413 14434])
+                            ("rhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14435 14456]))                          
+                        :type ("Paintable::Flags" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14379 14557])
+                    ("~" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("flags" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14620 14643]))                          
+                        :type ("Paintable::Flags" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14586 14718])
+                    ("|=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Paintable::Flags" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14783 14805])
+                            ("rhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14806 14827]))                          
+                        :type ("Paintable::Flags" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14747 14936])
+                    ("&=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Paintable::Flags" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [15001 15023])
+                            ("rhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15024 15045]))                          
+                        :type ("Paintable::Flags" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14965 15154])
+                    ("^=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Paintable::Flags" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [15219 15241])
+                            ("rhs" variable (:type ("Paintable::Flags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15242 15263]))                          
+                        :type ("Paintable::Flags" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [15183 15372]))                  
+                :type "namespace")
+                nil [13921 15374])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Flags" variable (:type "int") (reparse-symbol namespacesubparts) [15510 15605]))                  
+                :type "namespace")
+                nil [15426 15608])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkPaintable" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16038 16059])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [16060 16082]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Paintable" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [16004 16084]))                  
+                :type "namespace")
+                nil [15667 16087]))          
+      :file "paintable.h"
+      :pointmax 16141
+      :fsize 16140
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 15992 . 16001) (PUBLIC 15503 . 15509) (punctuation 15501 . 15502) (punctuation 15499 . 15500) (symbol 15494 . 15499) (punctuation 15493 . 15494) (punctuation 15492 . 15493) (symbol 15483 . 15492) (punctuation 15482 . 15483) (punctuation 15481 . 15482) (symbol 15478 . 15481) (punctuation 15477 . 15478) (symbol 15472 . 15477) (symbol 15462 . 15471) (CLASS 15456 . 15461) (punctuation 15454 . 15455) (punctuation 15453 . 15454) (TEMPLATE 15444 . 15452) (PUBLIC 3695 . 3701) (punctuation 3693 . 3694) (symbol 3683 . 3692) (symbol 3673 . 3682) (CLASS 3667 . 3672) (USING 1170 . 1175) (USING 1127 . 1132))
+      :lexical-table 
+        '(("_GDKMM_PAINTABLE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f205874"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_PIXBUF_H" variable (:constant-flag t) nil [82 97])
+            ("gdkmmconfig.h" include (:system-flag t) nil [99 123])
+            ("glibmm/ustring.h" include (:system-flag t) nil [126 153])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [154 180])
+            ("vector" include (:system-flag t) nil [1132 1149])
+            ("gdkmm/pixbufformat.h" include (:system-flag t) nil [1151 1182])
+            ("giomm/inputstream.h" include (:system-flag t) nil [1183 1213])
+            ("giomm/icon.h" include (:system-flag t) nil [1214 1237])
+            ("giomm/loadableicon.h" include (:system-flag t) nil [1238 1269])
+            ("cairomm/surface.h" include (:system-flag t) nil [1270 1298])
+            ("glibmm/error.h" include (:system-flag t) nil [1299 1324])
+            ("_GdkPixbuf" type
+               (:prototype t
+                :type "struct")
+                nil [1378 1396])
+            ("_GdkPixbufClass" type
+               (:prototype t
+                :type "struct")
+                nil [1420 1443])
+            ("Gdk" type
+               (:members 
+                  ( ("Pixbuf_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1533 1562]))                  
+                :type "namespace")
+                nil [1517 1564])
+            ("Gdk" type
+               (:members 
+                  ( ("Colorspace" type (:type "class") (reparse-symbol namespacesubparts) [1967 1994]))                  
+                :type "namespace")
+                nil [1617 1998])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [2128 2216]))                  
+                :type "namespace")
+                nil [2050 2219])
+            ("Gdk" type
+               (:members 
+                  ( ("InterpType" type (:type "class") (reparse-symbol namespacesubparts) [4154 4215]))                  
+                :type "namespace")
+                nil [2277 4219])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [4349 4437]))                  
+                :type "namespace")
+                nil [4271 4440])
+            ("Gdk" type
+               (:members 
+                  ( ("PixbufError" type
+                       (:superclasses 
+                          ( ("Glib::Error" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [4607 4614])
+                            ("Code" type
+                               (:members 
+                                  ( ("CORRUPT_IMAGE" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5410 5424])
+                                    ("INSUFFICIENT_MEMORY" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5429 5449])
+                                    ("BAD_OPTION" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5454 5465])
+                                    ("UNKNOWN_TYPE" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5470 5483])
+                                    ("UNSUPPORTED_OPERATION" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5488 5510])
+                                    ("FAILED" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5515 5522])
+                                    ("INCOMPLETE_ANIMATION" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5527 5551]))                                  
+                                :type "enum")
+                                (reparse-symbol classsubparts) [5392 5552])
+                            ("PixbufError" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("error_code" variable (:type ("Code" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5578 5594])
+                                    ("error_message" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Glib::ustring" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5595 5630]))                                  
+                                :type ("GDKMM_API" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5556 5631])
+                            ("PixbufError" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("gobject" variable
+                                       (:pointer 1
+                                        :type ("GError" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5665 5681]))                                  
+                                :type ("PixbufError" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5653 5682])
+                            ("code" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :type ("Code" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5695 5713])
+                            ("private" label nil (reparse-symbol classsubparts) [5748 5756])
+                            ("throw_func" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("gobject" variable
+                                       (:pointer 1
+                                        :type ("GError" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5793 5809]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [5770 5810])
+                            ("wrap_init" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [5831 5848]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [4566 5909]))                  
+                :type "namespace")
+                nil [4498 5912])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [6049 6144]))                  
+                :type "namespace")
+                nil [5964 6147])
+            ("Gdk" type
+               (:members 
+                  ( ("Gio::LoadableIcon" variable (:type "int") (reparse-symbol namespacesubparts) [6304 43781]))                  
+                :type "namespace")
+                nil [6205 43784])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [43921 44015]))                  
+                :type "namespace")
+                nil [43837 44018])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkPixbuf" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [44442 44460])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [44461 44483]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Pixbuf" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [44411 44485]))                  
+                :type "namespace")
+                nil [44077 44487]))          
+      :file "pixbuf.h"
+      :pointmax 44520
+      :fsize 44519
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 44399 . 44408) (PUBLIC 43914 . 43920) (punctuation 43912 . 43913) (punctuation 43910 . 43911) (symbol 43902 . 43910) (punctuation 43901 . 43902) (punctuation 43900 . 43901) (symbol 43894 . 43900) (punctuation 43893 . 43894) (punctuation 43892 . 43893) (symbol 43889 . 43892) (punctuation 43888 . 43889) (symbol 43883 . 43888) (symbol 43873 . 43882) (CLASS 43867 . 43872) (punctuation 43865 . 43866) (punctuation 43864 . 43865) (TEMPLATE 43855 . 43863) (PUBLIC 6297 . 6303) (punctuation 6291 . 6292) (symbol 6287 . 6291) (punctuation 6286 . 6287) (punctuation 6285 . 6286) (symbol 6282 . 6285) (PUBLIC 6275 . 6281) (punctuation 6269 . 6270) (symbol 6263 . 6269) (punctuation 6262 . 6263) (punctuation 6261 . 6262) (symbol 6257 . 6261) (PUBLIC 6250 . 6256) (punctuation 6248 . 6249) (symbol 6239 . 6245) (symbol 6229 . 6238) (CLASS 6223 . 6228) (PUBLIC 6042 . 6048) (punctuation 6040 . 6041) (punctuation 6038 . 6039) (symbol 6034 . 6038) (punctuation 6033 . 6034) (punctuation 6032 . 6033) (symbol 6021 . 6032) (punctuation 6020 . 6021) (punctuation 6019 . 6020) (symbol 6016 . 6019) (punctuation 6015 . 6016) (symbol 6010 . 6015) (symbol 6000 . 6009) (CLASS 5994 . 5999) (punctuation 5992 . 5993) (punctuation 5991 . 5992) (TEMPLATE 5982 . 5990) (symbol 5821 . 5830) (FRIEND 5814 . 5820) (symbol 5760 . 5769) (symbol 5685 . 5694) (EXPLICIT 5644 . 5652) (symbol 5634 . 5643) (PUBLIC 4342 . 4348) (punctuation 4340 . 4341) (punctuation 4338 . 4339) (symbol 4328 . 4338) (punctuation 4327 . 4328) (punctuation 4326 . 4327) (symbol 4323 . 4326) (punctuation 4322 . 4323) (symbol 4317 . 4322) (symbol 4307 . 4316) (CLASS 4301 . 4306) (punctuation 4299 . 4300) (punctuation 4298 . 4299) (TEMPLATE 4289 . 4297) (symbol 4207 . 4212) (punctuation 4203 . 4204) (symbol 4195 . 4203) (punctuation 4191 . 4192) (symbol 4186 . 4191) (punctuation 4182 . 4183) (symbol 4175 . 4182) (ENUM 4149 . 4153) (PUBLIC 2121 . 2127) (punctuation 2119 . 2120) (punctuation 2117 . 2118) (symbol 2107 . 2117) (punctuation 2106 . 2107) (punctuation 2105 . 2106) (symbol 2102 . 2105) (punctuation 2101 . 2102) (symbol 2096 . 2101) (symbol 2086 . 2095) (CLASS 2080 . 2085) (punctuation 2078 . 2079) (punctuation 2077 . 2078) (TEMPLATE 2068 . 2076) (symbol 1988 . 1991) (ENUM 1962 . 1966) (USING 1397 . 1402) (USING 1360 . 1365))
+      :lexical-table 
+        '(("_GDKMM_PIXBUF_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f205894"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_PIXBUFANIMATION_H" variable (:constant-flag t) nil [91 115])
+            ("glibmm/ustring.h" include (:system-flag t) nil [118 145])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [146 172])
+            ("glibmm/object.h" include (:system-flag t) nil [980 1006])
+            ("giomm/asyncresult.h" include (:system-flag t) nil [1007 1037])
+            ("gdkmm/pixbuf.h" include (:system-flag t) nil [1038 1063])
+            ("gdkmm/pixbufanimationiter.h" include (:system-flag t) nil [1064 1102])
+            ("gdk-pixbuf/gdk-pixbuf.h" include (:system-flag t) nil [1103 1137])
+            ("_GdkPixbufAnimation" type
+               (:prototype t
+                :type "struct")
+                nil [1200 1227])
+            ("_GdkPixbufAnimationClass" type
+               (:prototype t
+                :type "struct")
+                nil [1260 1292])
+            ("Gdk" type
+               (:members 
+                  ( ("PixbufAnimation_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1382 1420]))                  
+                :type "namespace")
+                nil [1366 1422])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [2076 10165]))                  
+                :type "namespace")
+                nil [1475 10168])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkPixbufAnimation" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [10571 10598])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [10599 10621]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::PixbufAnimation" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [10531 10623]))                  
+                :type "namespace")
+                nil [10188 10625]))          
+      :file "pixbufanimation.h"
+      :pointmax 10667
+      :fsize 10666
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 10519 . 10528) (PUBLIC 2069 . 2075) (punctuation 2067 . 2068) (symbol 2051 . 2066) (symbol 2041 . 2050) (CLASS 2035 . 2040) (USING 1228 . 1233) (USING 1173 . 1178))
+      :lexical-table 
+        '(("_GDKMM_PIXBUFANIMATION_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f2058b4"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_PIXBUFFORMAT_H" variable (:constant-flag t) nil [88 109])
+            ("glibmm/ustring.h" include (:system-flag t) nil [112 139])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [140 166])
+            ("gdkmmconfig.h" include (:system-flag t) nil [967 991])
+            ("glibmm/value.h" include (:system-flag t) nil [992 1017])
+            ("vector" include (:system-flag t) nil [1018 1035])
+            ("GdkPixbufFormat" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_GdkPixbufFormat" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [1083 1131])
+            ("Gdk" type
+               (:members 
+                  ( ("PixbufFormat" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1159 5069])
+                    ("PixbufFormatTraits" type
+                       (:members 
+                          ( ("CppType" type
+                               (:typedef ("PixbufFormat" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [5134 5164])
+                            ("CType" type
+                               (:typedef ("GdkPixbufFormat" type (:type "class") nil nil)
+                                :pointer 1
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [5167 5209])
+                            ("CTypeNonConst" type
+                               (:typedef ("GdkPixbufFormat" type (:type "class") nil nil)
+                                :pointer 1
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [5212 5262])
+                            ("to_c_type" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("obj" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("CppType" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5297 5316]))                                  
+                                :type ("CType" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5266 5343])
+                            ("to_c_type" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("ptr" variable (:type ("CType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5377 5396]))                                  
+                                :type ("CType" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5346 5430])
+                            ("to_cpp_type" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("ptr" variable (:type ("CType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5464 5483]))                                  
+                                :type ("CppType" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5433 5549])
+                            ("release_c_type" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("" variable (:type ("CType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5583 5608]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [5552 5633]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [5104 5636]))                  
+                :type "namespace")
+                nil [1142 5673])
+            ("Gdk" type (:type "namespace") nil [5693 5899])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkPixbufFormat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6262 6286])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [6287 6309]))                          
+                        :type ("Gdk::PixbufFormat" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6239 6311])
+                    ("Glib::Value_Boxed" variable (:type "int") (reparse-symbol namespacesubparts) [6408 6448]))                  
+                :type "namespace")
+                nil [5918 6489]))          
+      :file "pixbufformat.h"
+      :pointmax 6546
+      :fsize 6545
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((PUBLIC 6401 . 6407) (punctuation 6399 . 6400) (punctuation 6397 . 6398) (symbol 6385 . 6397) (punctuation 6384 . 6385) (punctuation 6383 . 6384) (symbol 6380 . 6383) (punctuation 6379 . 6380) (symbol 6374 . 6379) (symbol 6364 . 6373) (CLASS 6358 . 6363) (punctuation 6356 . 6357) (punctuation 6355 . 6356) (TEMPLATE 6346 . 6354) (symbol 6229 . 6238) (semantic-list 5878 . 5896) (symbol 5867 . 5875) (semantic-list 5828 . 5866) (symbol 5824 . 5828) (VOID 5819 . 5823) (INLINE 5812 . 5818))
+      :lexical-table 
+        '(("_GDKMM_PIXBUFFORMAT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f2058d4"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_PIXBUFLOADER_H" variable (:constant-flag t) nil [88 109])
+            ("glibmm/ustring.h" include (:system-flag t) nil [112 139])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [140 166])
+            ("glibmm/object.h" include (:system-flag t) nil [971 997])
+            ("gdkmm/pixbuf.h" include (:system-flag t) nil [998 1023])
+            ("gdkmm/pixbufanimation.h" include (:system-flag t) nil [1024 1058])
+            ("gdkmm/pixbufformat.h" include (:system-flag t) nil [1059 1090])
+            ("_GdkPixbufLoader" type
+               (:prototype t
+                :type "struct")
+                nil [1150 1174])
+            ("_GdkPixbufLoaderClass" type
+               (:prototype t
+                :type "struct")
+                nil [1204 1233])
+            ("Gdk" type
+               (:members 
+                  ( ("PixbufLoader_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1323 1358]))                  
+                :type "namespace")
+                nil [1307 1360])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [1469 13363]))                  
+                :type "namespace")
+                nil [1413 13366])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkPixbufLoader" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [13763 13787])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [13788 13810]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::PixbufLoader" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [13726 13812]))                  
+                :type "namespace")
+                nil [13386 13814]))          
+      :file "pixbufloader.h"
+      :pointmax 13853
+      :fsize 13852
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 13714 . 13723) (PUBLIC 1462 . 1468) (punctuation 1460 . 1461) (symbol 1447 . 1459) (symbol 1437 . 1446) (CLASS 1431 . 1436) (USING 1175 . 1180) (USING 1126 . 1131))
+      :lexical-table 
+        '(("_GDKMM_PIXBUFLOADER_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f2058f4"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_POPUP_H" variable (:constant-flag t) nil [81 95])
+            ("glibmm/ustring.h" include (:system-flag t) nil [98 125])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [126 152])
+            ("glibmm/interface.h" include (:system-flag t) nil [879 908])
+            ("gdkmm/enums.h" include (:system-flag t) nil [909 933])
+            ("gdkmm/popuplayout.h" include (:system-flag t) nil [934 964])
+            ("gdkmm/surface.h" include (:system-flag t) nil [965 991])
+            ("GdkPopupInterface" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_GdkPopupInterface" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [1040 1092])
+            ("_GdkPopup" type
+               (:prototype t
+                :type "struct")
+                nil [1184 1201])
+            ("_GdkPopupClass" type
+               (:prototype t
+                :type "struct")
+                nil [1224 1246])
+            ("Gdk" type
+               (:members 
+                  ( ("Popup_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1336 1364]))                  
+                :type "namespace")
+                nil [1320 1366])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Interface" variable (:type "int") (reparse-symbol namespacesubparts) [1854 6946]))                  
+                :type "namespace")
+                nil [1420 6949])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkPopup" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7332 7349])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [7350 7372]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Popup" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [7302 7374]))                  
+                :type "namespace")
+                nil [6969 7377]))          
+      :file "popup.h"
+      :pointmax 7427
+      :fsize 7426
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 7290 . 7299) (PUBLIC 1847 . 1853) (punctuation 1845 . 1846) (symbol 1839 . 1844) (symbol 1829 . 1838) (CLASS 1823 . 1828) (USING 1202 . 1207) (USING 1167 . 1172))
+      :lexical-table 
+        '(("_GDKMM_POPUP_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f205914"
+      :major-mode c-mode
+      :tags 
+        '( ("_GDKMM_POPUPSURFACEIMPL_H" variable (:constant-flag t) nil [43 68])
+            ("gdkmmconfig.h" include (:system-flag t) nil [796 820])
+            ("gdkmm/popup.h" include (:system-flag t) nil [821 845])
+            ("gdkmm/surface.h" include (:system-flag t) nil [846 872])
+            ("Gdk" type
+               (:members 
+                  ( ("Surface" variable (:type "int") (reparse-symbol namespacesubparts) [1683 2163]))                  
+                :type "namespace")
+                nil [874 2166]))          
+      :file "popupsurfaceimpl.h"
+      :pointmax 2224
+      :fsize 2223
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((PUBLIC 1676 . 1682) (punctuation 1674 . 1675) (symbol 1669 . 1674) (PUBLIC 1662 . 1668) (punctuation 1660 . 1661) (symbol 1643 . 1659) (symbol 1633 . 1642) (CLASS 1627 . 1632))
+      :lexical-table 
+        '(("_GDKMM_POPUPSURFACEIMPL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f205934"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_RECTANGLE_H" variable (:constant-flag t) nil [85 103])
+            ("gdkmmconfig.h" include (:system-flag t) nil [105 129])
+            ("glibmm/ustring.h" include (:system-flag t) nil [132 159])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [160 186])
+            ("glibmm/value.h" include (:system-flag t) nil [995 1020])
+            ("gdk/gdk.h" include (:system-flag t) nil [1021 1041])
+            ("Gdk" type
+               (:members 
+                  ( ("Rectangle" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1268 5192])
+                    ("join" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("src1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rectangle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5554 5576])
+                            ("src2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rectangle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5577 5599]))                          
+                        :type ("Rectangle" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5539 5600])
+                    ("intersect" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("src1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rectangle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6000 6022])
+                            ("src2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rectangle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6023 6045]))                          
+                        :type ("Rectangle" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5980 6046])
+                    ("intersect" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("src1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rectangle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6581 6603])
+                            ("src2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rectangle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6604 6626])
+                            ("rectangles_intersect" variable
+                               (:reference 1
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [6627 6654]))                          
+                        :type ("Rectangle" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6561 6655]))                  
+                :type "namespace")
+                nil [1044 6658])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkRectangle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6845 6866]))                          
+                        :type ("Gdk::Rectangle" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6824 6867])
+                    ("wrap" function
+                       (:prototype-flag t
+                        :constant-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("GdkRectangle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7024 7051]))                          
+                        :type ("Gdk::Rectangle" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6997 7052])
+                    ("Glib::Value_Boxed" variable (:type "int") (reparse-symbol namespacesubparts) [7146 7183]))                  
+                :type "namespace")
+                nil [6678 7224]))          
+      :file "rectangle.h"
+      :pointmax 7278
+      :fsize 7277
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((PUBLIC 7139 . 7145) (punctuation 7137 . 7138) (punctuation 7135 . 7136) (symbol 7126 . 7135) (punctuation 7125 . 7126) (punctuation 7124 . 7125) (symbol 7121 . 7124) (punctuation 7120 . 7121) (symbol 7115 . 7120) (symbol 7105 . 7114) (CLASS 7099 . 7104) (punctuation 7097 . 7098) (punctuation 7096 . 7097) (TEMPLATE 7087 . 7095) (symbol 6987 . 6996) (symbol 6814 . 6823) (symbol 6551 . 6560) (symbol 5970 . 5979) (symbol 5529 . 5538))
+      :lexical-table 
+        '(("_GDKMM_RECTANGLE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f205954"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_SEAT_H" variable (:constant-flag t) nil [80 93])
+            ("glibmm/ustring.h" include (:system-flag t) nil [96 123])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [124 150])
+            ("vector" include (:system-flag t) nil [877 894])
+            ("glibmm/object.h" include (:system-flag t) nil [895 921])
+            ("gdkmm/cursor.h" include (:system-flag t) nil [922 947])
+            ("gdkmm/device.h" include (:system-flag t) nil [948 973])
+            ("gdkmm/event.h" include (:system-flag t) nil [974 998])
+            ("_GdkSeat" type
+               (:prototype t
+                :type "struct")
+                nil [1050 1066])
+            ("_GdkSeatClass" type
+               (:prototype t
+                :type "struct")
+                nil [1088 1109])
+            ("Gdk" type
+               (:members 
+                  ( ("Seat_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1199 1226]))                  
+                :type "namespace")
+                nil [1183 1228])
+            ("Gdk" type
+               (:members 
+                  ( ("DeviceTool" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1298 1325])
+                    ("Display" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1326 1350])
+                    ("Surface" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1351 1375])
+                    ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [1518 9043]))                  
+                :type "namespace")
+                nil [1281 9046])
+            ("Gdk" type
+               (:members 
+                  ( ("|" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9145 9168])
+                            ("rhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9169 9192]))                          
+                        :type ("Seat::Capabilities" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [9109 9295])
+                    ("&" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9360 9383])
+                            ("rhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9384 9407]))                          
+                        :type ("Seat::Capabilities" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [9324 9510])
+                    ("^" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9575 9598])
+                            ("rhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9599 9622]))                          
+                        :type ("Seat::Capabilities" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [9539 9725])
+                    ("~" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("flags" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9790 9815]))                          
+                        :type ("Seat::Capabilities" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [9754 9892])
+                    ("|=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Seat::Capabilities" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [9959 9983])
+                            ("rhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9984 10007]))                          
+                        :type ("Seat::Capabilities" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [9921 10118])
+                    ("&=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Seat::Capabilities" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [10185 10209])
+                            ("rhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10210 10233]))                          
+                        :type ("Seat::Capabilities" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [10147 10344])
+                    ("^=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Seat::Capabilities" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [10411 10435])
+                            ("rhs" variable (:type ("Seat::Capabilities" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10436 10459]))                          
+                        :type ("Seat::Capabilities" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [10373 10570]))                  
+                :type "namespace")
+                nil [9065 10572])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Flags" variable (:type "int") (reparse-symbol namespacesubparts) [10710 10807]))                  
+                :type "namespace")
+                nil [10624 10810])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkSeat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [11230 11246])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [11247 11269]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Seat" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [11201 11271]))                  
+                :type "namespace")
+                nil [10869 11273]))          
+      :file "seat.h"
+      :pointmax 11304
+      :fsize 11303
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 11189 . 11198) (PUBLIC 10703 . 10709) (punctuation 10701 . 10702) (punctuation 10699 . 10700) (symbol 10687 . 10699) (punctuation 10686 . 10687) (punctuation 10685 . 10686) (symbol 10681 . 10685) (punctuation 10680 . 10681) (punctuation 10679 . 10680) (symbol 10676 . 10679) (punctuation 10675 . 10676) (symbol 10670 . 10675) (symbol 10660 . 10669) (CLASS 10654 . 10659) (punctuation 10652 . 10653) (punctuation 10651 . 10652) (TEMPLATE 10642 . 10650) (PUBLIC 1511 . 1517) (punctuation 1509 . 1510) (symbol 1504 . 1508) (symbol 1494 . 1503) (CLASS 1488 . 1493) (USING 1067 . 1072) (USING 1034 . 1039))
+      :lexical-table 
+        '(("_GDKMM_SEAT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f205974"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_SNAPSHOT_H" variable (:constant-flag t) nil [84 101])
+            ("gdkmmconfig.h" include (:system-flag t) nil [103 127])
+            ("glibmm/ustring.h" include (:system-flag t) nil [130 157])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [158 184])
+            ("glibmm/object.h" include (:system-flag t) nil [912 938])
+            ("_GdkSnapshot" type
+               (:prototype t
+                :type "struct")
+                nil [994 1014])
+            ("_GdkSnapshotClass" type
+               (:prototype t
+                :type "struct")
+                nil [1040 1065])
+            ("Gdk" type
+               (:members 
+                  ( ("Snapshot_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1155 1186]))                  
+                :type "namespace")
+                nil [1139 1188])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [1380 2976]))                  
+                :type "namespace")
+                nil [1241 2979])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkSnapshot" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3368 3388])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [3389 3411]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Snapshot" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [3335 3413]))                  
+                :type "namespace")
+                nil [2999 3415]))          
+      :file "snapshot.h"
+      :pointmax 3450
+      :fsize 3449
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 3323 . 3332) (PUBLIC 1373 . 1379) (punctuation 1371 . 1372) (symbol 1362 . 1370) (symbol 1352 . 1361) (CLASS 1346 . 1351) (USING 1015 . 1020) (USING 974 . 979))
+      :lexical-table 
+        '(("_GDKMM_SNAPSHOT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f205994"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_SURFACE_H" variable (:constant-flag t) nil [83 99])
+            ("gdkmmconfig.h" include (:system-flag t) nil [101 125])
+            ("glibmm/ustring.h" include (:system-flag t) nil [128 155])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [156 182])
+            ("glibmm/object.h" include (:system-flag t) nil [984 1010])
+            ("gdkmm/drag.h" include (:system-flag t) nil [1011 1034])
+            ("cairomm/region.h" include (:system-flag t) nil [1035 1062])
+            ("gdkmm/device.h" include (:system-flag t) nil [1063 1088])
+            ("gdkmm/enums.h" include (:system-flag t) nil [1089 1113])
+            ("gdkmm/event.h" include (:system-flag t) nil [1114 1138])
+            ("gdkmm/popuplayout.h" include (:system-flag t) nil [1139 1169])
+            ("cairomm/context.h" include (:system-flag t) nil [1170 1198])
+            ("gdk/gdk.h" include (:system-flag t) nil [1199 1219])
+            ("Gdk" type
+               (:members 
+                  ( ("Surface_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1344 1374]))                  
+                :type "namespace")
+                nil [1328 1376])
+            ("Gdk" type
+               (:members 
+                  ( ("ContentProvider" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1446 1478])
+                    ("Cursor" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1479 1502])
+                    ("CairoContext" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1503 1532])
+                    ("GLContext" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1533 1559])
+                    ("FrameClock" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1560 1587])
+                    ("Monitor" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1588 1612])
+                    ("Glib::Object" variable (:type "int") (reparse-symbol namespacesubparts) [2199 21631]))                  
+                :type "namespace")
+                nil [1429 21634])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkSurface" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [22021 22040])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [22041 22063]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Surface" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [21989 22065]))                  
+                :type "namespace")
+                nil [21654 22067]))          
+      :file "surface.h"
+      :pointmax 22101
+      :fsize 22136
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 21977 . 21986) (PUBLIC 2192 . 2198) (punctuation 2190 . 2191) (symbol 2182 . 2189) (symbol 2172 . 2181) (CLASS 2166 . 2171))
+      :lexical-table 
+        '(("_GDKMM_SURFACE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f2059b4"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_TEXTURE_H" variable (:constant-flag t) nil [83 99])
+            ("glibmm/ustring.h" include (:system-flag t) nil [102 129])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [130 156])
+            ("glibmm/object.h" include (:system-flag t) nil [883 909])
+            ("gdkmm/paintable.h" include (:system-flag t) nil [910 938])
+            ("_GdkTexture" type
+               (:prototype t
+                :type "struct")
+                nil [993 1012])
+            ("_GdkTextureClass" type
+               (:prototype t
+                :type "struct")
+                nil [1037 1061])
+            ("Gdk" type
+               (:members 
+                  ( ("Texture_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1151 1181]))                  
+                :type "namespace")
+                nil [1135 1183])
+            ("Glib" type
+               (:members 
+                  ( ("Bytes" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1253 1275]))                  
+                :type "namespace")
+                nil [1236 1277])
+            ("Gio" type
+               (:members 
+                  ( ("File" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1294 1315]))                  
+                :type "namespace")
+                nil [1278 1317])
+            ("Gdk" type
+               (:members 
+                  ( ("Pixbuf" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1335 1358])
+                    ("TextureError" type
+                       (:superclasses 
+                          ( ("Glib::Error" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1402 1409])
+                            ("Code" type
+                               (:members 
+                                  ( ("TOO_LARGE" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1893 1903])
+                                    ("CORRUPT_IMAGE" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1908 1922])
+                                    ("UNSUPPORTED_CONTENT" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1927 1947])
+                                    ("UNSUPPORTED_FORMAT" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1952 1974]))                                  
+                                :type "enum")
+                                (reparse-symbol classsubparts) [1875 1975])
+                            ("TextureError" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("error_code" variable (:type ("Code" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2002 2018])
+                                    ("error_message" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Glib::ustring" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2019 2054]))                                  
+                                :type ("GDKMM_API" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1979 2055])
+                            ("TextureError" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("gobject" variable
+                                       (:pointer 1
+                                        :type ("GError" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2090 2106]))                                  
+                                :type ("TextureError" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2077 2107])
+                            ("code" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :type ("Code" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2120 2138])
+                            ("private" label nil (reparse-symbol classsubparts) [2173 2181])
+                            ("throw_func" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("gobject" variable
+                                       (:pointer 1
+                                        :type ("GError" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2218 2234]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2195 2235])
+                            ("wrap_init" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [2256 2273]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1360 2334]))                  
+                :type "namespace")
+                nil [1319 2337])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [2475 2571]))                  
+                :type "namespace")
+                nil [2389 2574])
+            ("Gdk" type
+               (:members 
+                  ( ("Paintable" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [3290 12076]))                  
+                :type "namespace")
+                nil [2632 12079])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkTexture" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [12466 12485])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [12486 12508]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Texture" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [12434 12510]))                  
+                :type "namespace")
+                nil [12099 12512]))          
+      :file "texture.h"
+      :pointmax 12546
+      :fsize 12545
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 12422 . 12431) (PUBLIC 3283 . 3289) (punctuation 3281 . 3282) (symbol 3275 . 3281) (punctuation 3274 . 3275) (punctuation 3273 . 3274) (symbol 3269 . 3273) (PUBLIC 3262 . 3268) (punctuation 3260 . 3261) (symbol 3252 . 3259) (symbol 3242 . 3251) (CLASS 3236 . 3241) (PUBLIC 2468 . 2474) (punctuation 2466 . 2467) (punctuation 2464 . 2465) (symbol 2460 . 2464) (punctuation 2459 . 2460) (punctuation 2458 . 2459) (symbol 2446 . 2458) (punctuation 2445 . 2446) (punctuation 2444 . 2445) (symbol 2441 . 2444) (punctuation 2440 . 2441) (symbol 2435 . 2440) (symbol 2425 . 2434) (CLASS 2419 . 2424) (punctuation 2417 . 2418) (punctuation 2416 . 2417) (TEMPLATE 2407 . 2415) (symbol 2246 . 2255) (FRIEND 2239 . 2245) (symbol 2185 . 2194) (symbol 2110 . 2119) (EXPLICIT 2068 . 2076) (symbol 2058 . 2067) (USING 1013 . 1018) (USING 974 . 979))
+      :lexical-table 
+        '(("_GDKMM_TEXTURE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f2059d4"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GDKMM_TOPLEVEL_H" variable (:constant-flag t) nil [84 101])
+            ("glibmm/ustring.h" include (:system-flag t) nil [104 131])
+            ("sigc++/sigc++.h" include (:system-flag t) nil [132 158])
+            ("glibmm/interface.h" include (:system-flag t) nil [885 914])
+            ("gdkmm/surface.h" include (:system-flag t) nil [915 941])
+            ("gdkmm/texture.h" include (:system-flag t) nil [942 968])
+            ("gdkmm/toplevellayout.h" include (:system-flag t) nil [969 1002])
+            ("gdkmm/toplevelsize.h" include (:system-flag t) nil [1003 1034])
+            ("vector" include (:system-flag t) nil [1035 1052])
+            ("GdkToplevelInterface" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_GdkToplevelInterface" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [1101 1159])
+            ("_GdkToplevel" type
+               (:prototype t
+                :type "struct")
+                nil [1254 1274])
+            ("_GdkToplevelClass" type
+               (:prototype t
+                :type "struct")
+                nil [1300 1325])
+            ("Gdk" type
+               (:members 
+                  ( ("Toplevel_Class" variable (:type ("GDKMM_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1415 1446]))                  
+                :type "namespace")
+                nil [1399 1448])
+            ("Gdk" type
+               (:members 
+                  ( ("SurfaceEdge" type (:type "class") (reparse-symbol namespacesubparts) [2119 2230]))                  
+                :type "namespace")
+                nil [1502 2234])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [2365 2454]))                  
+                :type "namespace")
+                nil [2286 2457])
+            ("Gdk" type
+               (:members 
+                  ( ("FullscreenMode" type (:type "class") (reparse-symbol namespacesubparts) [2855 2920]))                  
+                :type "namespace")
+                nil [2515 2924])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Enum" variable (:type "int") (reparse-symbol namespacesubparts) [3058 3150]))                  
+                :type "namespace")
+                nil [2976 3153])
+            ("Gdk" type
+               (:members 
+                  ( ("Glib::Interface" variable (:type "int") (reparse-symbol namespacesubparts) [3631 22355]))                  
+                :type "namespace")
+                nil [3211 22358])
+            ("Gdk" type
+               (:members 
+                  ( ("|" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22454 22474])
+                            ("rhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22475 22495]))                          
+                        :type ("Toplevel::State" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [22421 22595])
+                    ("&" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22657 22677])
+                            ("rhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22678 22698]))                          
+                        :type ("Toplevel::State" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [22624 22798])
+                    ("^" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22860 22880])
+                            ("rhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22881 22901]))                          
+                        :type ("Toplevel::State" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [22827 23001])
+                    ("~" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("flags" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23063 23085]))                          
+                        :type ("Toplevel::State" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [23030 23159])
+                    ("|=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Toplevel::State" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [23223 23244])
+                            ("rhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23245 23265]))                          
+                        :type ("Toplevel::State" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [23188 23373])
+                    ("&=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Toplevel::State" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [23437 23458])
+                            ("rhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23459 23479]))                          
+                        :type ("Toplevel::State" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [23402 23587])
+                    ("^=" function
+                       (:operator-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("Toplevel::State" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [23651 23672])
+                            ("rhs" variable (:type ("Toplevel::State" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23673 23693]))                          
+                        :type ("Toplevel::State" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [23616 23801]))                  
+                :type "namespace")
+                nil [22377 23803])
+            ("Glib" type
+               (:members 
+                  ( ("Glib::Value_Flags" variable (:type "int") (reparse-symbol namespacesubparts) [23938 24032]))                  
+                :type "namespace")
+                nil [23855 24035])
+            ("Glib" type
+               (:members 
+                  ( ("wrap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("GdkToplevel" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24463 24483])
+                            ("take_copy" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [24484 24506]))                          
+                        :type ("Glib::RefPtr" type
+                             (:template-specifier 
+                                ( ("Gdk::Toplevel" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [24430 24508]))                  
+                :type "namespace")
+                nil [24094 24511]))          
+      :file "toplevel.h"
+      :pointmax 24564
+      :fsize 24569
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((symbol 24418 . 24427) (PUBLIC 23931 . 23937) (punctuation 23929 . 23930) (punctuation 23927 . 23928) (symbol 23922 . 23927) (punctuation 23921 . 23922) (punctuation 23920 . 23921) (symbol 23912 . 23920) (punctuation 23911 . 23912) (punctuation 23910 . 23911) (symbol 23907 . 23910) (punctuation 23906 . 23907) (symbol 23901 . 23906) (symbol 23891 . 23900) (CLASS 23885 . 23890) (punctuation 23883 . 23884) (punctuation 23882 . 23883) (TEMPLATE 23873 . 23881) (PUBLIC 3624 . 3630) (punctuation 3622 . 3623) (symbol 3613 . 3621) (symbol 3603 . 3612) (CLASS 3597 . 3602) (PUBLIC 3051 . 3057) (punctuation 3049 . 3050) (punctuation 3047 . 3048) (symbol 3033 . 3047) (punctuation 3032 . 3033) (punctuation 3031 . 3032) (symbol 3028 . 3031) (punctuation 3027 . 3028) (symbol 3022 . 3027) (symbol 3012 . 3021) (CLASS 3006 . 3011) (punctuation 3004 . 3005) (punctuation 3003 . 3004) (TEMPLATE 2994 . 3002) (symbol 2902 . 2917) (punctuation 2898 . 2899) (symbol 2880 . 2898) (ENUM 2850 . 2854) (PUBLIC 2358 . 2364) (punctuation 2356 . 2357) (punctuation 2354 . 2355) (symbol 2343 . 2354) (punctuation 2342 . 2343) (punctuation 2341 . 2342) (symbol 2338 . 2341) (punctuation 2337 . 2338) (symbol 2332 . 2337) (symbol 2322 . 2331) (CLASS 2316 . 2321) (punctuation 2314 . 2315) (punctuation 2313 . 2314) (TEMPLATE 2304 . 2312) (symbol 2217 . 2227) (punctuation 2213 . 2214) (symbol 2208 . 2213) (punctuation 2204 . 2205) (symbol 2194 . 2204) (punctuation 2190 . 2191) (symbol 2186 . 2190) (punctuation 2182 . 2183) (symbol 2178 . 2182) (punctuation 2174 . 2175) (symbol 2164 . 2174) (punctuation 2160 . 2161) (symbol 2155 . 2160) (punctuation 2151 . 2152) (symbol 2141 . 2151) (ENUM 2114 . 2118) (USING 1275 . 1280) (USING 1234 . 1239))
+      :lexical-table 
+        '(("_GDKMM_TOPLEVEL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-15826f2059f4"
+      :major-mode c-mode
+      :tags 
+        '( ("_GDKMM_TOPLEVELSURFACEIMPL_H" variable (:constant-flag t) nil [46 74])
+            ("gdkmmconfig.h" include (:system-flag t) nil [802 826])
+            ("gdkmm/toplevel.h" include (:system-flag t) nil [827 854])
+            ("gdkmm/surface.h" include (:system-flag t) nil [855 881])
+            ("Gdk" type
+               (:members 
+                  ( ("Surface" variable (:type "int") (reparse-symbol namespacesubparts) [1725 2235]))                  
+                :type "namespace")
+                nil [883 2238]))          
+      :file "toplevelsurfaceimpl.h"
+      :pointmax 2299
+      :fsize 2298
+      :lastmodtime '(25145 11127 0 0)
+      :unmatched-syntax '((PUBLIC 1718 . 1724) (punctuation 1716 . 1717) (symbol 1708 . 1716) (PUBLIC 1701 . 1707) (punctuation 1699 . 1700) (symbol 1679 . 1698) (symbol 1669 . 1678) (CLASS 1663 . 1668))
+      :lexical-table 
+        '(("_GDKMM_TOPLEVELSURFACEIMPL_H")
+          )
+))
+  :file "!usr!include!gtkmm-4.0!gdkmm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

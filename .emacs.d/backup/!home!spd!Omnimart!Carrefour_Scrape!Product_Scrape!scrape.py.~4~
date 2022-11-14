@@ -1,0 +1,42 @@
+"""Docstring"""
+import csv
+import threading
+import requests
+from bs4 import BeautifulSoup
+from cookie import get_cookie
+from functions import get_final_list
+
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36'}
+
+
+with open("beer.txt", "r", encoding="utf8") as f:
+    url_lst = f.readlines()
+
+
+PRODUCT_COUNT = 0
+
+
+def save_to_csv(url):
+    global PRODUCT_COUNT
+
+
+THREADS__ = 0
+thread_lst = []
+
+for items in url_lst:
+    # print(items)
+    if (THREADS__ <= 20):
+        t = threading.Thread(target=save_to_csv, args=[items])
+        t.start()
+        thread_lst.append(t)
+        THREADS__ = THREADS__+1
+    else:
+        for threads in thread_lst:
+            threads.join()
+        thread_lst = []
+        THREADS__ = 0
+        t = threading.Thread(target=save_to_csv, args=[items])
+        t.start()
+        thread_lst.append(t)

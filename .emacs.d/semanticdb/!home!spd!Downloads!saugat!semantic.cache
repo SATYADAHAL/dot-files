@@ -1,0 +1,309 @@
+;; Object semanticdb-project-database-file-e665ee
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-e665ee"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-e6652e"
+      :major-mode c++-mode
+      :tags 
+        '( ("character.h" include nil nil [1 23])
+            ("stdlib.h" include (:system-flag t) nil [24 42])
+            ("time.h" include (:system-flag t) nil [43 59])
+            ("Character" function
+               (:constructor-flag t
+                :parent "Character"
+                :type ("Character" type (:type "class") nil nil))
+                nil [60 180])
+            ("Character" function
+               (:constructor-flag t
+                :parent "Character"
+                :arguments 
+                  ( ("_name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [203 221])
+                    ("_CharHp" variable (:type "int") (reparse-symbol arg-sub-list) [222 234]))                  
+                :type ("Character" type (:type "class") nil nil))
+                nil [182 273])
+            ("deltDamage" function
+               (:parent "Character"
+                :arguments 
+                  ( ("damagedealt" variable (:type "int") (reparse-symbol arg-sub-list) [300 316]))                  
+                :type "int")
+                nil [274 489])
+            ("doAction" function
+               (:parent "Character"
+                :type "int")
+                nil [492 533])
+            ("takeDamage" function
+               (:parent "Character"
+                :arguments 
+                  ( ("damageTaken" variable (:type "int") (reparse-symbol arg-sub-list) [562 578]))                  
+                :type "void")
+                nil [535 804])
+            ("isAlive" function
+               (:parent "Character"
+                :type "bool")
+                nil [806 942])
+            ("getname" function
+               (:parent "Character"
+                :type ("std::string" type (:type "class") nil nil))
+                nil [944 995])
+            ("setName" function
+               (:parent "Character"
+                :arguments 
+                  ( ("_name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1020 1038]))                  
+                :type "void")
+                nil [996 1156])
+            ("displayInfo" function
+               (:parent "Character"
+                :type "void")
+                nil [1157 1281]))          
+      :file "character.cpp"
+      :pointmax 1286
+      :fsize 1370
+      :lastmodtime '(25422 19249 339511 259000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-e6654e"
+      :major-mode c++-mode
+      :tags 
+        '( ("mage.h" include nil nil [1 18])
+            ("Mage" function
+               (:constructor-flag t
+                :parent "Mage"
+                :type ("Mage" type (:type "class") nil nil))
+                nil [19 78])
+            ("displayMageInfo" function
+               (:parent "Mage"
+                :type "void")
+                nil [80 267]))          
+      :file "mage.cpp"
+      :pointmax 267
+      :fsize 278
+      :lastmodtime '(25422 13519 727808 267000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-e6656e"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("character.h" include nil nil [39 61])
+            ("mage.h" include nil nil [62 79])
+            ("time.h" include (:system-flag t) nil [80 97])
+            ("stdlib.h" include (:system-flag t) nil [98 117])
+            ("warrior.h" include nil nil [118 138])
+            ("name" variable (:type ("std::string" type (:type "class") nil nil)) nil [142 159])
+            ("damageTaken" variable (:type "int") nil [160 176])
+            ("warriorName" variable (:type ("std::string" type (:type "class") nil nil)) nil [177 201])
+            ("mageName" variable (:type ("std::string" type (:type "class") nil nil)) nil [202 223])
+            ("paladinName" variable (:type ("std::string" type (:type "class") nil nil)) nil [224 248])
+            ("lvlUp" variable (:type "char") nil [249 260])
+            ("choice" variable (:type "char") nil [261 273])
+            ("main" function (:type "int") nil [297 1282]))          
+      :file "main.cpp"
+      :pointmax 1283
+      :fsize 1355
+      :lastmodtime '(25422 19151 14516 355000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-e6658e"
+      :major-mode c++-mode
+      :tags 
+        '( ("warrior.h" include nil nil [1 21])
+            ("Warrior" function
+               (:constructor-flag t
+                :parent "Warrior"
+                :type ("Warrior" type (:type "class") nil nil))
+                nil [22 87])
+            ("displayWarriorInfo" function
+               (:parent "Warrior"
+                :type "void")
+                nil [89 348]))          
+      :file "warrior.cpp"
+      :pointmax 349
+      :fsize 348
+      :lastmodtime '(25422 17227 608616 60000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-e665ae"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [26 44])
+            ("string" include (:system-flag t) nil [45 61])
+            ("Character" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [80 90])
+                    ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [92 109])
+                    ("public" label nil (reparse-symbol classsubparts) [113 120])
+                    ("Character" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("Character" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [122 134])
+                    ("Character" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("_name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [146 164])
+                            ("_CharHp" variable (:type "int") (reparse-symbol arg-sub-list) [165 177]))                          
+                        :type ("Character" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [136 178])
+                    ("CharHp" variable (:type "int") (reparse-symbol classsubparts) [184 195])
+                    ("strength" variable (:type "int") (reparse-symbol classsubparts) [198 211])
+                    ("defence" variable (:type "int") (reparse-symbol classsubparts) [214 226])
+                    ("doAction" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [247 262])
+                    ("takeDamage" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("damageTaken" variable (:type "int") (reparse-symbol arg-sub-list) [281 297]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [265 298])
+                    ("isAlive" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol classsubparts) [301 316])
+                    ("deltDamage" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("damagedealt" variable (:type "int") (reparse-symbol arg-sub-list) [334 350]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [319 351])
+                    ("getname" function
+                       (:prototype-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [389 411])
+                    ("setName" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("_name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [427 445]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [414 446])
+                    ("displayInfo" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [449 468]))                  
+                :type "class")
+                nil [62 473]))          
+      :file "character.h"
+      :pointmax 474
+      :fsize 504
+      :lastmodtime '(25422 14386 738763 323000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-e665ce"
+      :major-mode c++-mode
+      :tags 
+        '( ("character.h" include nil nil [14 35])
+            ("Mage" type
+               (:superclasses 
+                  ( ("Character" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [69 76])
+                    ("Mage" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [78 85])
+                    ("fireballDmg" variable (:type "int") (reparse-symbol classsubparts) [87 103])
+                    ("damagedealt" variable (:type "int") (reparse-symbol classsubparts) [105 121])
+                    ("mageHp" variable
+                       (:default-value "CharHp"
+                        :type "int")
+                        (reparse-symbol classsubparts) [123 143])
+                    ("manaPoints" variable (:type "int") (reparse-symbol classsubparts) [145 160])
+                    ("fireball" function (:type "int") (reparse-symbol classsubparts) [162 416])
+                    ("displayMageInfo" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [419 442]))                  
+                :type "class")
+                nil [38 446]))          
+      :file "mage.h"
+      :pointmax 447
+      :fsize 472
+      :lastmodtime '(25422 19360 129505 516000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-e63d00"
+      :major-mode c++-mode
+      :tags 
+        '( ("character.h" include nil nil [15 36])
+            ("Paladin" type
+               (:superclasses 
+                  ( ("Warrior" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [69 76])
+                    ("Paladin" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [78 88])
+                    ("healAmount" variable
+                       (:default-value "19"
+                        :type "int")
+                        (reparse-symbol classsubparts) [95 113])
+                    ("Heal" function (:type "int") (reparse-symbol classsubparts) [121 139])
+                    ("displayWarriorInfo" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [141 167]))                  
+                :type "class")
+                nil [37 171]))          
+      :file "paladin.h"
+      :pointmax 172
+      :fsize 171
+      :lastmodtime '(25422 19293 82508 991000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-e63d20"
+      :major-mode c++-mode
+      :tags 
+        '( ("character.h" include nil nil [14 35])
+            ("Warrior" type
+               (:superclasses 
+                  ( ("Character" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [70 77])
+                    ("Warrior" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [79 89])
+                    ("heavyswingDmg" variable
+                       (:default-value "10"
+                        :type "int")
+                        (reparse-symbol classsubparts) [91 112])
+                    ("damagedealt" variable (:type "int") (reparse-symbol classsubparts) [114 130])
+                    ("warriorHp" variable
+                       (:default-value "CharHp"
+                        :type "int")
+                        (reparse-symbol classsubparts) [132 155])
+                    ("ragePoints" variable (:type "int") (reparse-symbol classsubparts) [157 172])
+                    ("hitPoints" variable
+                       (:default-value "19"
+                        :type "int")
+                        (reparse-symbol classsubparts) [174 191])
+                    ("heavySwing" function (:type "int") (reparse-symbol classsubparts) [194 377])
+                    ("displayWarriorInfo" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [380 406]))                  
+                :type "class")
+                nil [36 410]))          
+      :file "warrior.h"
+      :pointmax 411
+      :fsize 410
+      :lastmodtime '(25422 19322 384507 472000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-e63d40"
+      :major-mode c-mode
+      :tags nil
+      :file "warrio.h"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(25422 19373 653504 814000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Downloads!saugat!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

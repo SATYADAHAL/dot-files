@@ -1,0 +1,127 @@
+;; Object semanticdb-project-database-file-d45a8c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-d45a8c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-d45a98"
+      :major-mode c++-mode
+      :tags 
+        '( ("shapecorners.h" include nil nil [1 26])
+            ("KWin" type (:type "namespace") nil [28 752])
+            ("main.moc" include nil nil [754 773]))          
+      :file "main.cpp"
+      :pointmax 774
+      :fsize 773
+      :lastmodtime '(25305 21862 104153 867000)
+      :unmatched-syntax '((semantic-list 133 . 446) (symbol 96 . 133) (punctuation 444 . 445) (semantic-list 442 . 444) (RETURN 399 . 405) (punctuation 356 . 357) (semantic-list 354 . 356) (RETURN 318 . 324) (string 257 . 276) (symbol 49 . 60) (punctuation 444 . 445) (semantic-list 442 . 444) (RETURN 399 . 405) (punctuation 356 . 357) (semantic-list 354 . 356) (RETURN 318 . 324) (string 257 . 276)))
+    (semanticdb-table "semanticdb-table-e06a40"
+      :file "shapecorners.h"
+      :fsize 2354
+      :lastmodtime '(25305 21862 141153 844000))
+    (semanticdb-table "semanticdb-table-da8df8"
+      :major-mode c++-mode
+      :tags 
+        '( ("dbus.h" include nil nil [846 863])
+            ("shapecorners.h" include nil nil [864 889])
+            ("QPainter" include (:system-flag t) nil [890 909])
+            ("QImage" include (:system-flag t) nil [910 927])
+            ("QFile" include (:system-flag t) nil [928 944])
+            ("QStandardPaths" include (:system-flag t) nil [945 970])
+            ("kwinglplatform.h" include (:system-flag t) nil [971 998])
+            ("kwinglutils.h" include (:system-flag t) nil [999 1023])
+            ("kwindowsystem.h" include (:system-flag t) nil [1024 1050])
+            ("QMatrix4x4" include (:system-flag t) nil [1051 1072])
+            ("KConfigGroup" include (:system-flag t) nil [1073 1096])
+            ("QDBusConnection" include (:system-flag t) nil [1097 1123])
+            ("ShapeCornersEffect" function
+               (:constructor-flag t
+                :parent "ShapeCornersEffect"
+                :type ("ShapeCornersEffect" type (:type "class") nil nil))
+                nil [1126 3656])
+            ("windowAdded" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3749 3771]))                  
+                :type "void")
+                nil [3712 4449])
+            ("setRoundness" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("r" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [4489 4501]))                  
+                :type "void")
+                nil [4451 4521])
+            ("reconfigure" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("flags" variable (:type ("ReconfigureFlags" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4560 4583]))                  
+                :type "void")
+                nil [4523 4956])
+            ("prePaintWindow" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5165 5187])
+                    ("data" variable
+                       (:reference 1
+                        :type ("KWin::WindowPrePaintData" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5188 5219])
+                    ("time" variable (:type "int") (reparse-symbol arg-sub-list) [5220 5229]))                  
+                :type "void")
+                nil [5125 6500])
+            ("hasShadow" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("qds" variable
+                       (:reference 1
+                        :type ("KWin::WindowQuadList" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6558 6584]))                  
+                :type "bool")
+                nil [6536 6729])
+            ("paintWindow" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6775 6797])
+                    ("mask" variable (:type "int") (reparse-symbol arg-sub-list) [6798 6807])
+                    ("region" variable (:type ("QRegion" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6808 6823])
+                    ("data" variable
+                       (:reference 1
+                        :type ("KWin::WindowPaintData" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6824 6852]))                  
+                :type "void")
+                nil [6738 11391])
+            ("supported" function
+               (:parent "ShapeCornersEffect"
+                :type "bool")
+                nil [11393 11615])
+            ("isMaximized" function
+               (:parent "ShapeCornersEffect"
+                :arguments 
+                  ( ("w" variable
+                       (:pointer 1
+                        :type ("KWin::EffectWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11654 11676]))                  
+                :type "bool")
+                nil [11617 12015]))          
+      :file "shapecorners.cpp"
+      :pointmax 12016
+      :fsize 12017
+      :lastmodtime '(25305 21862 140153 845000)
+      :unmatched-syntax '((punctuation 3709 . 3710) (DEFAULT 3702 . 3709) (punctuation 3700 . 3701) (semantic-list 3697 . 3699) (symbol 3679 . 3697) (punctuation 3678 . 3679) (punctuation 3677 . 3678) (punctuation 3676 . 3677) (symbol 3658 . 3676)))
+    (semanticdb-table "semanticdb-table-dae0a0"
+      :file "dbus.h"
+      :fsize 892
+      :lastmodtime '(25305 21862 103153 867000)))
+  :file "!home!spd!new-test!KDE-Rounded-Corners!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

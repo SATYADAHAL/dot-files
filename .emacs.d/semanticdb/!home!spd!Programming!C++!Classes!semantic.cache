@@ -1,0 +1,457 @@
+;; Object semanticdb-project-database-file-1557f92a687c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1557f92a687c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1557f92a673c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("class_method" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [62 69])
+                    ("class_method" function
+                       (:constructor-flag t
+                        :type ("class_method" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [72 129])
+                    ("method1" function (:type "void") (reparse-symbol classsubparts) [132 194])
+                    ("method2" function
+                       (:arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [210 227]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [198 311]))                  
+                :type "class")
+                nil [41 317])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [328 337])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [338 351]))                  
+                :type "int")
+                nil [319 438]))          
+      :file "class_methods.cpp"
+      :pointmax 441
+      :fsize 440
+      :lastmodtime '(25106 33579 458627 972000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1557f92a675c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("base_class_first" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [66 73])
+                    ("fun" function (:type "int") (reparse-symbol classsubparts) [76 158])
+                    ("protected" label nil (reparse-symbol classsubparts) [159 169])
+                    ("prot_fun" function (:type "int") (reparse-symbol classsubparts) [172 271]))                  
+                :type "class")
+                nil [41 274])
+            ("base_class_second" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [302 309])
+                    ("base2_fun" function (:type "int") (reparse-symbol classsubparts) [312 410])
+                    ("protected" label nil (reparse-symbol classsubparts) [411 421])
+                    ("base2_proc_fun" function (:type "int") (reparse-symbol classsubparts) [424 535]))                  
+                :type "class")
+                nil [276 538])
+            ("inherited" type
+               (:superclasses 
+                  ( ("base_class_first" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil)
+                    ("base_class_second" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [606 613])
+                    ("all_funtion" function (:type "int") (reparse-symbol classsubparts) [616 718]))                  
+                :type "class")
+                nil [539 721])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [732 741])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [742 755]))                  
+                :type "int")
+                nil [723 809]))          
+      :file "class_multiple_inheritance.cpp"
+      :pointmax 813
+      :fsize 812
+      :lastmodtime '(25116 26618 633775 592000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1557f92a677c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("cmath" include (:system-flag t) nil [40 56])
+            ("class_first" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [77 84])
+                    ("class_first" function
+                       (:constructor-flag t
+                        :type ("class_first" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [87 175])
+                    ("print" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [189 194]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [178 268])
+                    ("sum" function
+                       (:arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [279 285])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [285 291]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [271 371])
+                    ("sum" function
+                       (:arguments 
+                          ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [384 392])
+                            ("y" variable (:type "float") (reparse-symbol arg-sub-list) [392 400]))                          
+                        :type "float")
+                        (reparse-symbol classsubparts) [374 501]))                  
+                :type "class")
+                nil [57 504])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [516 525])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [526 539]))                  
+                :type "int")
+                nil [507 665]))          
+      :file "Rev_clasess_meth.cpp"
+      :pointmax 666
+      :fsize 665
+      :lastmodtime '(25112 40950 860923 457000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1557f92a679c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("base_class" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [59 66])
+                    ("base_class" function
+                       (:constructor-flag t
+                        :type ("base_class" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [69 105])
+                    ("base_name" variable
+                       (:default-value "\"Class_first\""
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [108 144])
+                    ("print" function (:type "void") (reparse-symbol classsubparts) [147 227]))                  
+                :type "class")
+                nil [40 230])
+            ("inherited_class" type
+               (:superclasses 
+                  ( ("base_class" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [274 281])
+                    ("inher_name" variable
+                       (:default-value "\"In_Class\""
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [284 318]))                  
+                :type "class")
+                nil [232 321])
+            ("grandson" type
+               (:superclasses 
+                  ( ("inherited_class" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [362 369]))                  
+                :type "class")
+                nil [323 375])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [386 395])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [396 409]))                  
+                :type "int")
+                nil [377 653]))          
+      :file "inheritance.cpp"
+      :pointmax 655
+      :fsize 654
+      :lastmodtime '(25114 62331 947216 907000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1557f92a67bc"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("constructor" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [59 66])
+                    ("constructor" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [81 98]))                          
+                        :type ("constructor" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [69 180]))                  
+                :type "class")
+                nil [39 186])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [197 206])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [207 220]))                  
+                :type "int")
+                nil [188 324]))          
+      :file "class_constructor.cpp"
+      :pointmax 325
+      :fsize 324
+      :lastmodtime '(25167 2059 19847 674000)
+      :unmatched-syntax '((string 241 . 247) (string 241 . 247) (string 241 . 247) (string 241 . 247) (string 241 . 247) (string 241 . 247) (string 241 . 247) (string 241 . 247)))
+    (semanticdb-table "semanticdb-table-1557f92a67dc"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("my_newclass" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [61 68])
+                    ("my_newclass" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [83 100]))                          
+                        :type ("my_newclass" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [71 159])
+                    ("x" variable (:type "int") (reparse-symbol classsubparts) [162 168])
+                    ("new_fun" function (:type "int") (reparse-symbol classsubparts) [171 249])
+                    ("another_fun" function (:type "float") (reparse-symbol classsubparts) [252 342])
+                    ("private" label nil (reparse-symbol classsubparts) [344 352])
+                    ("fun" function (:type "int") (reparse-symbol classsubparts) [355 431]))                  
+                :type "class")
+                nil [41 434])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [472 481])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [482 495]))                  
+                :type "int")
+                nil [463 800]))          
+      :file "classes.cpp"
+      :pointmax 802
+      :fsize 775
+      :lastmodtime '(25123 18015 154914 454000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1557f92a67fc"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("ostream" include (:system-flag t) nil [21 39])
+            ("cls_1" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [54 61])
+                    ("x" variable (:type "int") (reparse-symbol classsubparts) [64 70])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [70 76])
+                    ("private" label nil (reparse-symbol classsubparts) [77 85])
+                    ("no_one_shall_access_this" variable (:type "int") (reparse-symbol classsubparts) [88 117])
+                    ("protected" label nil (reparse-symbol classsubparts) [118 128])
+                    ("only_my_offsrprings_can_access_this" variable (:type "int") (reparse-symbol classsubparts) [131 171]))                  
+                :type "class")
+                nil [40 174])
+            ("offspring" type
+               (:superclasses 
+                  ( ("cls_1" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [205 212])
+                    ("only_my_offsrprings_can_access_this" variable
+                       (:default-value "10"
+                        :type "int")
+                        (reparse-symbol classsubparts) [218 257]))                  
+                :type "class")
+                nil [175 260])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [271 280])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [281 294]))                  
+                :type "int")
+                nil [262 578]))          
+      :file "test_for_snippets.cpp"
+      :pointmax 581
+      :fsize 580
+      :lastmodtime '(25116 26521 664113 769000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1557f92a681c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("base_class" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [59 66])
+                    ("base_pub" function (:type "int") (reparse-symbol classsubparts) [69 166])
+                    ("private" label nil (reparse-symbol classsubparts) [167 175])
+                    ("no_one_can_access_me" variable
+                       (:default-value "369"
+                        :type "int")
+                        (reparse-symbol classsubparts) [178 207])
+                    ("protected" label nil (reparse-symbol classsubparts) [208 218])
+                    ("this_is_protected" variable (:type "int") (reparse-symbol classsubparts) [221 243])
+                    ("protected_fun" function (:type "float") (reparse-symbol classsubparts) [246 398]))                  
+                :type "class")
+                nil [40 401])
+            ("inherited" type
+               (:superclasses 
+                  ( ("base_class" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [439 446])
+                    ("fun" function (:type "void") (reparse-symbol classsubparts) [449 536]))                  
+                :type "class")
+                nil [403 539])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [549 558])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [559 572]))                  
+                :type "int")
+                nil [540 636]))          
+      :file "class_pu_pr_pro.cpp"
+      :pointmax 637
+      :fsize 636
+      :lastmodtime '(25116 26783 52498 164000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1557f92a683c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("ostream" include (:system-flag t) nil [21 39])
+            ("first_class" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [60 67])
+                    ("x" variable (:type "int") (reparse-symbol classsubparts) [70 76])
+                    ("public_f" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [94 99]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [81 166])
+                    ("protected" label nil (reparse-symbol classsubparts) [168 178])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [181 187])
+                    ("protected_f" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [206 211]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [190 282])
+                    ("private" label nil (reparse-symbol classsubparts) [286 294])
+                    ("z" variable
+                       (:default-value "10"
+                        :type "int")
+                        (reparse-symbol classsubparts) [297 306])
+                    ("private_f" function
+                       (:arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [323 328]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [309 397]))                  
+                :type "class")
+                nil [40 403])
+            ("inherited" type
+               (:superclasses 
+                  ( ("first_class" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [442 449])
+                    ("print_protected_fun" function (:type "int") (reparse-symbol classsubparts) [452 518]))                  
+                :type "class")
+                nil [405 522])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [535 544])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [545 558]))                  
+                :type "int")
+                nil [526 665]))          
+      :file "test_for_emacs.cpp"
+      :pointmax 666
+      :fsize 665
+      :lastmodtime '(25116 29533 112902 958000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1557f92a685c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("cmath" include (:system-flag t) nil [40 56])
+            ("test_class" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [76 83])
+                    ("test_class" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("test_class" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [86 99])
+                    ("test_function" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [120 125]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [102 126]))                  
+                :type "class")
+                nil [57 132])
+            ("test_class" function
+               (:constructor-flag t
+                :parent "test_class"
+                :type ("test_class" type (:type "class") nil nil))
+                nil [133 202])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [212 221])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [222 235]))                  
+                :type "int")
+                nil [203 277]))          
+      :file "new_classes.cpp"
+      :pointmax 278
+      :fsize 277
+      :lastmodtime '(25132 46763 755378 520000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!Classes!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,28 @@
+import re
+import os
+from pathlib import Path
+    
+def get_all_pids():
+    #Get all Porcess Ids
+    dir_=os.listdir("/proc")
+    return [x for x in dir_ if (x.isdigit())] 
+
+def print_pid_info(pid):
+    """Prints information about the PID
+
+    Args:
+        pid (integer): Pass the process id as number
+    """
+    program_name =""
+    cmdline=""
+    current_working_dir=str(Path(f"/proc/{pid}/current_working_dir").resolve())
+    with open(f"/proc/{pid}/comm","r") as f:
+        lst=f.readlines()
+        program_name=lst[0].strip()
+    with open(f"/proc/{pid}/cmdline","r") as f:
+        lst=f.readlines()
+        cmdline=lst[0].strip()
+    print(f"\nProcess ID: {pid}")
+    print(f"Program Name: {program_name}")
+    print(f"Command Line: {cmdline}")
+    print(f"Working Directory: {current_working_dir}")

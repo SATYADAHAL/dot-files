@@ -1,0 +1,33 @@
+;; Object semanticdb-project-database-file-f483ec
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-f483ec"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-f483f8"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("Student" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [55 62])
+                    ("Student" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable
+                               (:default-value "\"Unknown\""
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [73 99]))                          
+                        :type ("Student" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [65 150]))                  
+                :type "class")
+                nil [40 153])
+            ("main" function (:type "int") nil [154 222]))          
+      :file "Lab4_01.cpp"
+      :pointmax 222
+      :fsize 221
+      :lastmodtime '(25268 2208 796969 313000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!CPP!Lab!Lab4!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,15 @@
+import re
+
+if __name__=="__main__":
+    def get_kbd_event_numbers():
+        event_num_list=[]
+        handlers_path="/proc/bus/input/devices"
+        with open(handlers_path) as file:
+            lines_in_file=file.readlines()
+            for line in lines_in_file:
+                if(re.match("H: Handlers=sysrq kbd.*\n$",line)):
+                    event_num= line.strip().split(" ")[-1][5:] #remove whitespace,split by space, take last value,remove first five characters of string
+                    event_num_list.append(event_num)
+            return event_num_list
+    print(get_kbd_event_numbers())
+

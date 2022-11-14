@@ -1,0 +1,214 @@
+import requests
+
+from bs4 import BeautifulSoup
+
+import lxml
+
+import random
+
+#import logging
+
+# try:
+
+#     import http.client as http_client
+
+# except ImportError:
+
+#     # Python 2
+
+#     import httplib as http_client
+
+# http_client.HTTPConnection.debuglevel = 1
+
+
+
+# # You must initialize logging, otherwise you'll not see debug output.
+
+# logging.basicConfig()
+
+# logging.getLogger().setLevel(logging.DEBUG)
+
+# requests_log = logging.getLogger("requests.packages.urllib3")
+
+# requests_log.setLevel(logging.DEBUG)
+
+# requests_log.propagate = True
+
+
+
+
+product_detail=["8.6 Original Intense Blond Beer 12 x 500 ml","24.19","https://cdn.carrefour.eu/1200_06827552_8714800024693_00.jpeg","No Description Avaibale","Alcoholpercentage Alcohol (%) 8.6 Minimum leeftijd Verboden aan -16 jarigen." ]
+LOGIN_URL = "https://omnimart.be/admin/login"
+
+login_form = {
+
+    "email": "product@example.com",
+
+    "password": "Price123$",
+
+    "_token": ""
+
+}
+
+
+
+# Login part
+
+session = requests.Session()  # Everthing will be done under this session object
+
+response = session.get(LOGIN_URL)
+
+soup = BeautifulSoup(response.text, 'lxml')
+
+csrfToken = soup.find_all('meta', attrs={'name': 'csrf-token'})[0]['content']
+
+print(f"CsrfToken:{csrfToken} ")
+
+login_form["_token"] = csrfToken
+
+login_response = session.post(LOGIN_URL, data=login_form)
+
+if (login_response.status_code == 200):  # Check if login was succesfull
+
+    print("Logged in succesfully...")
+
+else:
+
+    print("Could not login in. Exiting the program....")
+
+    exit(1)
+
+
+
+
+
+# Now we need to generate new product number;
+
+
+
+create_product_url = "https://omnimart.be/admin/catalog/products/create"
+
+create_product_form = {"_token": csrfToken,
+
+                       "type": "simple",
+
+                       "attribute_family_id": "1",
+
+                       "sku": ""
+
+                       }
+
+res = session.post(create_product_url, data=create_product_form)
+
+if(res.status_code == 200):
+
+    product_num = res.url.split("/")[-1]
+
+    print(f"Product number created succesfully...\nProduct Num: {product_num}")
+
+else:
+
+    print("Could not create Product.....\nExiting program")
+
+    exit(1)
+
+
+
+
+
+# Final product form edit url
+
+product_edit_url = res.url
+
+soup = BeautifulSoup(res.text, "lxml")
+
+sku = soup.find(id="sku")['value']
+
+print(sku)
+
+price=str(float(product_detail[1])+0.15*float(product_detail[1]))
+
+product_data = {
+
+    'channel': (None, 'default'),
+
+    'locale': (None, 'nl'),
+
+    '_token': (None, csrfToken),  # Done
+
+    '_method': (None, 'PUT'),
+
+    'sku': (None, sku),
+
+    'product_number': (None, ''),
+
+    'name': (None, product_detail[0]),  # Needs to filled manually
+
+    'url_key': (None, product_detail[0]),
+
+    'tax_category_id': (None, '2'),  # Needs to filled manually
+
+    'visible_individually': (None, '1'),
+
+    'guest_checkout': (None, '1'),
+
+    'status': (None, '1'),
+
+    'color': (None, '1'),
+
+    'size': (None, '1'),  # Needs to filled manually
+
+    'vendor_id': (None, '3'),  # 3 ==> Carrrefour
+
+    'product_food_type_id': (None, '2'), # 2==> NonFood Item
+
+    'short_description': (None, f'<p>{product_detail[-2]}</p>'),
+
+    'description': (None, f'<p>{product_detail[-1]}</p>'),  # Needs to filled manually
+
+    'meta_title': (None, ''),
+
+    'meta_keywords': (None, ''),
+
+    'meta_description': (None, ''),
+
+    'price': (None, price),  # Needs to filled manually
+
+    'cost': (None, ''),
+
+    'special_price': (None, ''),
+
+    'special_price_from': (None, ''),
+
+    'special_price_to': (None, ''),
+
+    'length': (None, ''),
+
+    'width': (None, ''),
+
+    'height': (None, ''),
+
+    'weight': (None, '1'),  # Needs to filled manually
+
+    'inventories[1]': (None, '0'),
+
+    #'images[image_1]':(None,''),
+
+    'copied_link[]':(None,"https://cdn.carrefour.eu/1200_06827552_8714800024693_00.jpeg"),
+
+    'categories[]': (None, '1904'),  # Needs to filled manually
+
+    'channels[]': (None, '1')
+
+}
+
+
+
+res = session.post(product_edit_url, files=product_data)
+
+print(res.status_code)
+
+# print(res.request.headers)
+
+# print(res.request.files)
+

@@ -1,0 +1,129 @@
+;; Object semanticdb-project-database-file-fd4ec8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-fd4ec8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-fd4ea8"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Student" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [36 46])
+                    ("roll" variable (:type "int") (reparse-symbol classsubparts) [49 60])
+                    ("public" label nil (reparse-symbol classsubparts) [61 68])
+                    ("init_roll" function
+                       (:arguments 
+                          ( ("roll" variable (:type "int") (reparse-symbol arg-sub-list) [85 94]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [71 136]))                  
+                :type "class")
+                nil [21 139])
+            ("Test" type
+               (:superclasses 
+                  ( ("Student" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [168 178])
+                    ("sub1" variable (:type "int") (reparse-symbol classsubparts) [181 200])
+                    ("sub2" variable (:type "int") (reparse-symbol classsubparts) [181 200])
+                    ("public" label nil (reparse-symbol classsubparts) [201 208])
+                    ("init_marks" function
+                       (:arguments 
+                          ( ("sub1" variable (:type "int") (reparse-symbol arg-sub-list) [226 235])
+                            ("sub2" variable (:type "int") (reparse-symbol arg-sub-list) [235 244]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [211 363]))                  
+                :type "class")
+                nil [141 366])
+            ("Result" type
+               (:superclasses 
+                  ( ("Test" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [395 403])
+                    ("total" variable (:type "int") (reparse-symbol classsubparts) [406 416])
+                    ("public" label nil (reparse-symbol classsubparts) [417 424])
+                    ("display" function (:type "int") (reparse-symbol classsubparts) [430 715]))                  
+                :type "class")
+                nil [368 720])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [731 740])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [741 754]))                  
+                :type "int")
+                nil [722 1041]))          
+      :file "Lab5_03.cpp"
+      :pointmax 1046
+      :fsize 1045
+      :lastmodtime '(25302 55407 550189 377000)
+      :unmatched-syntax '((symbol 1046 . 1055)))
+    (semanticdb-table "semanticdb-table-fd4ee8"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Class1" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [36 46])
+                    ("var_1" variable (:type "int") (reparse-symbol classsubparts) [49 59])
+                    ("public" label nil (reparse-symbol classsubparts) [60 67])
+                    ("initialize" function
+                       (:arguments 
+                          ( ("var_1" variable (:type "int") (reparse-symbol arg-sub-list) [86 96]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [70 126]))                  
+                :type "class")
+                nil [22 129])
+            ("Class2" type
+               (:members 
+                  ( ("protected" label nil (reparse-symbol classsubparts) [145 155])
+                    ("var_2" variable (:type "int") (reparse-symbol classsubparts) [158 168])
+                    ("public" label nil (reparse-symbol classsubparts) [169 176])
+                    ("initialize" function
+                       (:arguments 
+                          ( ("var_2" variable (:type "int") (reparse-symbol arg-sub-list) [195 205]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [179 235]))                  
+                :type "class")
+                nil [131 238])
+            ("Class3" type
+               (:superclasses 
+                  ( ("Class1" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil)
+                    ("Class2" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [283 290])
+                    ("sum" function (:type "int") (reparse-symbol classsubparts) [293 331]))                  
+                :type "class")
+                nil [240 334])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [345 354])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [355 368]))                  
+                :type "int")
+                nil [336 510]))          
+      :file "Lab5_02.cpp"
+      :pointmax 512
+      :fsize 511
+      :lastmodtime '(25271 63500 70895 259000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!CPP!Lab!Lab5!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file-15948a33dc96
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15948a33dc96"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15948a33dc76"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("vector" include (:system-flag t) nil [21 38])
+            ("print" function
+               (:arguments 
+                  ( ("obj" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [50 71]))                  
+                :type "int")
+                nil [40 304])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [316 325])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [326 339]))                  
+                :type "int")
+                nil [307 576]))          
+      :file "vector.cpp"
+      :pointmax 577
+      :fsize 575
+      :lastmodtime '(25219 7865 379531 530000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!vectors!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

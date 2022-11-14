@@ -1,0 +1,61 @@
+;; Object semanticdb-project-database-file-155d147bdf64
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155d147bdf64"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155d147bdee4"
+      :major-mode makefile-automake-mode
+      :tags 
+        '( ("AUTOMAKE_OPTIONS" variable (:default-value ("subdir-objects")) nil [47 81])
+            ("AM_CPPFLAGS" variable (:default-value ("$(GTKMM_CFLAGS)")) nil [82 112])
+            ("AM_CXXFLAGS" variable (:default-value ("$(EXAMPLES_WXXFLAGS)")) nil [112 147])
+            ("LDADD" variable (:default-value ("$(GTKMM_LIBS)")) nil [147 175])
+            ("check_PROGRAMS" variable (:default-value ("step1/exampleapp")) nil [176 382])
+            ("check_DATA" variable (:default-value ("$(GSCHEMAS_COMPILED)")) nil [383 417])
+            ("dist_noinst_DATA" variable (:default-value ("README" "step1/exampleapp.desktop.in" "step1/exampleapp.png" "step1/Makefile.example" "$(STEP2_RESOURCES)" "step2/Makefile.example" "$(STEP3_RESOURCES)" "step3/Makefile.example" "$(STEP4_RESOURCES)" "step4/Makefile.example" "$(STEP5_RESOURCES)" "step5/Makefile.example" "$(STEP6_RESOURCES)" "step6/Makefile.example" "$(STEP7_RESOURCES)" "step7/Makefile.example" "$(STEP8_RESOURCES)" "step8/Makefile.example" "$(STEP9_RESOURCES)" "step9/Makefile.example" "$(gsettings_SCHEMAS)")) nil [418 957])
+            ("EXTRA_DIST" variable (:default-value ("step1/install-cmd.py" "step1/meson.build" "step2/meson.build" "step3/meson.build" "step4/meson.build" "step5/meson.build" "step6/meson.build" "step7/meson.build" "step8/meson.build" "step9/meson.build")) nil [1010 1246])
+            ("step1_exampleapp_SOURCES" variable (:default-value ("step1/exampleapplication.cc" "step1/exampleapplication.h" "step1/exampleappwindow.cc" "step1/exampleappwindow.h" "step1/main.cc")) nil [1247 1414])
+            ("nodist_step2_exampleapp_SOURCES" variable (:default-value ("step2/resources.c")) nil [1415 1467])
+            ("step2_exampleapp_SOURCES" variable (:default-value ("step2/exampleapplication.cc" "step2/exampleapplication.h" "step2/exampleappwindow.cc" "step2/exampleappwindow.h" "step2/main.cc")) nil [1467 1634])
+            ("nodist_step3_exampleapp_SOURCES" variable (:default-value ("step3/resources.c")) nil [1635 1687])
+            ("step3_exampleapp_SOURCES" variable (:default-value ("step3/exampleapplication.cc" "step3/exampleapplication.h" "step3/exampleappwindow.cc" "step3/exampleappwindow.h" "step3/main.cc")) nil [1687 1854])
+            ("nodist_step4_exampleapp_SOURCES" variable (:default-value ("step4/resources.c")) nil [1855 1907])
+            ("step4_exampleapp_SOURCES" variable (:default-value ("step4/exampleapplication.cc" "step4/exampleapplication.h" "step4/exampleappwindow.cc" "step4/exampleappwindow.h" "step4/main.cc")) nil [1907 2074])
+            ("nodist_step5_exampleapp_SOURCES" variable (:default-value ("step5/resources.c")) nil [2075 2127])
+            ("step5_exampleapp_SOURCES" variable (:default-value ("step5/exampleapplication.cc" "step5/exampleapplication.h" "step5/exampleappwindow.cc" "step5/exampleappwindow.h" "step5/exampleappprefs.cc" "step5/exampleappprefs.h" "step5/main.cc")) nil [2127 2351])
+            ("nodist_step6_exampleapp_SOURCES" variable (:default-value ("step6/resources.c")) nil [2352 2404])
+            ("step6_exampleapp_SOURCES" variable (:default-value ("step6/exampleapplication.cc" "step6/exampleapplication.h" "step6/exampleappwindow.cc" "step6/exampleappwindow.h" "step6/exampleappprefs.cc" "step6/exampleappprefs.h" "step6/main.cc")) nil [2404 2628])
+            ("nodist_step7_exampleapp_SOURCES" variable (:default-value ("step7/resources.c")) nil [2629 2681])
+            ("step7_exampleapp_SOURCES" variable (:default-value ("step7/exampleapplication.cc" "step7/exampleapplication.h" "step7/exampleappwindow.cc" "step7/exampleappwindow.h" "step7/exampleappprefs.cc" "step7/exampleappprefs.h" "step7/main.cc")) nil [2681 2905])
+            ("nodist_step8_exampleapp_SOURCES" variable (:default-value ("step8/resources.c")) nil [2906 2958])
+            ("step8_exampleapp_SOURCES" variable (:default-value ("step8/exampleapplication.cc" "step8/exampleapplication.h" "step8/exampleappwindow.cc" "step8/exampleappwindow.h" "step8/exampleappprefs.cc" "step8/exampleappprefs.h" "step8/main.cc")) nil [2958 3182])
+            ("nodist_step9_exampleapp_SOURCES" variable (:default-value ("step9/resources.c")) nil [3183 3235])
+            ("step9_exampleapp_SOURCES" variable (:default-value ("step9/exampleapplication.cc" "step9/exampleapplication.h" "step9/exampleappwindow.cc" "step9/exampleappwindow.h" "step9/exampleappprefs.cc" "step9/exampleappprefs.h" "step9/main.cc")) nil [3235 3459])
+            ("gsettings_SCHEMAS" variable (:default-value ("step5/org.gtkmm.exampleapp.gschema.xml" "step6/org.gtkmm.exampleapp.gschema.xml" "step7/org.gtkmm.exampleapp.gschema.xml" "step8/org.gtkmm.exampleapp.gschema.xml" "step9/org.gtkmm.exampleapp.gschema.xml")) nil [3460 3695])
+            ("GSCHEMAS_COMPILED" variable (:default-value ("step5/gschemas.compiled" "step6/gschemas.compiled" "step7/gschemas.compiled" "step8/gschemas.compiled" "step9/gschemas.compiled")) nil [3696 3856])
+            ("%/gschemas.compiled" function (:arguments ("%/org.gtkmm.exampleapp.gschema.xml")) nil [3974 4161])
+            ("DISTCLEANFILES" variable (:default-value ("step2/resources.c" "step3/resources.c" "step4/resources.c" "step5/resources.c" "step6/resources.c" "step7/resources.c" "step8/resources.c" "step9/resources.c" "$(GSCHEMAS_COMPILED)")) nil [4468 4686])
+            ("STEP2_RESOURCES" variable (:default-value ("step2/exampleapp.gresource.xml" "step2/window.ui")) nil [4687 4760])
+            ("step2/resources.c" function (:arguments ("$(STEP2_RESOURCES)")) nil [4761 4893])
+            ("STEP3_RESOURCES" variable (:default-value ("step3/exampleapp.gresource.xml" "step3/window.ui")) nil [4894 4967])
+            ("step3/resources.c" function (:arguments ("$(STEP3_RESOURCES)")) nil [4968 5100])
+            ("STEP4_RESOURCES" variable (:default-value ("step4/exampleapp.gresource.xml" "step4/window.ui" "step4/gears_menu.ui")) nil [5101 5198])
+            ("step4/resources.c" function (:arguments ("$(STEP4_RESOURCES)")) nil [5199 5331])
+            ("STEP5_RESOURCES" variable (:default-value ("step5/exampleapp.gresource.xml" "step5/window.ui" "step5/gears_menu.ui" "step5/prefs.ui")) nil [5332 5448])
+            ("step5/resources.c" function (:arguments ("$(STEP5_RESOURCES)")) nil [5449 5581])
+            ("STEP6_RESOURCES" variable (:default-value ("step6/exampleapp.gresource.xml" "step6/window.ui" "step6/gears_menu.ui" "step6/prefs.ui")) nil [5582 5698])
+            ("step6/resources.c" function (:arguments ("$(STEP6_RESOURCES)")) nil [5699 5831])
+            ("STEP7_RESOURCES" variable (:default-value ("step7/exampleapp.gresource.xml" "step7/window.ui" "step7/gears_menu.ui" "step7/prefs.ui")) nil [5832 5948])
+            ("step7/resources.c" function (:arguments ("$(STEP7_RESOURCES)")) nil [5949 6081])
+            ("STEP8_RESOURCES" variable (:default-value ("step8/exampleapp.gresource.xml" "step8/window.ui" "step8/gears_menu.ui" "step8/prefs.ui")) nil [6082 6198])
+            ("step8/resources.c" function (:arguments ("$(STEP8_RESOURCES)")) nil [6199 6331])
+            ("STEP9_RESOURCES" variable (:default-value ("step9/exampleapp.gresource.xml" "step9/window.ui" "step9/gears_menu.ui" "step9/prefs.ui" "step9/exampleapp.png")) nil [6332 6473])
+            ("step9/resources.c" function (:arguments ("$(STEP9_RESOURCES)")) nil [6474 6606]))          
+      :file "Makefile.am"
+      :pointmax 6607
+      :fsize 6606
+      :lastmodtime '(25119 8391 857791 367000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!GTK!gitlab!gtkmm-documentation!examples!book!buildapp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

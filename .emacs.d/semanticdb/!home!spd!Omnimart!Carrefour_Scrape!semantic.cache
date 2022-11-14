@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-c789f0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-c789f0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-c14e7c"
+      :major-mode python-mode
+      :tags nil
+      :file "carrefour_get_data.py"
+      :pointmax 846
+      :fsize 1358
+      :lastmodtime '(25436 47527 847237 848000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-c15edc"
+      :major-mode python-mode
+      :tags 
+        '( nil)          
+      :file "cookie.py"
+      :pointmax 7375
+      :fsize 7374
+      :lastmodtime '(25436 61364 396583 437000)
+      :unmatched-syntax '((NEWLINE 7373 . 7374) (RETURN 23 . 29) (STRING_LITERAL 3152 . 3203) (RBRACE 7372 . 7373) (AMP 3127 . 3128) (SEMICOLON 3126 . 3127) (COLON 3111 . 3112) (COLON 3103 . 3104) (COLON 3095 . 3096) (COLON 3087 . 3088) (COLON 3079 . 3080) (COLON 3071 . 3072) (COLON 3063 . 3064) (COLON 3055 . 3056) (COLON 3047 . 3048) (COLON 3039 . 3040) (COLON 3031 . 3032) (COLON 3023 . 3024) (COLON 3015 . 3016) (COLON 3007 . 3008) (COLON 2999 . 3000) (NUMBER_LITERAL 2866 . 2868) (AMP 2893 . 2894) (COLON 2828 . 2829) (NAME 2761 . 2765) (COLON 2825 . 2826) (COLON 2757 . 2758) (COLON 2754 . 2755) (COLON 2701 . 2702) (punctuation 2698 . 2699) (DIVDIV 2646 . 2648) (COLON 2645 . 2646) (SEMICOLON 2620 . 2621) (SEMICOLON 2522 . 2523) (PERIOD 1090 . 1091) (AMP 982 . 983) (SEMICOLON 981 . 982) (COLON 966 . 967) (COLON 958 . 959) (COLON 950 . 951) (COLON 942 . 943) (COLON 934 . 935) (COLON 926 . 927) (COLON 918 . 919) (COLON 910 . 911) (COLON 902 . 903) (COLON 894 . 895) (COLON 886 . 887) (COLON 878 . 879) (COLON 870 . 871) (COLON 862 . 863) (COLON 854 . 855) (NUMBER_LITERAL 721 . 723) (AMP 748 . 749) (COLON 683 . 684) (COLON 680 . 681) (NAME 183 . 187) (COLON 298 . 299) (COLON 179 . 180) (NAME 59 . 62) (COLON 176 . 177) (NEWLINE 7373 . 7374) (RETURN 23 . 29) (STRING_LITERAL 3152 . 3203) (RBRACE 7372 . 7373))))
+  :file "!home!spd!Omnimart!Carrefour_Scrape!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,66 @@
+;; Object semanticdb-project-database-file-dd2fec
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-dd2fec"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-dd2fac"
+      :major-mode c++-mode
+      :tags 
+        '( ("linux/input.h" include (:system-flag t) nil [1 25])
+            ("iostream" include (:system-flag t) nil [26 45])
+            ("sys/stat.h" include (:system-flag t) nil [46 67])
+            ("unistd.h" include (:system-flag t) nil [68 87])
+            ("fcntl.h" include (:system-flag t) nil [88 106])
+            ("string" include (:system-flag t) nil [107 124])
+            ("red" variable (:constant-flag t) nil [133 136])
+            ("reset" variable (:constant-flag t) nil [158 163])
+            ("event_key" function (:type ("std::string" type (:type "class") nil nil)) nil [175 811])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [823 832])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [833 846]))                  
+                :type "int")
+                nil [814 1526]))          
+      :file "check.cpp"
+      :pointmax 1531
+      :fsize 1530
+      :lastmodtime '(25329 5597 383867 905000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("red" . ((string "\"\\x1b[1;31m\"" 137 . 149)))
+          ("reset" . ((string "\"\\x1b[0m\"" 164 . 173)))
+          )
+)
+    (semanticdb-table "semanticdb-table-dd2fcc"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [59 68])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [69 82]))                  
+                :type "int")
+                nil [50 166]))          
+      :file "random_check.cpp"
+      :pointmax 167
+      :fsize 155
+      :lastmodtime '(25329 5448 308770 992000)
+      :unmatched-syntax '((symbol 45 . 48) (CHAR 40 . 44) (symbol 45 . 48) (CHAR 40 . 44) (CHAR 40 . 44) (CHAR 40 . 44) (symbol 45 . 48) (CHAR 40 . 44) (symbol 45 . 48) (CHAR 40 . 44)))
+    (semanticdb-table "semanticdb-table-dd302a"
+      :major-mode c++-mode
+      :tags nil
+      :file "main.cpp"
+      :pointmax 1
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!CPP!Typing_Test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

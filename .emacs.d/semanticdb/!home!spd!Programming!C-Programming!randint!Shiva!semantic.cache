@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file-155cd3569854
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155cd3569854"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155cd35590f2"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("unistd.h" include (:system-flag t) nil [40 59])
+            ("main" function (:type "int") nil [60 5946504]))          
+      :file "gif_SHIVA.c"
+      :pointmax 5946505
+      :fsize 5946504
+      :lastmodtime '(25046 43173 913997 855000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C-Programming!randint!Shiva!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

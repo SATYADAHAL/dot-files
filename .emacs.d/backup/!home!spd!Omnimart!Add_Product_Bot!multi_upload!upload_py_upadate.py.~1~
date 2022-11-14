@@ -1,0 +1,176 @@
+"""Doc string"""
+import sys
+import csv
+import threading
+import re
+import requests
+from bs4 import BeautifulSoup
+
+
+def filter_url(stri):
+    """Doc string"""
+    final_str = ""
+    stri = stri.lower()
+    for char in stri:
+        temp = re.search("[a-zA-Z0-9- ]", char)
+        if temp != None:
+            final_str = final_str+char
+    final_str = re.sub("-+", " ", final_str)  # remove repeated "-"
+    final_str = re.sub("\s+", "-", final_str)  # remove whitespace
+    return final_str
+
+
+def check_if_succes(session__, product__num):
+    """Doc string"""
+    res = session__.get(
+        f"https://omnimart.be/admin/catalog/products/edit/{product__num}")
+    soup__ = BeautifulSoup(res.text, "html.parser")
+    try:
+        string_ = soup__.find_all("input", id="name")[0]['value']
+        if string_ != '':
+            return 0
+        return -1
+    except:
+        return -1
+
+
+TOTAL_COUNT = 0
+
+
+def login():
+    """Doc string"""
+    login_url = "https://omnimart.be/admin/login"
+    login_form = {
+        "email": "product@example.com",
+        "password": "Price123$",
+        "_token": ""
+    }
+    sess = requests.Session()  # Everthing will be done under this SESSION object
+    response = sess.get(login_url)
+    soup = BeautifulSoup(response.text, 'lxml')
+    csrf = soup.find_all(
+        'meta', attrs={'name': 'csrf-token'})[0]['content']
+    login_form["_token"] = csrf
+    login_response = sess.post(login_url, data=login_form)
+    if login_response.status_code == 200:  # Check if login was succesfull
+        print("Logged in succesfully...")
+        return [sess, csrf]
+    print("Could not login in. Exiting the program....")
+    sys.exit(-1)
+
+
+def upload_data(product_detail):
+    """Hello world"""
+    global TOTAL_COUNT, SESSION, CSRFTOKEN, FILE_NAME
+    if len(product_detail) != 5:
+        print("Array lenght error")
+        print(product_detail, "\n")
+        return -1
+
+    # Now we need to generate new product number;
+    create_product_url = "https://omnimart.be/admin/catalog/products/create"
+
+    create_product_form = {"_token": CSRFTOKEN,
+                           "type": "simple",
+                           "attribute_family_id": "1",
+                           "sku": ""
+                           }
+    res = SESSION.post(create_product_url, data=create_product_form)
+    product_num = ''
+    if res.status_code == 200:
+        product_num = res.url.split("/")[-1]
+        print(
+            f"Product number created succesfully...\nProduct Num: {product_num}")
+    else:
+        print("Could not create Product.....\nExiting program")
+        sys.exit(1)
+
+    # Final product form edit url
+
+    product_edit_url = res.url
+
+    soup = BeautifulSoup(res.text, "lxml")
+
+    sku = soup.find(id="sku")['value']
+
+    price = str(
+        round(float(product_detail[1])+0.15*float(product_detail[1]), 2))
+    url__key = filter_url(product_detail[0])
+    product_data = [
+        ('channel', (None, 'default')),
+        ('locale', (None, 'nl')),
+        ('_token', (None, CSRFTOKEN)),
+        ('_method', (None, 'PUT')),
+        ('sku', (None, sku)),
+        ('product_number', (None, '')),
+        ('name', (None, product_detail[0].strip())),
+        ('url_key', (None, url__key)),
+        ('tax_category_id', (None, '2')),  # DONE check once
+        ('visible_individually', (None, '1')),
+        ('guest_checkout', (None, '1')),
+        ('status', (None, '1')),
+        ('color', (None, '1')),
+        ('size', (None, '1')),
+        ('vendor_id', (None, '3')),
+        ('product_food_type_id', (None, '1')),  # Check this one
+        ('short_description', (None, f'<p>{product_detail[-2]}</p>')),
+        ('description', (None, f'<p>{product_detail[-1]}</p>')),
+        ('meta_title', (None, '')),
+        ('meta_keywords', (None, '')),
+        ('meta_description', (None, '')),
+        ('price', (None, price)),
+        ('cost', (None, '')),
+        ('special_price', (None, '')),
+        ('special_price_from', (None, '')),
+        ('special_price_to', (None, '')),
+        ('length', (None, '')),
+        ('width', (None, '')),
+        ('height', (None, '')),
+        ('weight', (None, '1')),
+        ('inventories[1]', (None, '0')),
+        ('images[image_1]', (None, '')),
+        ('images[]', ("", "", "application/octet-stream")),
+        ('copied_link[]', (None, product_detail[2])),
+
+        ('categories[]', (None, '147')),  # Need to change this
+        ('categories[]', (None, '1928')),  # Need to change this
+        ('categories[]', (None, '1934')),  # Need to change this
+
+        ('channels[]', (None, '1'))
+    ]
+
+    res = SESSION.post(product_edit_url, files=product_data)
+    print(res.status_code)
+    val = check_if_succes(SESSION, product_num)
+    if val == 0:
+        with open(f"{FILE_NAME}.csv", "a", encoding="utf8") as out_f:
+            writer = csv.writer(out_f)
+            writer.writerow([product_detail[2].split("_")[-3], product_num])
+        TOTAL_COUNT = TOTAL_COUNT+1
+        print(f"Total Product Uploaded: {TOTAL_COUNT}")
+        return 0
+    print("Uploaded But error")
+    with open(f"{FILE_NAME}.txt", "a", encoding="utf8") as error_:
+        error_.write(f"{product_num}\n")
+    return -1
+###############################################################################
+
+
+FILE_NAME = "file_3"
+SESSION, CSRFTOKEN = login()
+print(f"{FILE_NAME}")
+with open(f"./new_files/{FILE_NAME}.csv", 'r', encoding="utf8") as file:
+    csvreader = csv.reader(file)
+    THREADS__ = 0
+    thread_lst = []
+    for items in csvreader:
+        if THREADS__ < 9:
+            t = threading.Thread(target=upload_data, args=[items])
+            t.start()
+            thread_lst.append(t)
+            THREADS__ = THREADS__+1
+        else:
+            for threads in thread_lst:
+                threads.join()
+            thread_lst = []
+            THREADS__ = 0

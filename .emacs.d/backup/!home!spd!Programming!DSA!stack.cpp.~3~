@@ -1,0 +1,41 @@
+#include "stack.h"
+
+Stack::Stack(int size) {
+  this->size = size;
+  stack = new int[size];
+  top = 0;
+}
+
+Stack::~Stack() { free(stack); }
+
+void Stack::print() {
+  printf("[");
+  for (int i = 0; i < top; i++) {
+    printf(" %d,", *(stack + i));
+  }
+  printf(" ]\n");
+}
+
+bool Stack::isEmpty() { return (top == 0) ? true : false; }
+
+bool Stack::isFull() { return (top == size) ? true : false; }
+
+int Stack::pop() {
+  if (isEmpty()) {
+    printf("\nError!! Stack is empty\n");
+    return 0;
+  }
+  printf("\nPop Succesfull\n");
+
+  return *(stack + top--);
+}
+
+void Stack::push(int value) {
+  if (isFull()) {
+    printf("\nError!! Stack overflow\n");
+    return;
+  }
+  *(stack + top++) = value;
+  printf("\nSuccesfully added to the stack\n");
+  return;
+}

@@ -1,0 +1,43 @@
+import requests
+from bs4 import BeautifulSoup
+
+login_url="https://omnimart.be/admin/login"
+login_form={
+    "email":"product@example.com",
+    "password":"Price123$",
+    "_token":""
+}
+
+# Login part 
+session=requests.Session() #Everthing will be done under this session object
+response=session.get(login_url)
+soup = BeautifulSoup(response.text, 'lxml')
+csrfToken= soup.find_all('meta',attrs={'name':'csrf-token'})[0]['content']
+login_form["_token"]=csrfToken
+login_response=session.post(login_url,data=login_form)
+if (login_response.status_code == 200): #Check if login was succesfull
+ print("Logged in succesfully...")
+else:
+ print("Could not login in. Exiting the program....")
+ exit(1)
+
+
+#Now we need to generate new product number;
+
+create_product_url="https://omnimart.be/admin/catalog/products/create"
+create_product_form={"_token" :csrfToken,
+                     "type":"simple",
+                     "attribute_family_id":"1",
+                     "sku":""
+                     }
+res=session.post(create_product_url,data=create_product_form)
+if(res.status_code==200):
+    product_num=res.url.split("/")[-1]
+    print(f"Product number created succesfully...\nProduct Num: {product_num}")
+else:
+    print("Could not create Product.....\nExiting program")
+    exit(1)
+
+
+# Final product form edit url
+product_edit_url=res.url

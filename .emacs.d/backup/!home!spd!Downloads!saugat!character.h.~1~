@@ -1,0 +1,31 @@
+//program 1
+#include<iostream>
+#include<string>
+class Character
+{
+protected:
+	std::string name;
+	 
+public:
+	Character();
+	Character(std::string _name, int _CharHp);
+	    int CharHp;
+		int strength;
+		int defence;
+
+
+
+
+		//functions
+		int doAction();
+		void takeDamage(int damageTaken);
+		bool isAlive();
+		int deltDamage(int damagedealt);//it was kept by friend
+
+		//setter
+		std::string getname();
+		void setName(std::string _name);
+		void displayInfo();
+
+
+};

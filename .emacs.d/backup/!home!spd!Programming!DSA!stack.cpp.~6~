@@ -1,0 +1,52 @@
+#include "stack.h"
+
+template <class variable> Stack<variable>::Stack(int size) {
+  this->size = size;
+  stack = new variable[size];
+  top = 0;
+}
+
+template <class variable> Stack<variable>::~Stack() { free(stack); }
+
+template <class variable> void Stack<variable>::print() {
+  printf("[");
+  for (int i = 0; i < top; i++) {
+    printf(" %c,", *(stack + i));
+  }
+  printf(" ]\n");
+}
+template <class variable> bool Stack<variable>::isEmpty() {
+  return (top == 0) ? true : false;
+}
+
+template <class variable> bool Stack<variable>::isFull() {
+  return (top == size) ? true : false;
+}
+
+template <class variable> variable Stack<variable>::pop() {
+  if (isEmpty()) {
+    printf("\nError!! Stack is empty\n");
+    return 0;
+  }
+  printf("\nPop Succesfull\n");
+
+  return *(stack + top--);
+}
+
+template <class variable> void Stack<variable>::push(variable value) {
+  if (isFull()) {
+    printf("\nError!! Stack overflow\n");
+    return;
+  }
+  *(stack + top++) = value;
+  printf("\nSuccesfully added to the stack\n");
+  return;
+}
+
+template <class variable> variable Stack<variable>::peek() {
+  if (isEmpty()) {
+    printf("\nError!! Stack is Empty\n");
+    return -1;
+  }
+  return *(stack + top);
+}

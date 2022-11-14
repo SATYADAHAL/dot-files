@@ -1,0 +1,73 @@
+;; Object semanticdb-project-database-file-157073e18b52
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157073e18b52"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157073e18b32"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("ABC" type
+               (:prototype t
+                :type "class")
+                nil [21 31])
+            ("XYZ" type
+               (:prototype t
+                :type "class")
+                nil [32 42])
+            ("ABC" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [56 64])
+                    ("x" variable (:type "int") (reparse-symbol classsubparts) [67 73])
+                    ("public" label nil (reparse-symbol classsubparts) [74 81])
+                    ("input" function (:type "void") (reparse-symbol classsubparts) [84 156])
+                    ("max" function
+                       (:prototype-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable (:type ("ABC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [175 179])
+                            ("" variable (:type ("XYZ" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [179 183]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [159 184]))                  
+                :type "class")
+                nil [44 187])
+            ("XYZ" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [202 210])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [213 219])
+                    ("public" label nil (reparse-symbol classsubparts) [220 227])
+                    ("input" function (:type "void") (reparse-symbol classsubparts) [231 305])
+                    ("max" function
+                       (:prototype-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable (:type ("ABC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [324 328])
+                            ("" variable (:type ("XYZ" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [329 333]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [308 334]))                  
+                :type "class")
+                nil [189 337])
+            ("max" function
+               (:arguments 
+                  ( ("obj1" variable (:type ("ABC" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [349 358])
+                    ("obj2" variable (:type ("XYZ" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [358 367]))                  
+                :type "void")
+                nil [340 550])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [562 571])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [572 585]))                  
+                :type "int")
+                nil [553 669]))          
+      :file "lab3.2_1.cpp"
+      :pointmax 670
+      :fsize 668
+      :lastmodtime '(25185 1185 570282 791000)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C++!Lab!Lab3!lab3.2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
