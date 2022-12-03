@@ -1,2 +1,0 @@
-;;; Generated package description from python-insert-docstring.el  -*- no-byte-compile: t -*-
-(define-package "python-insert-docstring" "20211127.1232" "Python Google docstring inserter" '((emacs "25.1")) :commit "cd6419b74c99c06d5c48c1b289572acce1fd193b" :authors '(("Marco Vocialta" . "macurovc@tutanota.com")) :maintainer '("Marco Vocialta" . "macurovc@tutanota.com") :url "https://github.com/macurovc/insert-docstring")
