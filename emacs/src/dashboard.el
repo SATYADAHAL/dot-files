@@ -3,8 +3,8 @@
 ;;; This file is modifies the default Emacs settings without adding new packages
 ;;; Code:
 
-(use-pacakge page-break-lines :ensure t)
-(use-pacakge all-the-icons :ensure t)
+(use-package page-break-lines :ensure t)
+(use-package all-the-icons :ensure t)
 
 (use-package dashboard
   :ensure t
