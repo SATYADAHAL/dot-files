@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file-14c83ec
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-14c83ec"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15b1dae"
+      :major-mode c++-mode
+      :tags 
+        '( ("stack.cpp" include nil nil [1 21])
+            ("iostream" include (:system-flag t) nil [22 41])
+            ("regex" include (:system-flag t) nil [42 58])
+            ("string" include (:system-flag t) nil [59 76])
+            ("precdence" function
+               (:arguments 
+                  ( ("x" variable (:type "char") (reparse-symbol arg-sub-list) [92 99]))                  
+                :type "int")
+                nil [78 261])
+            ("is_operator" function
+               (:arguments 
+                  ( ("x" variable (:type "char") (reparse-symbol arg-sub-list) [280 287]))                  
+                :type "bool")
+                nil [263 413])
+            ("is_valid" function
+               (:arguments 
+                  ( ("str" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [429 445]))                  
+                :type "bool")
+                nil [415 603])
+            ("main" function (:type "int") nil [955 1824]))          
+      :file "infix_postfix.cpp"
+      :pointmax 1825
+      :fsize 1824
+      :lastmodtime '(25465 52897 957057 585000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-11715b0"
+      :file "stack.cpp"
+      :fsize 1241
+      :lastmodtime '(25460 33649 736471 806000)))
+  :file "!home!spd!Programming!DSA!Lab2!Infix_to_Postfix!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

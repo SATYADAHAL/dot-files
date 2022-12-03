@@ -1,0 +1,38 @@
+;; Object semanticdb-project-database-file-1325692
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1325692"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1325672"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("print" function
+               (:prototype-flag t
+                :type "int")
+                nil [20 32])
+            ("sum" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [42 48])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [48 54]))                  
+                :type "void")
+                nil [33 86])
+            ("main" function (:type "int") nil [88 159]))          
+      :file "loop.c"
+      :pointmax 160
+      :fsize 159
+      :lastmodtime '(25466 18550 520653 112000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-12809bc"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 80]))          
+      :file "new.c"
+      :pointmax 81
+      :fsize 80
+      :lastmodtime '(25358 10082 300000 0)
+      :unmatched-syntax nil))
+  :file "!home!spd!Programming!C!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

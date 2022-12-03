@@ -1,0 +1,83 @@
+clear 1
+lsd
+clear
+clear 1
+lsd
+clear 1
+lsd
+clr
+clear 1
+lsd
+g++ arr_pi_asc.cpp  && ./a.out
+clear 1
+clear 1
+make
+make clean
+clear
+clear 1
+make 
+make clean
+make
+clear 1
+javac abstract_class.java 
+help
+clear 1
+lsd
+clear
+clear 1
+clear 
+clear 1
+lsd
+./a.out
+exit
+g++ queue.cpp
+./a.out
+./a.out
+g++ queue.cpp && ./a.out
+clear
+clear 1
+g++ queue.cpp && ./a.out
+g++ queue.cpp && ./a.out
+clear 1
+g++ queue.cpp  && ./a.out
+g++ queue.cpp  && ./a.out
+4, clear 1
+clear 1
+g++ queue.cpp && ./a.out
+g++ queue.cpp && ./a.out
+lear
+clear 1
+g++ queue.cpp && ./a.out
+g++ queue.cpp && ./a.out
+g++ queue.cpp && ./a.out
+g++ queue.cpp && ./a.out
+clear
+clear 1
+g++ queue.cpp && ./a.out
+clear
+g++ arr_pi_asc.cpp  && ./a.out
+clear 1
+g++ queue.cpp   && ./a.outt
+g++ queue.cpp   && ./a.out
+clear
+cd ../
+cd Lab2
+clear
+lsd
+cd Infix_to_Postfix/ 
+clear
+g++ infix_postfix.cpp
+./a.out
+clear 1
+g++ main.cpp  && ./a.out
+clear 1
+clear
+clear 1
+g++ main.cpp  && ./a.out
+g++ main.cpp  && ./a.out
+10clear
+clear
+g++ main.cpp  && ./a.out
+celar 1
+clear 1
+g++ main.cpp  && ./a.out
