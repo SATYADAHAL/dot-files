@@ -1,3 +1,0 @@
-#from get_event_num import *
-import get_event_num as val
-print(val.get_kbd_event_numbers())

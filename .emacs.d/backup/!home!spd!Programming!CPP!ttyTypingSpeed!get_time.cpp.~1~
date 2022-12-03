@@ -1,6 +1,0 @@
-#include "get_time.h"
-int current_time() {
-  time_t seconds;
-  time(&seconds);
-  return seconds;
-}

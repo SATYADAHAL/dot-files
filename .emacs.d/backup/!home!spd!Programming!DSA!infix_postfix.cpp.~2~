@@ -1,4 +1,0 @@
-#include "stack.h"
-
-Stack stac(10);
-stac.push(1);

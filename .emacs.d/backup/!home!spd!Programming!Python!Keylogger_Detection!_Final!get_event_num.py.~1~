@@ -1,4 +1,0 @@
-
-handlers_path="/proc/bus/input/devices"
-with open(handlers_path) as file:
-    

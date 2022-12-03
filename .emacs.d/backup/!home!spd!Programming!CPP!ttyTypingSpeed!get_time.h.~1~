@@ -1,7 +1,0 @@
-#ifndef GET_TIME
-#define GET_TIME
-#include <time.h>
-
-int current_time() {}
-
-#endif

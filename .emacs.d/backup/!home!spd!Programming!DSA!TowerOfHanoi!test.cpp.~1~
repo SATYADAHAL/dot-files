@@ -1,6 +1,0 @@
-#include "stack.h"
-
-int main() {
-  Stack<int> s1;
-  s1.push return 0;
-}

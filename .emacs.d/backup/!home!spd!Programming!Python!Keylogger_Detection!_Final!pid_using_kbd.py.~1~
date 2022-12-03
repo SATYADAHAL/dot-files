@@ -1,2 +1,0 @@
-def get_pid(array_of_keyboard):
-    #This function returns PID of process using keyboard events
