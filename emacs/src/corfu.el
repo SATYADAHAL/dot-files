@@ -1,6 +1,7 @@
 ;;;; Code Completion
 (use-package corfu
-  ;; Optional customizations
+	     ;; Optional customizations
+	     :ensure t
   :custom
   (corfu-cycle t)                 ; Allows cycling through candidates
   (corfu-auto t)                  ; Enable auto completion
@@ -35,6 +36,7 @@
 
 ;; Add extensions
 (use-package cape
+	     :ensure t
   :defer 10
   :bind ("C-c f" . cape-file)
   :init
