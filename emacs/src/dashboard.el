@@ -26,7 +26,7 @@
 (setq dashboard-page-separator "\n\f\n")
 
 ;;; Change banner type (1-9)
-(setq dashboard-startup-banner 9)
+(setq dashboard-startup-banner 'logo)
 
 
 ;; Format: "(icon title help action face prefix suffix)"
