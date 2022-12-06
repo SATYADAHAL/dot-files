@@ -3,10 +3,25 @@
 ;;; Code:
 
 ;;; Load Melpa(Package Manager)
-(require 'use-package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq package-list '(use-package))
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+			("elpa" . "https://elpa.gnu.org/packages/")
+))
+; activate all the packages (in particular autoloads)
 (package-initialize)
-;;;(package-refresh-contents) ; This slows downs the startup
+
+; fetch the list of packages available 
+(unless package-archive-contents
+  (package-refresh-contents))
+
+; install the missing packages
+(dolist (package package-list)
+  (unless (package-installed-p package)
+    (package-install package)))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
 (use-package multiple-cursors
@@ -31,6 +46,12 @@
   :ensure t)
 (global-set-key "\M-n" 'iflipb-next-buffer)
 (global-set-key "\M-p" 'iflipb-previous-buffer)
+
+;;For rainbow delimiter
+(use-package rainbow-delimiters
+  :ensure t)
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+
 
 (provide 'packages)
 ;;; packages.el ends here
