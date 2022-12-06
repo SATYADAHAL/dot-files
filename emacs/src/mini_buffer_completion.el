@@ -7,8 +7,9 @@
 	     :ensure t
 	     :init (vertico-mode))
 (use-package vertico-posframe
+  :if (display-graphic-p)
 	     :ensure t)
-(vertico-posframe-mode)
+(cond ((display-graphic-p) (vertico-posframe-mode)))   ;If graphical mode enable vertico-posframe-mode
 
 
 ;;; Describes packages
