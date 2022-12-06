@@ -4,6 +4,7 @@
 
 
 ;;; Remember to Load the pakcages.el first
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (load-file "~/.emacs.d/src/packages.el")
 (load-file "~/.emacs.d/src/tree-sitter.el")
 (load-file "~/.emacs.d/src/settings.el")
@@ -15,11 +16,8 @@
 (load-file "~/.emacs.d/src/white_space.el")
 (load-file "~/.emacs.d/src/corfu.el")
 (load-file "~/.emacs.d/src/modeline.el")
-;;
-(require 'consult)
-(consult-customize consult-theme :preview-key '(:debounce 0.1 any))
-
-;;(setq-default cursor-type nil)
+(load-file "~/.emacs.d/src/dired.el")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
