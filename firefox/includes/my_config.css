@@ -1,0 +1,7 @@
+#urlbar[autofocus] {
+    /* Remove the autofocus attribute */
+     autofocus: none !important;
+}
+#new-tab-button, #newtab-scrollbox {
+    pointer-events: none !important;
+}

@@ -1,0 +1,41 @@
+#TabsToolbar { display: none !important; }
+#nav-bar { width: 100vw !important; }
+
+#browser { position: relative; }
+
+#sidebar-box[sidebarcommand*="tabcenter"] #sidebar-header { display: none; }
+
+#sidebar-box[sidebarcommand*="tabcenter"]:not([hiddne]) {
+  display: block;
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 1;
+  min-width: 40px !important; max-width: 40px !important;
+  border-right: none;
+  transition: all 0.2s ease;
+  overflow: hidden;
+//  opacity: 0.9;
+
+  }
+
+[sidebarcommand*="tabcenter"] #sidebar,
+#sidebar-box[sidebarcommand*="tabcenter"]:hover {
+    min-width: 10vw !important;
+    width: 30vw !important;
+    max-width: 150px !important;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    opacity: 0.96;
+}
+
+
+
+
+[sidebarcommand*="tabcenter"] #sidebar { height: 100%; max-height: 100%; }
+
+#sidebar-box[sidebarcommand*="tabcenter"]:not([hidden]) ~ #appcontent { margin-left: 40px; }
+#main-window[inFullscreen][inDOMFullscreen] #appcontent { margin-left: 0; }
+/* Removes gap between active tab highlight and edge of bar */
+#sidebar-box[sidebarcommand="tabcenter-reborn_ariasuni-sidebar-action"] #sidebar-header, #sidebar-box[sidebarcommand="tabcenter-reborn_ariasuni-sidebar-action"] ~ #sidebar-splitter {
+    display: none;
+}
